@@ -10,8 +10,8 @@
 <style>
 :root { --papel:#FFFFFF; --papel-2:#F6F5F2; --tinta:#15181D; --tinta-2:#5A5F68; --regla:#D9D6CF; --acento:#C25E00; --acento-suave:#FBEBDD; --azul:#2F5D8A; --azul-suave:#E3ECF5; --verde:#2E7D4F; --verde-suave:#E2F1E8;
   --f-display:"Spectral", Georgia, serif; --f-texto:"Public Sans", system-ui, sans-serif; --f-mono:"JetBrains Mono", ui-monospace, monospace; color-scheme: light }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; --verde:#6CC593; --verde-suave:#16301F; color-scheme: dark } }
-:root[data-theme="dark"] { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; --verde:#6CC593; --verde-suave:#16301F; color-scheme: dark }
+
+
 * { box-sizing: border-box }
 body { margin: 0; background: var(--papel); color: var(--tinta); font: 16px/1.55 var(--f-texto) }
 main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px }
@@ -65,6 +65,7 @@ a { color: var(--acento) }
 </div>
 
 <h2>Pantallas y recorridos</h2>
+<p>Antes de cada práctica, tarea o repaso se reproduce la explicación animada de la habilidad.</p>
 <div class="leyenda"><span class="l-est">Estudiante</span><span class="l-tut">Tutor</span><span class="l-com">Ambos roles</span><span class="l-cod">Código o archivo que se comparte</span></div>
 <div class="lienzo">
 <svg viewBox="0 0 960 700" role="img" aria-labelledby="t-mapa d-mapa">
@@ -192,9 +193,10 @@ a { color: var(--acento) }
 <div class="tabla"><table>
 <thead><tr><th>Modo</th><th>Cómo responde el estudiante</th></tr></thead>
 <tbody>
-<tr><td>Opciones</td><td>Elige entre 3 a 6 respuestas; las incorrectas corresponden a errores típicos.</td></tr>
-<tr><td>Pentagrama</td><td>Toca el pentagrama para poner una nota y ajusta su alteración.</td></tr>
-<tr><td>Escribir</td><td>Escribe varias notas: escalas, intervalos de oído y dictados melódicos.</td></tr>
+<tr><td>Pentagrama y teclado</td><td>Toca el pentagrama o el teclado musical: la nota se escribe en el pentagrama (una o varias: intervalos, tríadas, escalas, transposiciones, dictados).</td></tr>
+<tr><td>Teclado</td><td>Lee la nota escrita y toca su tecla.</td></tr>
+<tr><td>Señalar</td><td>Toca en el pentagrama la nota que se pide.</td></tr>
+<tr><td>Opciones</td><td>Solo cuando la respuesta es un nombre (calidad, término, banda de frecuencia); las incorrectas son errores típicos.</td></tr>
 <tr><td>Canto</td><td>Canta con el micrófono; la afinación se mide en cents en el propio dispositivo.</td></tr>
 <tr><td>Auditivo</td><td>Escucha y reconoce: intervalos, acordes, funciones, modos, tonalidad.</td></tr>
 <tr><td>Oído técnico</td><td>Compara A/B: ecualización, niveles, panorama estéreo.</td></tr>

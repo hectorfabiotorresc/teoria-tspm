@@ -12,14 +12,8 @@
   --f-body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
   --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --paper: #121418; --ink: #E8EAEE; --ink-2: #A3AAB5; --rule: #2E333B; --rule-2: #1C2026;
-  --blue: #7FA2FF; --amber: #F0A04B; --red: #FF6B7E; --purple: #B79CF0; --teal: #4FC7C2; --green: #74C278;
-  --sel: #2A2216; --panel: #171A1F; color-scheme: dark } }
-:root[data-theme="dark"] {
-  --paper: #121418; --ink: #E8EAEE; --ink-2: #A3AAB5; --rule: #2E333B; --rule-2: #1C2026;
-  --blue: #7FA2FF; --amber: #F0A04B; --red: #FF6B7E; --purple: #B79CF0; --teal: #4FC7C2; --green: #74C278;
-  --sel: #2A2216; --panel: #171A1F; color-scheme: dark }
+
+
 * { box-sizing: border-box }
 body { background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 40px }

@@ -10,8 +10,8 @@
 <style>
 :root { --papel:#FFFFFF; --papel-2:#F6F5F2; --tinta:#15181D; --tinta-2:#5A5F68; --regla:#D9D6CF; --acento:#C25E00; --acento-suave:#FBEBDD; --azul:#2F5D8A; --azul-suave:#E3ECF5;
   --f-display:"Spectral", Georgia, serif; --f-texto:"Public Sans", system-ui, sans-serif; --f-mono:"JetBrains Mono", ui-monospace, monospace; color-scheme: light }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; color-scheme: dark } }
-:root[data-theme="dark"] { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; color-scheme: dark }
+
+
 * { box-sizing: border-box }
 body { margin: 0; background: var(--papel); color: var(--tinta); font: 17px/1.6 var(--f-texto) }
 .marco { max-width: 1100px; margin: 0 auto; padding: 32px 16px 64px; display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 40px }
@@ -132,9 +132,10 @@ a { color: var(--acento) }
 <p>El botón <b>Continuar</b> de la parte superior te lleva a la siguiente habilidad recomendada.</p>
 
 <h3 id="leccion">Lecciones</h3>
-<p>Cada lección alterna explicación, ejemplos que suenan, exploraciones que puedes manipular (teclado, pentagrama, laboratorio de intervalos, afinador, ecualizador) y ejercicios cortos. Avanza con <b>Continuar</b>; la plataforma recuerda en qué paso ibas.</p>
+<p>Cada lección empieza por explicar: la explicación y el ejemplo resuelto se animan solos antes de cualquier ejercicio. Después alterna ejemplos que suenan, exploraciones que puedes manipular (teclado, pentagrama, laboratorio de intervalos, afinador, ecualizador) y ejercicios cortos. Avanza con <b>Continuar</b>; la plataforma recuerda en qué paso ibas.</p>
 
 <h3 id="practica">Práctica y corrección</h3>
+<p>Antes de cada práctica, tarea o repaso se reproduce la <b>explicación animada</b> de la habilidad: el pentagrama se escribe solo, las notas importantes laten y cada paso suena. Puedes pausarla y retroceder; la práctica se abre cuando la terminas (si ya estudiaste la lección, puedes empezar antes).</p>
 <ol class="pasos">
   <li><b>Di cuán seguro estás</b> antes de responder: <b>Seguro</b>, <b>Dudo</b> o <b>Adivino</b>. Responder con honestidad hace más preciso el cálculo de tu dominio.</li>
   <li><b>Responde.</b> Si te atascas, pide una pista (hasta 3). Las pistas restan algo de peso al acierto, pero no castigan.</li>
@@ -146,9 +147,11 @@ a { color: var(--acento) }
 <div class="tabla"><table>
 <thead><tr><th>Modo</th><th>Qué haces</th></tr></thead>
 <tbody>
-<tr><td>Opciones</td><td>Eliges la respuesta. Las opciones incorrectas son errores típicos, así que fíjate en el detalle.</td></tr>
-<tr><td>Pentagrama</td><td>Tocas el pentagrama para poner la nota; con <kbd>♯</kbd> <kbd>♭</kbd> y <kbd>↑</kbd> <kbd>↓</kbd> la ajustas y luego tocas <b>Comprobar</b>.</td></tr>
-<tr><td>Escribir</td><td>Escribes varias notas seguidas (escalas, intervalos, dictados). Cada toque escribe la nota seleccionada y pasa a la siguiente. La armadura pone sola las alteraciones de la tonalidad. <b>▶ Lo que escribí</b> te deja oír tu respuesta antes de comprobarla. En los dictados, la pauta de una línea muestra el ritmo y marca la nota que toca escribir.</td></tr>
+<tr><td>Opciones</td><td>Solo cuando la respuesta es un nombre (la calidad de un intervalo, un término de dinámica, una banda de frecuencia). Las opciones incorrectas son errores típicos, así que fíjate en el detalle.</td></tr>
+<tr><td>Pentagrama y teclado</td><td>Tocas el pentagrama o una tecla del teclado musical: la nota se escribe en el pentagrama. Con <kbd>♯</kbd> <kbd>♭</kbd> y <kbd>↑</kbd> <kbd>↓</kbd> la ajustas, con <b>⇄ Enarmónico</b> la reescribes con la otra letra (Do♯ ↔ Re♭), y con ◀ ▶ cambias la octava del teclado. Luego tocas <b>Comprobar</b>.</td></tr>
+<tr><td>Teclado</td><td>Lees la nota escrita y tocas su tecla.</td></tr>
+<tr><td>Señalar</td><td>Tocas en el pentagrama la nota que se pide; por ejemplo, la equivocada de una escala.</td></tr>
+<tr><td>Escribir</td><td>Escribes varias notas seguidas (escalas, intervalos, tríadas, transposiciones, dictados), en el pentagrama o con el teclado. Cada toque escribe la nota seleccionada y pasa a la siguiente. La armadura pone sola las alteraciones de la tonalidad. <b>▶ Lo que escribí</b> te deja oír tu respuesta antes de comprobarla. En los dictados, la pauta de una línea muestra el ritmo y marca la nota que toca escribir.</td></tr>
 <tr><td>Canto</td><td>Escuchas la referencia, tocas <b>Cantar</b>, cantas la referencia y luego las notas pedidas, sosteniendo cada una. Puedes cantar en tu octava. La aguja muestra la afinación en cents.</td></tr>
 <tr><td>Auditivo</td><td>Escuchas (se reproduce solo; puedes repetir) y reconoces: intervalos, acordes, funciones, modos, tonalidad, dictados.</td></tr>
 <tr><td>Oído técnico</td><td>Comparas A y B: bandas de ecualización, diferencias de nivel en dB, posición en el panorama estéreo.</td></tr>
@@ -172,7 +175,7 @@ a { color: var(--acento) }
   <li><b>Calibración:</b> compara cuánto aciertas cuando dices «seguro», «dudo» y «adivino». Si fallas mucho estando seguro, hay un error de concepto: vuelve a la lección.</li>
   <li><b>Errores más frecuentes:</b> tus confusiones típicas, en palabras.</li>
   <li><b>Bitácora:</b> anota qué te costó y qué te funcionó.</li>
-  <li><b>Preferencias:</b> tamaño de la notación y tema claro u oscuro.</li>
+  <li><b>Preferencias:</b> tamaño de la notación.</li>
   <li><b>Evidencia xAPI:</b> descarga todos tus intentos para el aula virtual.</li>
 </ul>
 
