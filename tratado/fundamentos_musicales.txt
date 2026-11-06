@@ -1,0 +1,1726 @@
+FUNDAMENTOS MUSICALES
+Tratado didáctico ampliado para lectura, escritura, comprensión y producción musical
+
+Fecha de elaboración y consulta de fuentes web: 6 de noviembre de 2026
+Destinatarios: estudiantes y docentes del Técnico en Sonido y Producción Musical
+Idioma: español. Codificación: UTF-8.
+
+PROPÓSITO Y ALCANCE
+
+Este material desarrolla un cuerpo amplio de fundamentos musicales a partir del PIAA revisado y del guion de virtualización de Fundamentos Musicales de la Universidad de Caldas. Amplía esos documentos con acústica, afinación, notación, organización temporal, escalas, melodía, armonía, textura, forma, instrumentación, creación y comunicación digital. La finalidad es comprender las relaciones entre los conceptos y aprender a representarlas y verificarlas, sin reducir el estudio a memorizar nombres.
+
+No existe una lista cerrada de «todos» los fundamentos válida para todas las culturas y épocas. El eje de este tratado es la notación occidental y sus aplicaciones a la formación técnica en sonido. Se incorporan perspectivas culturales y límites de ese sistema para evitar presentarlo como descripción universal de la música. Las ampliaciones avanzadas ofrecen una entrada razonada al tema; no equivalen a cursos completos de contrapunto, acústica, etnomusicología o composición.
+
+La exposición, los cálculos y los ejercicios están redactados para este material. Las fuentes se identifican mediante códigos [F01], [F02], etcétera, desarrollados en la bibliografía. Una referencia al final de un apartado indica las fuentes de contraste conceptual; los ejemplos originales no son transcripciones de esas obras. Se distinguen los libros y capítulos efectivamente consultados en línea de la bibliografía que los documentos institucionales recomiendan y que aquí no se afirma haber leído íntegramente.
+
+Este archivo contiene explicaciones, fórmulas, tablas textuales y una representación textual inequívoca de los ejemplos musicales. El archivo complementario Cuaderno_de_pentagramas.html presenta los mismos ejemplos en pentagramas reales y puede abrirse sin conexión. Cada ejemplo tiene un código E01, E02, etcétera. Sus archivos MusicXML permiten importarlos en un editor de partituras. Un archivo .txt no puede conservar por sí mismo la disposición tipográfica completa de una partitura; por eso las partituras gráficas se entregan junto con el texto.
+
+ÍNDICE GENERAL
+
+00. Lectura crítica de los documentos de partida y mapa de ampliación
+01. Música, teoría, escucha y representación
+02. Vibración, onda, frecuencia, amplitud y fase
+03. Serie armónica, espectro, timbre y altura percibida
+04. Afinación, proporciones, cents y temperamentos
+05. Pentagrama, claves, registro y nombres de las notas
+06. Alteraciones, enarmonía y ortografía musical
+07. Figuras, silencios, puntillos, ligaduras y proporciones
+08. Pulso, ritmo, acento, tempo y duración física
+09. Compases simples, compuestos y lectura métrica
+10. Síncopa, contratiempo, anacrusa, grupos irregulares y silencios
+11. Hemiola, polirritmia, métricas aditivas, swing y groove
+12. Escalas mayores, grados, armaduras y círculo de quintas
+13. Escalas menores y relaciones tonales
+14. Pentatonismo, blues, cromatismo y escalas simétricas
+15. Modos modernos y fundamentos de modalidad histórica
+16. Intervalos y sus procedimientos de construcción
+17. Melodía, motivo, frase y desarrollo
+18. Notas de adorno, ornamentación y disonancia melódica
+19. Tríadas, arpegios, inversiones y disposición
+20. Acordes de séptima, extensiones y cifrado
+21. Tonalidad, funciones, progresiones y cadencias
+22. Conducción de voces, bajo y contrapunto introductorio
+23. Cromatismo armónico, tonicización y modulación
+24. Textura, densidad y organización de planos
+25. Forma musical y arquitectura de la canción
+26. Dinámica, articulación, agógica y fraseo
+27. Timbre, familias instrumentales, voz y registro
+28. Transposición, instrumentos transpositores y preparación de partes
+29. Percusión, tablatura, notación gráfica y límites del pentagrama
+30. Partitura, MIDI, audio y producción musical
+31. Lectura, audición, memoria y metodología de estudio
+32. Diversidad cultural y contextos colombianos
+33. Procedimiento integral para escribir y revisar una partitura
+34. Análisis resuelto de una composición didáctica de ocho compases
+35. Ejercicios de aplicación y soluciones comentadas
+36. Secuencia de profundización de dieciséis semanas
+37. Glosario razonado y distinciones esenciales
+38. Bibliografía, fuentes web y notas de consulta
+39. Catálogo de ejemplos escritos y en pentagrama
+
+
+00. LECTURA CRÍTICA DE LOS DOCUMENTOS DE PARTIDA Y MAPA DE AMPLIACIÓN
+
+00.1. Qué aporta el PIAA revisado
+
+El PIAA sitúa la actividad como teórico-práctica y privilegia la comprensión de signos y la escritura de fragmentos breves. Incluye claves de sol y fa, líneas adicionales, figuras y silencios, alteraciones, compases 2/4, 3/4, 4/4 e introducción al 6/8, expresión, escalas mayores de do, fa y sol, menores naturales de la, re y mi, pentatonismo, intervalos simples, tríadas mayores y menores en estado fundamental, funciones elementales y familias instrumentales. Propone productos de cuatro a ocho compases y distingue la asignatura del entrenamiento auditivo. [D01]
+
+00.2. Qué añade el guion de virtualización
+
+El guion incluye armónicos y sistemas de afinación, modos griegos y eclesiásticos, canto gregoriano, semitonos diatónico y cromático, canto y memoria, marcación y disociación, 9/8 y 12/8, arpegios e inversiones. Su orientación auditiva es mayor. Contiene además instrucciones y prompts de producción audiovisual: se consideran contenido del documento de referencia, no órdenes para elaborar automáticamente videos, contratar servicios o ejecutar sus prompts. [D02]
+
+00.3. Diferencias institucionales que conviene conservar visibles
+
+El PIAA declara cuatro créditos y dieciséis semanas, con 24 horas sincrónicas y 168 asincrónicas; el guion presenta 8/24/160 horas y relación 1 a 5. También difieren las distribuciones de evaluación: el PIAA organiza parcial 35%, seguimiento 30% y final 35%; el guion propone otros cinco componentes. Este tratado no modifica horas, créditos, resultados ni porcentajes oficiales. Para una implementación institucional corresponde verificar cuál documento ha sido formalmente aprobado.
+
+00.4. Precisiones conceptuales necesarias
+
+La serie armónica ayuda a explicar relaciones acústicas, pero no demuestra que todas las escalas históricas provengan de una única serie. La altura percibida puede existir aunque falte energía en la fundamental. El timbre depende del espectro y de su evolución, del ataque, de componentes ruidosos y de otros factores. No todos los sistemas dividen la octava en doce alturas. Mayor no significa necesariamente alegre, ni menor necesariamente triste. Una pentatónica puede producir choques con una armonía concreta. El 3/8 suele ser simple ternario y no debe agruparse automáticamente con 6/8, 9/8 y 12/8. En compás compuesto el denominador representa normalmente la subdivisión, no el pulso principal. Las funciones tónica, subdominante y dominante describen determinados repertorios y no explican por sí solas toda la música popular. [F02, F03, F04, F05, F06]
+
+00.5. Tres niveles para estudiar el tratado
+
+Núcleo: notación, ritmo elemental, escalas del PIAA, intervalos, tríadas y edición de ocho compases. Profundización: afinación, modos, inversiones, séptimas, cadencias, textura y forma. Ampliación: polirritmia, contrapunto, cromatismo, microtonalidad, otras notaciones y análisis cultural. Mantener estos niveles permite investigar ampliamente sin convertir toda ampliación en requisito inicial.
+
+
+01. MÚSICA, TEORÍA, ESCUCHA Y REPRESENTACIÓN
+
+La música es una práctica humana que organiza experiencias sonoras y temporales en contextos sociales. Puede incluir alturas definidas, ruidos, silencios, movimiento, palabra y tecnologías. Una definición centrada exclusivamente en «melodía, armonía y ritmo» deja fuera prácticas donde el timbre, la textura, el ritual o la interacción tienen un papel estructural mayor.
+
+La teoría musical construye herramientas para describir relaciones, anticipar posibilidades y comunicar decisiones. Algunas teorías son descriptivas: explican regularidades de un repertorio. Otras son prescriptivas: establecen reglas de un ejercicio o de un estilo. La prohibición de quintas paralelas, por ejemplo, tiene sentido dentro de ciertos ejercicios de independencia vocal; no es una prohibición para toda creación musical.
+
+Deben distinguirse tres objetos. El fenómeno físico comprende presiones y vibraciones. La experiencia perceptiva comprende altura, sonoridad, timbre, agrupación y expectativa. La representación comprende notas, nombres, diagramas y archivos. Una nota en el papel no es el sonido: organiza instrucciones y relaciones que una persona o un sistema interpreta.
+
+Una misma secuencia puede representarse como «do4, re4, mi4», números MIDI 60, 62 y 64, o notas en pentagrama. Ninguna representación conserva automáticamente todos los detalles de una interpretación: un nombre de nota no indica ataque, afinación fina, duración exacta o contexto. Elegir la representación exige preguntar qué información necesita quien va a usarla.
+
+Ejercicio de comprensión: describir diez segundos de música sin mencionar un género. Identificar densidad, registro, regularidad temporal, cambios de intensidad y fuentes sonoras. Después comprobar cuáles observaciones pueden escribirse con precisión y cuáles requieren una descripción verbal o una grabación.
+
+La investigación intercultural documenta recurrencias y variación en el canto humano. Esas recurrencias no autorizan a identificar «música humana» con armonía tonal europea. Conviene formular cada generalización indicando el repertorio y la evidencia a los que se refiere. [F01, F04]
+
+
+02. VIBRACIÓN, ONDA, FRECUENCIA, AMPLITUD Y FASE
+
+Una fuente vibrante produce perturbaciones que pueden propagarse por un medio. En el aire, el sonido corresponde a variaciones de presión; las moléculas oscilan alrededor de posiciones de equilibrio. El sonido no es un objeto material que viaja desde el instrumento hasta el oído con la forma de una nota.
+
+La frecuencia f expresa ciclos por segundo, en hercios. El período T es el tiempo de un ciclo: T = 1/f. Para 440 Hz, T = 1/440 s, aproximadamente 2,273 ms. En una onda de velocidad c y longitud de onda lambda, c = f × lambda. Usando c = 343 m/s como aproximación para aire a unos 20 °C, 343 Hz corresponden a una longitud de un metro. La velocidad depende del medio y de sus condiciones. [F07]
+
+La amplitud expresa la magnitud de una oscilación. No debe confundirse con frecuencia: aumentar la amplitud no eleva necesariamente la nota. La fase describe la posición dentro del ciclo con respecto a una referencia. Dos señales de igual frecuencia y amplitud pueden reforzarse o cancelarse parcialmente según su diferencia de fase y las condiciones de suma. «Cambiar polaridad» y «retrasar una señal» son operaciones distintas: un retardo produce una relación de fase dependiente de la frecuencia.
+
+La intensidad física y la sonoridad percibida tampoco son equivalentes. El nivel de presión sonora se calcula como Lp = 20 log10(p/p0), con p0 = 20 micropascales en aire. El nivel de intensidad utiliza 10 log10(I/I0), con I0 = 10^-12 W/m² como referencia habitual. Duplicar la presión produce aproximadamente +6,02 dB; duplicar la intensidad produce +3,01 dB. Ninguna igualdad permite afirmar que la sonoridad subjetiva se duplica siempre. [F08]
+
+Ejemplo aplicado: dos golpes de bombo con igual nota pueden tener intensidades y ataques diferentes. Un gráfico de forma de onda sirve para observar comienzo, duración y cambios de amplitud; un espectro informa qué frecuencias participan. Para interpretar una mezcla hacen falta ambas dimensiones.
+
+Error frecuente: llamar «agudo» a un sonido porque es fuerte. La altura y la intensidad son dimensiones diferentes, aunque puedan interactuar perceptivamente. Al describir un problema conviene separar «demasiado alto de registro», «demasiado fuerte» y «demasiado brillante».
+
+
+03. SERIE ARMÓNICA, ESPECTRO, TIMBRE Y ALTURA PERCIBIDA
+
+Un parcial es un componente frecuencial. Un armónico es un parcial cuya frecuencia corresponde a un múltiplo entero de una fundamental f0: fn = n × f0. La fundamental es el primer armónico; el primer sobretono suele corresponder al segundo parcial. Estos nombres no son intercambiables sin indicar la convención.
+
+Para f0 = 100 Hz, los primeros ocho armónicos son 100, 200, 300, 400, 500, 600, 700 y 800 Hz. Los parciales 2, 4 y 8 producen relaciones de octava respecto de la fundamental. La relación 3:2 se aproxima a una quinta y 5:4 a una tercera mayor justa. Los intervalos se calculan entre frecuencias; 300 Hz no es una quinta de 100 Hz dentro de la misma octava, sino una duodécima, que al reducirse por octava da la relación 3:2.
+
+En instrumentos reales aparecen inarmonicidad, ruido y transitorios. El sonido de una campana no se explica como una sencilla pila de armónicos enteros. Una cuerda de piano tiene rigidez; sus parciales pueden separarse de los múltiplos ideales. Un instrumento no produce siempre el mismo espectro al variar registro, dinámica o técnica. [F02]
+
+La altura percibida no depende exclusivamente de que exista una componente fuerte en f0. Si se combinan, por ejemplo, componentes de 200, 300 y 400 Hz, puede percibirse una periodicidad relacionada con 100 Hz aunque esa frecuencia no esté físicamente presente como componente. Este fenómeno impide equiparar sin matices «frecuencia más intensa», «frecuencia más baja» y «nota que se escucha». [F09]
+
+El timbre incluye distribución espectral y evolución temporal. Dos instrumentos pueden sostener una frecuencia semejante y distinguirse por el ataque, el ruido de aire, la caída de energía, las resonancias o las modulaciones. Un espectrograma representa tiempo, frecuencia y magnitud mediante color; no debe presentarse como medidor único de dinámica musical.
+
+E01 muestra en pentagrama una aproximación de los ocho primeros parciales de do2: do2, do3, sol3, do4, mi4, sol4, sib4 y do5. El séptimo parcial está unos 31 cents por debajo del sib temperado; el quinto, unos 14 cents por debajo del mi temperado. La escritura temperada es aproximada, no una afinación exacta de la serie.
+
+Actividad original: comparar el ataque y el segundo central de una misma nota de piano. Explicar qué información se pierde si solo se examina un espectro promedio de toda la grabación.
+
+
+04. AFINACIÓN, PROPORCIONES, CENTS Y TEMPERAMENTOS
+
+Afinar consiste en ajustar alturas de acuerdo con una referencia y con relaciones musicales. La referencia fija un punto, por ejemplo la4 = 440 Hz; el sistema de afinación establece relaciones entre alturas. Cambiar la referencia no cambia necesariamente el sistema, y cambiar de sistema no exige cambiar esa referencia.
+
+En el temperamento igual de doce divisiones de la octava, cada semitono multiplica la frecuencia por 2^(1/12). Una distancia de n semitonos cumple f2 = f1 × 2^(n/12). Desde la4 = 440 Hz, la quinta de siete semitonos da aproximadamente 659,255 Hz. La quinta de proporción 3:2 da 660 Hz. La diferencia es pequeña pero conceptualmente significativa.
+
+El cent divide la octava logarítmicamente en 1200 partes. La distancia entre dos frecuencias positivas es c = 1200 log2(f2/f1). Así, una quinta 3:2 vale aproximadamente 701,955 cents y una tercera 5:4 vale 386,314 cents. En doce divisiones iguales la quinta mide 700 cents y la tercera mayor 400. No conviene comparar afinaciones sumando diferencias de hercios: una diferencia de 2 Hz tiene distinto tamaño interválico según el registro.
+
+La afinación pitagórica obtiene relaciones mediante quintas 3:2 y reducción por octavas. Doce quintas puras no coinciden exactamente con siete octavas: (3/2)^12 / 2^7 = 531441/524288, la coma pitagórica, de unos 23,46 cents. La afinación justa utiliza proporciones de enteros pequeños para ciertos intervalos; al cambiar de contexto aparecen incompatibilidades que impiden mantener simultáneamente puras todas las relaciones deseadas. Los temperamentos distribuyen esas diferencias de maneras diversas. [F10]
+
+El temperamento mesotónico y los temperamentos desiguales históricos responden a prioridades distintas. «Bien temperado» no significa automáticamente «igual». Tampoco la historia puede resumirse como una marcha inevitable desde sistemas defectuosos hacia una afinación definitiva.
+
+La microtonalidad comprende relaciones y divisiones que exceden el marco de doce semitonos iguales. Veinticuatro divisiones iguales producen pasos de 50 cents, pero ese sistema tampoco representa por sí solo todas las prácticas de afinación árabes, turcas, indias o de otras tradiciones.
+
+Ejercicio resuelto: subir 440 Hz una octava da 880 Hz; subir dos octavas da 1760 Hz. Subir 100 cents da 440 × 2^(1/12), aproximadamente 466,164 Hz. La percepción de un «paso igual» se modela mediante una razón constante y no mediante una cantidad fija de hercios.
+
+
+05. PENTAGRAMA, CLAVES, REGISTRO Y NOMBRES DE LAS NOTAS
+
+El pentagrama consta de cinco líneas y cuatro espacios. Se cuentan de abajo hacia arriba. Las posiciones adicionales prolongan la secuencia diatónica; no crean nombres nuevos. La clave asigna una altura de referencia a una posición y permite deducir las demás. En clave de sol en segunda línea, esa línea representa sol4; en clave de fa en cuarta línea, la cuarta representa fa3. [F11]
+
+En clave de sol, las líneas son mi4, sol4, si4, re5 y fa5; los espacios, fa4, la4, do5 y mi5. En clave de fa, las líneas son sol2, si2, re3, fa3 y la3; los espacios, la2, do3, mi3 y sol3. El do central es do4 bajo la clave de sol, con una línea adicional, y do4 sobre la clave de fa, también con una línea adicional. E02 y E03 desarrollan esas posiciones.
+
+En este tratado se usa numeración científica: do4 es el do central y la4 la referencia de 440 Hz. El número de octava cambia en do. Por tanto si3 y do4 son alturas consecutivas, no si4 y do4. Hay otras numeraciones empleadas por programas; el registro debe declararse en lugar de darse por supuesto.
+
+La clave de do en tercera línea fija do4 en esa línea y se asocia con frecuencia a la viola. En cuarta línea se emplea para registro de tenor en ciertos instrumentos graves. La clave no pertenece de manera exclusiva a un instrumento: se elige para facilitar la lectura de un registro. E04 utiliza clave de do en tercera línea.
+
+La equivalencia entre nombres es: do = C; re = D; mi = E; fa = F; sol = G; la = A; si = B. En algunos sistemas germanos H representa si natural y B representa sib; por ello un cifrado internacional debe explicitar su convención.
+
+Procedimiento de lectura: identificar clave, localizar una nota de referencia, contar posiciones vecinas, establecer octava y aplicar armadura y alteraciones. Aprender notas de referencia permite leer por relaciones, sin recitar desde la primera línea en cada nota.
+
+En un sistema de dos pentagramas unidos para piano, la posición superior e inferior no obliga a una distribución rígida por manos. Las voces pueden cruzarse o compartir registros; lo decisivo es la indicación musical y la claridad de la escritura.
+
+
+06. ALTERACIONES, ENARMONÍA Y ORTOGRAFÍA MUSICAL
+
+El sostenido eleva un semitono; el bemol desciende un semitono; el becuadro cancela una alteración previa pertinente. El doble sostenido eleva dos semitonos y el doble bemol desciende dos. La referencia de esos cambios es la nota natural correspondiente, no necesariamente la tecla negra más cercana. Mi# coincide con fa en doce divisiones iguales, y dob coincide con si.
+
+La armadura establece alteraciones para las notas de un mismo nombre en sus diferentes octavas. Una alteración accidental tiene alcance local: en la práctica moderna habitual afecta esa altura y octava durante el compás, con convenciones y excepciones editoriales. Las notas ligadas a través de una barra mantienen su altura; si reaparecen después, hay que revisar las reglas y la necesidad de aclaración. Una alteración de precaución puede evitar ambigüedad. [F12]
+
+Enarmonía es la relación entre escrituras distintas que pueden corresponder a una misma altura dentro de un sistema determinado. Do# y reb coinciden en el piano temperado, pero expresan relaciones distintas: do-do# es un cambio cromático sobre el mismo nombre; do-reb es una segunda menor. En otras afinaciones esa coincidencia acústica puede desaparecer.
+
+Un semitono diatónico usa nombres diferentes, como mi-fa o si-do. Uno cromático conserva el nombre y lo altera, como fa-fa#. «Diatónico» no significa sin alteraciones: fa#-sol es diatónico. «Cromático» tampoco significa simplemente tocar una tecla negra.
+
+Ejemplo de ortografía: re mayor se escribe re, mi, fa#, sol, la, si, do#, re. Escribir solb en lugar de fa# duplica el nombre sol y oculta el tercer grado. La escritura correcta conserva la identidad de los grados aunque algunas teclas coincidan. E05 compara do# con reb y E06 el alcance de un fa# accidental, su cancelación con becuadro y el restablecimiento del fa natural en el siguiente compás.
+
+Actividad: escribir una segunda aumentada sobre do y una tercera menor sobre do. La primera es re#; la segunda, mib. En temperamento igual ambas miden tres semitonos, pero el número diatónico y el significado escrito son diferentes. Esta distinción es esencial para analizar intervalos y funciones.
+
+
+07. FIGURAS, SILENCIOS, PUNTILLOS, LIGADURAS Y PROPORCIONES
+
+Las figuras representan duraciones relativas. Con la negra como unidad: redonda = 4, blanca = 2, negra = 1, corchea = 1/2, semicorchea = 1/4, fusa = 1/8 y semifusa = 1/16. La cuadrada equivale a dos redondas. Estos valores no expresan segundos hasta que se especifica un tempo y su unidad. Los silencios correspondientes representan ausencia de ataque y sonido prescrito en esa voz durante su valor, aunque otros instrumentos sigan sonando. [F13]
+
+La cabeza vacía sin plica identifica normalmente la redonda; la cabeza vacía con plica, la blanca; la cabeza rellena con plica, la negra. Corcheas y valores menores añaden corchetes o barras. La dirección de la plica responde a legibilidad y estructura de voces, no a duración. Dos voces simultáneas pueden usar plicas opuestas.
+
+El puntillo suma la mitad del valor original. Una negra con puntillo vale 1,5 negras. El segundo puntillo añade la mitad de lo añadido por el primero: una blanca con dos puntillos vale 2 + 1 + 0,5 = 3,5 negras. Para k puntillos, el factor multiplicativo es 2 - 2^(-k).
+
+La ligadura de prolongación suma notas de la misma altura sin nuevo ataque. Negra ligada a corchea suma 1,5 negras. La ligadura de expresión agrupa articulación o fraseo; no cambia por sí misma el valor escrito. Una curva no se interpreta únicamente por su apariencia: importan las notas que une y el contexto. [F14]
+
+En notación rítmica conviene mostrar la estructura del compás. Una duración de dos negras que comienza en la segunda mitad del segundo pulso puede necesitar división y ligadura para hacer visible el tercer pulso. La duración aritmética y la buena escritura son criterios relacionados, pero distintos.
+
+E07 presenta familias de figuras y silencios; E08 compara puntillo y prolongación. En los ejemplos textuales del catálogo, n = negra, b = blanca, r = redonda, c = corchea y sc = semicorchea; un punto prolonga y «~» indica ligadura. Es una transcripción explicativa, no un nuevo sistema de notación destinado a sustituir el pentagrama.
+
+Ejercicio: completar 4/4 con una blanca, una negra con puntillo y un silencio de corchea. La suma es 2 + 1,5 + 0,5 = 4. A negra = 60 cada compás dura cuatro segundos; a negra = 120 dura dos.
+
+
+08. PULSO, RITMO, ACENTO, TEMPO Y DURACIÓN FÍSICA
+
+El pulso es una referencia temporal recurrente que puede estar explícita o inferirse. El ritmo es la organización de ataques, duraciones y pausas con respecto a esa referencia u otras relaciones temporales. El metro organiza jerarquías periódicas de posiciones; el tempo expresa la rapidez de una unidad indicada. Un ritmo puede contener muchos ataques y mantener el mismo tempo.
+
+El acento puede ser métrico, dinámico, agógico, tímbrico o de altura. Un sonido más largo puede atraer atención sin ser más fuerte. Un ataque agudo puede destacar por registro. La jerarquía de 4/4 no exige tocar cada primer pulso fuerte: establece expectativas que la música puede confirmar o desplazar.
+
+La indicación «120 BPM» queda incompleta cuando la unidad puede ser ambigua. Negra = 120 significa 120 negras por minuto. Negra con puntillo = 120 en 6/8 significa 120 pulsos compuestos por minuto, con tres corcheas en cada pulso. La duración de una unidad a B BPM es 60/B segundos. [F15]
+
+Cálculo aplicado: en 4/4 a negra = 96, un pulso dura 0,625 s y un compás 2,5 s. Ocho compases duran 20 s si no hay anacrusa, cambios ni pausas adicionales. En 6/8 a negra con puntillo = 96, el compás tiene dos pulsos y dura 1,25 s. Si en ese 6/8 la indicación fuese corchea = 96, el compás duraría 3,75 s. El número de BPM no basta para comparar velocidades.
+
+Allegro, andante y adagio son términos de tempo y carácter con uso histórico variable; no equivalen a una cifra universal exacta. Un cambio de tempo puede ser inmediato o gradual. Un rubato puede flexibilizar posiciones locales sin destruir la organización global de la frase.
+
+Actividad original: golpear un pulso regular mientras se recita un texto. Conservar la velocidad y cambiar el número de sílabas por pulso. Esa experiencia distingue pulso de densidad rítmica. Después escribir dos patrones de igual duración con distinta distribución de silencios: la duración total puede mantenerse aunque la sensación de actividad cambie.
+
+
+09. COMPASES SIMPLES, COMPUESTOS Y LECTURA MÉTRICA
+
+La indicación de compás comunica una convención de agrupación. En los simples habituales, el numerador señala cuántas unidades del valor indicado por el denominador completan el compás; a un nivel ordinario de lectura esas unidades suelen corresponder a los pulsos. En 2/4 hay dos negras, en 3/4 tres y en 4/4 cuatro. Simple significa que el pulso se subdivide normalmente en dos; binario, ternario y cuaternario describen cuántos pulsos hay. [F16]
+
+En compases compuestos como 6/8, 9/8 y 12/8, la lectura habitual agrupa corcheas de tres en tres. Sus pulsos son negras con puntillo: dos, tres y cuatro respectivamente. El denominador 8 representa aquí la subdivisión escrita. A tempos muy lentos o rápidos pueden sentirse otros niveles; la descripción debe distinguir convención notacional y pulso percibido. [F03]
+
+3/4 y 6/8 admiten seis corcheas, pero no representan la misma jerarquía: 3/4 agrupa 2+2+2 y 6/8 agrupa 3+3. E09-E12 comparan 2/4, 3/4, 4/4 y 6/8; E13 y E14 muestran 9/8 y 12/8. Para estudiar 6/8 se puede contar «UNO-la-li DOS-la-li», conservando el énfasis métrico en UNO y DOS.
+
+El 3/8 suele ser simple ternario con tres corcheas como unidades de pulso; a velocidad rápida puede sentirse a uno por compás. El 2/2 suele ser simple binario con blanca como pulso. Ninguna regla basada únicamente en que un numerador sea múltiplo de tres identifica correctamente todos los casos.
+
+Las barras simples delimitan compases; una doble barra puede señalar sección o cambio; la barra final marca cierre escrito. Una barra no exige cortar el sonido. Las barras de agrupación de corcheas y semicorcheas deben facilitar la lectura del pulso; no son adornos.
+
+Para revisar un compás, fijar la unidad de cálculo, convertir figuras y silencios a esa unidad, sumar por voz y verificar la agrupación. En 6/8, una negra con puntillo más tres corcheas suma seis corcheas; una blanca con puntillo también completa el compás, pero puede ocultar la subdivisión durante una primera lectura.
+
+
+10. SÍNCOPA, CONTRATIEMPO, ANACRUSA, GRUPOS IRREGULARES Y SILENCIOS
+
+La síncopa desplaza el énfasis respecto de posiciones métricamente esperadas. Un caso frecuente es un ataque en posición débil que se prolonga sobre una posición más fuerte sin nuevo ataque allí. El contratiempo, en un uso pedagógico extendido, alterna silencios en posiciones fuertes con ataques en posiciones débiles. Las terminologías se solapan según la tradición; hay que explicar el patrón concreto además de nombrarlo.
+
+E15 escribe una corchea en la primera mitad del pulso y una corchea atacada en la segunda mitad ligada a la negra siguiente: la ligadura atraviesa el comienzo del segundo pulso. E16 presenta silencios en los pulsos y ataques en sus segundas mitades. La relación entre sonido y expectativa métrica explica la diferencia mejor que decir simplemente «notas fuera de tiempo».
+
+La anacrusa es un comienzo incompleto que conduce al primer apoyo métrico de referencia. No es cualquier nota que precede a otra ni cualquier entrada después de un silencio. En melodías periódicas es frecuente que la duración inicial y la del último compás incompleto se complementen, aunque no es una condición universal de toda obra. E17 usa una negra inicial y cierra con tres negras en 4/4.
+
+Comienzo tético indica inicio en un apoyo métrico principal; comienzo acéfalo suele describir un inicio con silencio donde se esperaba ese apoyo. Las clasificaciones de final masculino y femenino, usadas por ciertas escuelas para cierre en parte fuerte o débil, deben explicarse como terminología histórica; no son propiedades biológicas del sonido.
+
+Un grupo irregular distribuye un número de figuras en un espacio que normalmente contiene otro. Tres corcheas en el tiempo de dos forman un tresillo 3:2. En 6/8, dos corcheas en el tiempo de tres pueden formar un dosillo 2:3. El número escrito y el corchete o agrupación aclaran la relación. E18 contrapone tresillo y subdivisión binaria. [F17]
+
+El silencio participa del ritmo y de la articulación formal. Puede separar gestos, permitir respiración, desplazar un patrón o crear expectativa. Un silencio escrito para una voz no implica silencio absoluto de la mezcla. La reverberación de un sonido tampoco convierte automáticamente un silencio instrumental en una nota sostenida.
+
+
+11. HEMIOLA, POLIRRITMIA, MÉTRICAS ADITIVAS, SWING Y GROOVE
+
+La hemiola reorganiza temporalmente una relación de dos y tres. Sobre seis corcheas puede destacar dos grupos de tres o tres grupos de dos. E19 contrasta esas agrupaciones conservando seis corcheas por compás. No hay que cambiar necesariamente la velocidad de las corcheas para producir el contraste.
+
+La polirritmia superpone organizaciones rítmicas diferentes. Para construir 3 contra 2, dividir un intervalo común en seis partes: la capa de tres ataca en 0, 2 y 4; la de dos en 0 y 3. Solo el primer ataque coincide dentro del ciclo. E20 lo muestra en dos pentagramas. El procedimiento de mínimo común múltiplo vuelve verificable una relación que al principio parece intuitiva.
+
+La polimetría superpone metros o extensiones de compás distintos. No equivale automáticamente a polirritmia: tresillos contra corcheas pueden ocurrir dentro de un mismo 4/4. Para identificar una polimetría interesa saber si las capas mantienen agrupaciones métricas independientes y cuándo vuelven a coincidir.
+
+Los compases aditivos pueden agrupar unidades desiguales: 5/8 como 2+3 o 3+2; 7/8 como 2+2+3, 2+3+2 o 3+2+2. La cifra por sí sola no informa cuál agrupación se usa. E21 muestra 5/8 en 2+3 y E22, 7/8 en 2+2+3. La acentuación, las barras y la indicación explícita de agrupación ayudan al intérprete.
+
+El swing puede modificar la relación temporal de parejas de subdivisiones. La aproximación «larga-corta = dos a uno» sirve para ciertos ejercicios, pero la proporción real varía con tempo, estilo y ejecución. Groove reúne relaciones de ritmo, acento, duración, timbre y coordinación entre capas; no se obtiene siempre desplazando aleatoriamente notas. El microtiming puede ser intencional y repetible, no un error que deba corregirse.
+
+Witek y colaboradores encontraron en sus estímulos una relación de U invertida entre grado de síncopa y placer o deseo de movimiento: niveles intermedios produjeron valoraciones mayores. No es una ley de composición para toda población o género. Sioros y colaboradores también investigaron cómo la síncopa puede favorecer sensación de groove en ejemplos sintetizados. [F05, F18]
+
+Actividad: programar dos capas idénticas, modificar únicamente el momento de los ataques de una y comparar. Luego restaurar posiciones y cambiar solo articulación o intensidad. Así se separan dimensiones que suelen confundirse bajo la palabra «sabor».
+
+
+12. ESCALAS MAYORES, GRADOS, ARMADURAS Y CÍRCULO DE QUINTAS
+
+Una escala organiza alturas según un orden y un patrón. No es una melodía ni impone que toda pieza use únicamente sus notas. La escala mayor tiene la sucesión T-T-S-T-T-T-S, donde T es tono y S semitono. En doce divisiones iguales, su colección desde la tónica es 0, 2, 4, 5, 7, 9 y 11 semitonos; la octava repite la clase inicial a distancia 12. Sus siete nombres se usan una vez antes de repetir la tónica. [F19]
+
+Las escalas centrales del PIAA son do mayor: do-re-mi-fa-sol-la-si; fa mayor: fa-sol-la-sib-do-re-mi; sol mayor: sol-la-si-do-re-mi-fa#. E23-E25 las representan. En fa mayor, si se reemplaza sib por si natural, la distancia la-si sería un tono y el patrón mayor se rompería en el cuarto grado. La alteración tiene una función estructural, no ornamental.
+
+Los grados se numeran desde la tónica. Sus nombres habituales son tónica, supertónica, mediante, subdominante, dominante, submediante y sensible. El séptimo grado recibe el nombre de sensible cuando está a un semitono de la tónica; si está a un tono, se denomina subtónica en muchos contextos. Un grado es una relación dentro de una escala, no una frecuencia fija.
+
+Para construir mi mayor: escribir mi-fa-sol-la-si-do-re-mi; aplicar el patrón; obtener mi-fa#-sol#-la-si-do#-re#-mi. La verificación combina nombres y distancias. Escribir mib como tercer grado sobre do# puede producir una tecla equivalente a re#, pero ese no es el tercer grado ortográfico requerido.
+
+La armadura evita repetir alteraciones constantes. El orden de sostenidos es fa-do-sol-re-la-mi-si; el de bemoles, si-mi-la-re-sol-do-fa. En mayores con sostenidos, la tónica está un semitono por encima del último sostenido. En mayores con bemoles, salvo fa mayor, el penúltimo bemol da el nombre de la tonalidad. Son ayudas de lectura que deben comprobarse construyendo la escala. [F20]
+
+El círculo de quintas conecta tonalidades vecinas: do-sol-re-la-mi-si-fa#-do# al añadir sostenidos; do-fa-sib-mib-lab-reb-solb-dob al añadir bemoles. Muestra relaciones de armadura y proximidad tonal, pero no demuestra que todas las progresiones deban circular por quintas.
+
+Ejercicio: do mayor y la menor comparten armadura; por ello la ausencia de alteraciones no basta para identificar la tonalidad. Hay que atender al centro, los finales, las prolongaciones y los acordes. La armadura informa una colección probable, no determina por sí sola la organización de cada obra.
+
+
+13. ESCALAS MENORES Y RELACIONES TONALES
+
+La menor natural sigue T-S-T-T-S-T-T. Desde la tónica, las posiciones son 0, 2, 3, 5, 7, 8 y 10 semitonos. Las escalas pedidas por el PIAA son la menor: la-si-do-re-mi-fa-sol; re menor: re-mi-fa-sol-la-sib-do; mi menor: mi-fa#-sol-la-si-do-re. E26-E28 permiten revisar sus diferencias.
+
+La menor armónica eleva el séptimo grado de la menor natural. En la: la-si-do-re-mi-fa-sol#-la. Produce sensible y permite un acorde mayor sobre el quinto grado: mi-sol#-si. Entre fa y sol# aparece una segunda aumentada de tres semitonos. No debe nombrarse tercera menor porque las letras involucradas son consecutivas.
+
+En la presentación pedagógica clásica de la menor melódica, el ascenso eleva sexto y séptimo grados: la-si-do-re-mi-fa#-sol#-la; el descenso usa con frecuencia la colección natural. Esta es una abstracción didáctica: en música real los grados pueden variar en ambas direcciones según la armonía y la línea. En usos de jazz, «menor melódica» suele designar la misma colección ascendente en ambas direcciones. E29 y E30 comparan esas variantes. [F21]
+
+Dos tonalidades relativas comparten armadura, como do mayor y la menor. Dos tonalidades paralelas comparten tónica, como do mayor y do menor. Cambiar de relativa no equivale a cambiar de registro, y compartir notas no significa compartir centro tonal.
+
+Ejemplo original: do-mi-sol-do puede apoyar do mayor; la-do-mi-la puede apoyar la menor. Ambos usan teclas blancas, pero sus apoyos, terceras y cierres establecen jerarquías diferentes. La escala entendida como simple inventario no explica esa diferencia.
+
+No todas las piezas en menor utilizan menor armónica de principio a fin. Una obra puede alternar sol y sol# en la menor: el primero puede participar de una línea descendente o de una armonía de subtónica y el segundo funcionar como sensible. Declarar que una de esas notas está necesariamente «fuera de escala» desconoce el comportamiento flexible del modo menor tonal.
+
+Actividad: construir la tríada del quinto grado de la menor natural y de la menor armónica. Se obtienen mi-sol-si, menor, y mi-sol#-si, mayor. Explicar qué cambia en el movimiento hacia la-do-mi. El ejemplo vincula escala y armonía sin convertirlas en el mismo concepto.
+
+
+14. PENTATONISMO, BLUES, CROMATISMO Y ESCALAS SIMÉTRICAS
+
+Pentatónica significa colección de cinco alturas por octava en el marco aquí empleado. La pentatónica mayor habitual utiliza grados 1-2-3-5-6: en do, do-re-mi-sol-la. La menor utiliza 1-b3-4-5-b7: en la, la-do-re-mi-sol. Son formas anhemitónicas: no contienen semitonos entre sus notas consecutivas dentro de la octava. Existen otras pentatónicas con estructuras diferentes; no debe usarse un solo patrón para describirlas todas.
+
+E31 y E32 muestran do pentatónica mayor y la pentatónica menor. Aunque comparten alturas, el apoyo en do o en la cambia su organización. Igual que en las relativas diatónicas, el centro no se identifica únicamente contando nombres de notas.
+
+La escala de blues menor que se enseña habitualmente añade b5 a la pentatónica menor: do-mib-fa-solb-sol-sib. Su función es resumir algunas posibilidades melódicas. No representa toda la práctica del blues, que incluye inflexiones de altura, entonación flexible, fraseo, interacción y convivencia entre terceras de diferentes cualidades. E33 presenta esa colección como modelo de trabajo, no como transcripción exhaustiva de una tradición. [F22]
+
+La escala cromática temperada reúne doce clases de altura por semitonos. Su escritura depende de la función: una línea ascendente puede usar sostenidos, pero el sentido armónico puede exigir bemoles o becuadros. La cromaticidad no elimina automáticamente el centro tonal; una línea puede usar todas las alturas y resolver con claridad en una tónica.
+
+La escala de tonos enteros contiene seis alturas separadas por tonos: do-re-mi-fa#-sol#-la#. La octatónica alterna tono y semitono o semitono y tono: do-re-mib-fa-solb-lab-la-si es una de sus formas. Sus simetrías generan distintas posibilidades armónicas y reducen algunas jerarquías propias de mayor y menor. E34 y E35 ofrecen ejemplos. [F23]
+
+Aplicación resuelta: do pentatónica mayor contiene mi. Sobre un acorde de do menor, mi natural puede chocar con mib. Ese resultado puede ser deseado, pero demuestra que la pentatónica no garantiza ausencia de tensión sobre cualquier acorde. El análisis debe relacionar cada nota con el bajo y la armonía del momento.
+
+Actividad: construir dos melodías con las mismas cinco notas. Hacer que una repose en do y la otra en la, variando duración, repetición y nota final. Comparar cómo se establece un centro sin añadir alturas nuevas.
+
+
+15. MODOS MODERNOS Y FUNDAMENTOS DE MODALIDAD HISTÓRICA
+
+En una descripción moderna, los siete modos diatónicos pueden entenderse como patrones derivados de la colección diatónica con centros distintos. Sin embargo, tocar las teclas blancas «empezando en otra nota» no basta para hacer perceptible un modo: hace falta organizar apoyos, duración, bajo y finales alrededor de su centro.
+
+Fórmulas respecto de una tónica común:
+Jónico:       1 2 3 4 5 6 7
+Dórico:       1 2 b3 4 5 6 b7
+Frigio:       1 b2 b3 4 5 b6 b7
+Lidio:        1 2 3 #4 5 6 7
+Mixolidio:    1 2 3 4 5 6 b7
+Eólico:       1 2 b3 4 5 b6 b7
+Locrio:       1 b2 b3 4 b5 b6 b7
+
+Comparar modos paralelos sobre do revela sus diferencias mejor que tocar cada uno desde una nota distinta. Do dórico contiene mib y sib, pero la natural. Do eólico contiene mib, lab y sib. La sexta distingue esos dos patrones. E36-E42 los escriben sobre do. [F24]
+
+Un pedal de do y una línea que destaque fa# pueden apoyar do lidio; un pedal y una línea que destaque reb pueden apoyar do frigio. Esos recursos son demostraciones elementales, no definiciones suficientes de toda práctica modal. La posición y duración de las notas características importan tanto como su presencia.
+
+La modalidad medieval del canto litúrgico utiliza finalis, ámbito, fórmulas y notas de recitación. El sistema de ocho modos organiza pares auténticos y plagales asociados históricamente con finales re, mi, fa y sol. Dos modos pueden compartir final y diferir en ámbito y comportamiento. Su reducción a siete escalas modernas pierde información. [F25]
+
+La teoría griega antigua incluyó tetracordios y géneros diatónico, cromático y enarmónico con significados históricos específicos. Los nombres griegos reutilizados en teorías medievales y modernas no garantizan identidad de estructuras. En particular, el género enarmónico antiguo no es la equivalencia do#-reb del piano temperado. No es apropiado presentar Grecia, canto gregoriano y temperamento igual como tres fases de un mismo sistema invariable.
+
+Para leer un canto no mensural, el docente debe estudiar su notación y práctica de fraseo: colocar barras regulares y metrónomo puede alterar su sentido. Aquí los modos históricos se introducen conceptualmente; los ejemplos E36-E42 son modos diatónicos modernos en pentagrama, no reconstrucciones de cantos medievales.
+
+
+16. INTERVALOS Y SUS PROCEDIMIENTOS DE CONSTRUCCIÓN
+
+Un intervalo relaciona dos alturas. Es melódico si se presentan sucesivamente y armónico si se superponen. Puede ser ascendente o descendente, simple si no supera la octava y compuesto si la excede. Su nombre combina número diatónico y cualidad; ambos son necesarios. [F26]
+
+El número se obtiene contando nombres de nota de forma inclusiva: do a mi implica do-re-mi, una tercera. La cualidad depende de la distancia y de su ortografía. En el sistema habitual, unísonos, cuartas, quintas y octavas admiten cualidad justa; segundas, terceras, sextas y séptimas admiten mayor o menor. Cualquier familia puede presentar aumentados o disminuidos según el caso.
+
+Tabla de referencia desde do en temperamento igual:
+0 semitonos: do-do, unísono justo.
+1: do-reb, segunda menor.       2: do-re, segunda mayor.
+3: do-mib, tercera menor.       4: do-mi, tercera mayor.
+5: do-fa, cuarta justa.        6: do-fa#, cuarta aumentada.
+6: do-solb, quinta disminuida.  7: do-sol, quinta justa.
+8: do-lab, sexta menor.        9: do-la, sexta mayor.
+10: do-sib, séptima menor.     11: do-si, séptima mayor.
+12: do-do superior, octava justa.
+
+No es válido identificar el intervalo solo por semitonos: do-re# y do-mib comparten tres semitonos en temperamento igual, pero son segunda aumentada y tercera menor. E43-E45 muestran intervalos y esa diferencia.
+
+Construcción resuelta: una sexta menor sobre fa#. Contar seis nombres: fa-sol-la-si-do-re. La sexta mayor sobre fa# sería re#; reducir un semitono da re natural. Resultado: fa#-re. Comprobar que son ocho semitonos.
+
+Al invertir un intervalo simple mediante traslado de una nota por octava, los números suman nueve: tercera y sexta, segunda y séptima, cuarta y quinta. Mayor se convierte en menor; aumentado, en disminuido; justo conserva su cualidad. La inversión de una quinta justa da una cuarta justa. Una novena es una segunda compuesta; no conviene olvidar su registro al evaluar una disposición.
+
+Consonancia puede aludir a fusión perceptiva, menor rugosidad, preferencia o estabilidad dentro de un estilo. Esos conceptos no son idénticos. Una cuarta puede recibir tratamiento disonante sobre el bajo en cierto contrapunto y funcionar de otra manera en otros lenguajes. Los resultados interculturales de McDermott y colaboradores muestran que la preferencia por consonancias occidentales no puede suponerse uniforme. [F06]
+
+Actividad: analizar re#-fa#. Los nombres dan tercera; la distancia es tres semitonos, por tanto tercera menor. El sostenido de la nota inferior no autoriza a llamarla «aumentada» sin examinar la relación completa.
+
+
+17. MELODÍA, MOTIVO, FRASE Y DESARROLLO
+
+Una melodía es una organización sucesiva de alturas, duraciones, articulaciones y apoyos reconocible en un contexto. Su identidad no se reduce al inventario de notas. El contorno describe ascensos, descensos y repeticiones; el ámbito es la distancia entre los extremos; la tesitura alude a la zona donde la línea se mantiene con mayor frecuencia o comodidad según el uso.
+
+El motivo es una unidad breve reconocible por ritmo, alturas, intervalos o combinación de rasgos. Puede transformarse sin perder toda su identidad. La repetición mantiene material; la secuencia lo desplaza a otros niveles; la aumentación alarga proporcionalmente duraciones; la disminución las acorta; la inversión melódica cambia la dirección de intervalos según un criterio; la retrogradación invierte su orden temporal. [F27]
+
+Ejemplo original: do-re-mi-sol con cuatro negras define un gesto de dos pasos y un salto. Re-mi-fa-la conserva un perfil diatónico semejante; no mantiene todos los semitonos porque mi-fa es semitono. Una transposición exacta a re produce re-mi-fa#-la. Este contraste distingue secuencia diatónica y transporte interválico exacto. E46 compara las versiones.
+
+Una frase articula un recorrido con algún tipo de cierre o delimitación. Puede tener cuatro compases, pero no se define por esa cantidad. Una respiración, cadencia, pausa, repetición o cambio de textura puede señalar límites. El análisis debe buscar evidencia, no trazar divisiones automáticas cada cuatro barras. [F28]
+
+En una melodía elemental, el movimiento conjunto facilita continuidad; los saltos pueden destacar un punto o abrir registro. La compensación de un salto mediante movimiento contrario es un recurso frecuente, no una obligación universal. Un clímax depende de registro, dinámica, ritmo y posición formal; la nota más aguda no siempre es el punto de máxima intensidad expresiva.
+
+Procedimiento de creación: elegir centro y ámbito; inventar un motivo corto; repetirlo con una modificación; conducir la línea hacia un apoyo; reservar contraste para el segundo segmento; revisar respiraciones y duraciones. E59 desarrolla ocho compases que se analizan en el capítulo 34.
+
+Actividad: escribir cuatro compases con solo do, re, mi y sol. Hacer una primera versión sin silencios y otra con una pausa estratégica. Explicar cómo cambia la segmentación aunque las alturas permanezcan iguales. El ejercicio muestra que la forma de una melodía surge de relaciones entre parámetros y no solo de la sucesión vertical del pentagrama.
+
+
+18. NOTAS DE ADORNO, ORNAMENTACIÓN Y DISONANCIA MELÓDICA
+
+Una nota ajena al acorde no es necesariamente un error. Puede conectar, prolongar, anticipar o intensificar una relación. Debe identificarse respecto del acorde que realmente suena, la posición métrica y el movimiento de entrada y salida. Estar dentro de la escala no equivale a pertenecer al acorde. [F29]
+
+La nota de paso conecta por grado conjunto dos notas diferentes: sobre do mayor, do-re-mi puede emplear re como paso. La bordadura sale de una nota por paso y regresa: mi-fa-mi. Una anticipación presenta antes del cambio armónico una nota que luego pertenece al acorde siguiente. Un retardo mantiene una nota desde el acorde previo y resuelve después de que cambie la armonía; en su tratamiento clásico habitual involucra preparación, disonancia y resolución descendente. Una resolución ascendente suele recibir otra denominación según la escuela.
+
+La apoyatura se presenta como nota de tensión que resuelve por grado conjunto; muchas tipologías la describen como alcanzada por salto y abandonada por paso. Una escapada suele llegar por paso y salir por salto en dirección contraria. El pedal sostiene o reitera una altura mientras las armonías cambian; puede ser consonante con unas y disonante con otras.
+
+E47 ofrece mi-fa-mi como bordadura y do-re-mi como paso sobre un contexto de do. Para demostrar un retardo no basta con escribir una nota larga: hay que mostrar el cambio armónico que transforma su relación. E48 mantiene do mientras la armonía pasa de do a sol y luego resuelve a si, explicitando el bajo y los acordes.
+
+La ornamentación escrita puede incluir apoyaturas pequeñas, mordentes, trinos y grupetos. Su ejecución varía históricamente: nota de inicio, velocidad, posición sobre el pulso y resolución no son iguales en todos los repertorios. Un símbolo aislado no permite deducir una realización histórica única sin conocer contexto y convenciones.
+
+Aplicación a producción: un detector automático que fuerza cada sonido a las notas del acorde puede destruir pasos, bordaduras, inflexiones y retardos. Antes de corregir una altura se debe determinar si la tensión es intencional y cómo resuelve. El análisis armónico necesita escuchar el tiempo de la nota, no solo comparar listas de alturas.
+
+
+19. TRÍADAS, ARPEGIOS, INVERSIONES Y DISPOSICIÓN
+
+Una tríada es una estructura de tres clases de altura organizada por terceras: fundamental, tercera y quinta. No todo grupo de tres notas forma una tríada; do-re-sol es un conjunto de tres alturas pero no una tríada mayor o menor en su forma habitual.
+
+Las cuatro cualidades básicas se construyen desde la fundamental mediante semitonos: mayor 0-4-7, menor 0-3-7, disminuida 0-3-6 y aumentada 0-4-8. En do son do-mi-sol; do-mib-sol; do-mib-solb; do-mi-sol#. La suma de dos terceras explica las cualidades: mayor más menor, menor más mayor, menor más menor, mayor más mayor. E49 compara las cuatro. [F30]
+
+Un arpegio presenta sucesivamente miembros de un acorde. Do-mi-sol-mi puede arpegiar do mayor; do-re-mi-fa-sol recorre parte de una escala. Un arpegio puede exceder una octava o repetir miembros. La diferencia esencial es la relación de las alturas con la estructura armónica, no la velocidad de ejecución.
+
+El bajo es la nota más grave que suena. La fundamental identifica el acorde reconstruido por terceras. En do mayor, si do está abajo el acorde está en estado fundamental; si mi está abajo, en primera inversión; si sol, en segunda. La fundamental sigue siendo do en los tres casos. E50 presenta do-mi-sol, mi-sol-do y sol-do-mi. [F31]
+
+La inversión no se determina por la nota de arriba. Do-sol-mi conserva estado fundamental si do es el bajo. La disposición puede ser cerrada o abierta; duplicaciones y separaciones de octava cambian el registro y densidad sin cambiar necesariamente la identidad de la tríada.
+
+El cifrado C/E significa acorde de do mayor sobre mi en el bajo. C/G indica segunda inversión si las alturas corresponden a do mayor. Un acorde con barra también puede tener un bajo ajeno a la tríada, como C/D; no toda barra representa una inversión de tríada.
+
+Construcción resuelta: si bemol menor requiere sib-reb-fa. La tercera está a tres semitonos y la quinta a siete. Escribir do# en vez de reb oculta la tercera diatónica y produce una segunda aumentada escrita, aunque la tecla coincida. Construir por intervalos evita errores de ortografía.
+
+Actividad: distribuir una tríada de do mayor entre do3, sol3 y mi4 y luego entre mi3, do4 y sol4. Describir estado o inversión, separación y registro. Separar esas preguntas impide confundir «abierto», «invertido» y «agudo».
+
+
+20. ACORDES DE SÉPTIMA, EXTENSIONES Y CIFRADO
+
+Al agregar una tercera sobre la quinta de una tríada se obtiene un acorde de séptima. Las cualidades frecuentes, expresadas en semitonos desde la fundamental, son: mayor con séptima mayor 0-4-7-11; dominante 0-4-7-10; menor con séptima menor 0-3-7-10; semidisminuido 0-3-6-10; disminuido completo 0-3-6-9. E51 muestra Cmaj7, C7, Cm7, Cm7b5 y Cdim7. [F32]
+
+En Cdim7, la séptima se escribe sibb, no la natural, porque desde do se exige un nombre de séptima. Esa ortografía expresa estructura aunque ambos sonidos coincidan en temperamento igual. También existe el acorde menor con séptima mayor, como do-mib-sol-si, importante en determinados lenguajes.
+
+Una séptima tiene tres inversiones: tercera, quinta o séptima en el bajo. En cifrado clásico, 7 señala estado fundamental, 6/5 primera inversión, 4/3 segunda y 4/2 tercera. En tríadas, 6 y 6/4 resumen los intervalos característicos sobre el bajo. No representan fracciones de compás.
+
+Las extensiones 9, 11 y 13 prolongan la organización por terceras. Una novena comparte clase de altura con una segunda, pero el número sugiere registro y función armónica. Cadd9 agrega re a la tríada sin exigir séptima; C9 convencionalmente implica séptima menor además de novena. Csus4 sustituye normalmente la tercera por cuarta; C11 no debe interpretarse automáticamente como una obligación de tocar todas las notas posibles en posición cerrada. [F33]
+
+Leer un cifrado requiere convención. C indica do mayor; Cm, do menor; C7 suele indicar séptima de dominante por cualidad; Cmaj7, séptima mayor; C6, sexta añadida; C5, fundamental y quinta sin tercera. «De dominante» puede nombrar una cualidad de acorde aunque ese acorde no ejerza función dominante en el contexto, como ocurre en muchos blues.
+
+Ejemplo original: G7 contiene sol-si-re-fa. El intervalo si-fa es un tritono. Al resolver en do mayor, si puede ascender a do y fa descender a mi. Si se elimina la tercera si, se pierde una señal importante de dirección tonal; si se omite re, la identidad funcional puede conservarse con claridad. Esto explica por qué un voicing no necesita duplicar todos los miembros de modo uniforme.
+
+Actividad: distinguir C/E, Cm/Eb, C7/E y Cmaj7/E. En todos los casos el bajo indicado no cambia por sí solo la cualidad escrita antes de la barra. Escribir las notas evita confundir símbolo, inversión y tonalidad.
+
+
+21. TONALIDAD, FUNCIONES, PROGRESIONES Y CADENCIAS
+
+La tonalidad organiza relaciones alrededor de un centro que funciona como referencia. No se determina solo por primera o última nota. Duración, repetición, bajo, cadencias, armadura y contexto contribuyen a establecerla. Una pieza puede comenzar fuera de la tónica y una sección puede terminar abierta.
+
+Al construir tríadas sobre do mayor se obtienen I do mayor, ii re menor, iii mi menor, IV fa mayor, V sol mayor, vi la menor y vii° si disminuido. Las mayúsculas indican mayor y las minúsculas menor en la convención aquí usada; el círculo indica disminuido. La cifra romana expresa relación con una tonalidad, mientras C, Dm o G expresa identidad absoluta del acorde. [F34]
+
+La función tónica puede expresar estabilidad; la dominante produce dirección hacia tónica en la sintaxis tonal; la predominante prepara con frecuencia la dominante. IV y ii son predominantes habituales, aunque la terminología «subdominante» se utiliza también como categoría funcional más amplia. No hay una correspondencia rígida y universal entre un grado y una única función. El bajo, la posición y el recorrido importan. [F35]
+
+E52 representa I-IV-V-I en do. C-F-G-C conserva identidades concretas; transportada a sol se convierte en G-C-D-G manteniendo los números romanos. El ritmo armónico describe la velocidad de cambio de acordes, que puede mantenerse, acelerarse o desacelerarse independientemente del ritmo de la melodía.
+
+Una cadencia articula llegada o cierre. En una presentación introductoria, V-I es auténtica, IV-I plagal, V-vi engañosa en mayor, y una llegada a V puede ser semicadencia. La cadencia auténtica perfecta requiere, en su definición clásica frecuente, V e I fundamentales y tónica en la voz superior al cerrar. Un simple par V-I dentro de una secuencia no constituye automáticamente una cadencia completa: hacen falta posición y articulación de frase. E53 contrapone cierres. [F36]
+
+En menor, elevar el séptimo grado puede producir V mayor o V7 e intensificar la llegada a i. En la menor, E7-Am utiliza sol#. También existen movimientos modales sin sensible elevada y ciclos populares cuyo interés no depende de una cadencia clásica.
+
+Actividad: tocar C-G-Am-F en ciclo y detenerse alternativamente en cada acorde. Describir cómo cambian la sensación de centro y la expectativa según melodía, bajo y duración. Una lista de cuatro acordes por sí sola puede admitir lecturas diferentes; el análisis debe justificar la interpretación elegida.
+
+
+22. CONDUCCIÓN DE VOCES, BAJO Y CONTRAPUNTO INTRODUCTORIO
+
+Conducir voces consiste en organizar cómo cada línea pasa de una sonoridad a otra. La identidad vertical de los acordes no determina una única conexión horizontal. C-F puede escribirse con grandes saltos en todas las voces o conservar do común y mover mi-fa y sol-la. Ambos contienen las tríadas correctas; su continuidad es distinta.
+
+Los movimientos entre dos líneas pueden ser paralelo, similar, contrario u oblicuo. En el paralelo mantienen un intervalo del mismo tipo; en el similar van en igual dirección sin conservar necesariamente ese intervalo; en el contrario van en direcciones opuestas; en el oblicuo una permanece y la otra se mueve.
+
+El contrapunto estudia relaciones entre líneas con cierta autonomía. Los ejercicios por especies aíslan problemas: nota contra nota; dos contra una; varias contra una; síncopas y retardos; combinación de recursos. Son modelos pedagógicos ligados a objetivos estilísticos; no una lista universal de condiciones para que exista música. [F37]
+
+En escritura tonal de cuatro voces, se suelen controlar tesitura, cruces, separación de voces superiores, duplicación y tratamiento de tendencias. La sensible tiende a resolver hacia la tónica, y la séptima del acorde suele descender por grado conjunto en determinados contextos. Las quintas y octavas paralelas pueden debilitar la independencia buscada en esos ejercicios; en un power chord de guitarra su duplicación es parte del efecto.
+
+E54 presenta una conexión I-IV-V-I con bajo independiente y notas comunes o movimientos cercanos en las voces superiores. La inspección por líneas permite verificar si cada parte tiene continuidad y si las tensiones encuentran una resolución coherente con el modelo elegido.
+
+El bajo puede tocar fundamentales, inversiones, pedales, pasos o figuras rítmicas propias. Una línea do-si-la-sol bajo armonías adecuadas no se explica solo como «las raíces de cuatro acordes». Para programar un bajo conviene especificar objetivo armónico, registro, articulación y relación con el bombo, sin suponer que ambos deban atacar siempre juntos.
+
+Actividad original: escribir dos versiones de C-Am-F-G. En la primera, usar tríadas cerradas en estado fundamental; en la segunda, mantener notas comunes y limitar los movimientos de la voz superior a intervalos pequeños. Comparar facilidad de ejecución, continuidad y densidad. No hace falta declarar una versión superior en todo contexto: hay que relacionarla con el propósito del arreglo.
+
+
+23. CROMATISMO ARMÓNICO, TONICIZACIÓN Y MODULACIÓN
+
+El cromatismo introduce alturas ajenas a la colección diatónica de referencia. Puede decorar una línea, alterar un acorde, cambiar de modo o establecer otro centro. Una alteración no demuestra por sí sola una modulación.
+
+Una dominante secundaria dirige temporalmente hacia un grado distinto de la tónica principal. En do mayor, D7 contiene fa# y puede dirigirse a G: D7 es V7/V. El do natural es la séptima de D7 y puede descender a si en G; fa# puede ascender a sol. E55 muestra C-D7-G-C. La nueva nota se explica por su función, sin necesidad de declarar que toda la pieza cambió a sol mayor. [F38]
+
+La tonicización concede momentáneamente peso de tónica a una armonía; la modulación establece un nuevo centro con suficiente apoyo estructural. Duración, cadencias, insistencia y contexto ayudan a distinguirlas. No existe un número universal de compases que convierta una tonicización en modulación.
+
+El intercambio modal toma recursos de modos paralelos. En do mayor, Fm utiliza lab procedente del ámbito menor y puede volver a C. La sucesión F-Fm-C muestra un descenso la-lab-sol entre voces posibles. E56 la representa. La explicación no exige que todo el pasaje se haya trasladado a do menor. [F39]
+
+Un acorde pivote pertenece a dos tonalidades y se reinterpreta. Por ejemplo, Am es vi en do mayor y ii en sol mayor; seguido de D7-G puede contribuir a un cambio de centro. La modulación directa prescinde de una transición pivote; un desplazamiento secuencial puede preparar gradualmente otro ámbito.
+
+Como ampliación, la sexta napolitana emplea una tríada mayor sobre bII, frecuentemente en primera inversión dentro de la sintaxis clásica. En do menor sería reb-fa-lab con fa en el bajo. Los acordes de sexta aumentada se definen por un intervalo escrito que tiende a abrirse hacia la dominante. Nombrarlos exige conservar ortografía y resolución; no basta con reconocer una tecla enarmónica. No se exige dominarlos para el resultado básico del PIAA.
+
+Actividad: analizar C-F-Fm-C y C-D7-G-C. En el primero, explicar lab por mezcla modal; en el segundo, fa# por dominante secundaria. Aunque ambos añaden una altura ajena a do mayor, sus movimientos y funciones son diferentes.
+
+
+24. TEXTURA, DENSIDAD Y ORGANIZACIÓN DE PLANOS
+
+La textura describe cómo se relacionan las partes simultáneas. La monodia presenta una línea principal sin otras líneas independientes; varias personas cantando al unísono pueden producir una textura monódica. La homofonía organiza una melodía con acompañamiento o partes subordinadas a una conducción común. La homorritmia es un caso en que las voces comparten ritmo de manera considerable. La polifonía combina líneas con autonomía relativa. La heterofonía presenta variantes simultáneas de una misma línea. [F40]
+
+Esas categorías no se determinan contando instrumentos. Un solo piano puede realizar una textura polifónica; una orquesta entera puede ejecutar un unísono. Una pieza cambia de textura entre secciones o incluso dentro de una frase. El análisis debe indicar cuándo ocurre cada disposición.
+
+La densidad puede medirse como cantidad de eventos, notas o capas dentro de un intervalo, según el objetivo. «Denso» exige aclaración: muchas notas por segundo, muchos instrumentos, mucho registro ocupado o mucha reverberación no son lo mismo. La transparencia depende también de articulación, sincronía, espectro y distribución espacial.
+
+E57 muestra una melodía con acompañamiento. Para comparar, leer primero solo el pentagrama superior y después añadir los acordes sostenidos: la melodía conserva sus alturas y ritmo, pero cambia la organización del conjunto. Si el acompañamiento se vuelve otra melodía, el análisis debe revisar su autonomía y su relación con el primer plano.
+
+En producción, el plano principal puede cambiar: una voz conduce la estrofa y un sintetizador el interludio. La jerarquía musical orienta nivel, panorama, ecualización y automatización. Antes de buscar transparencia con procesamiento, conviene comprobar si varias partes compiten por el mismo registro y patrón de ataque.
+
+Ejercicio original: arreglar un motivo para tres capas. La primera versión debe tener melodía, bajo y acordes largos. En la segunda, el acompañamiento usa semicorcheas. En la tercera, todas las capas comparten ritmo. Describir qué cambió en textura y densidad y qué permaneció en armonía. Esta comparación enseña a distinguir variables que una mezcla puede hacer parecer inseparables.
+
+
+25. FORMA MUSICAL Y ARQUITECTURA DE LA CANCIÓN
+
+La forma organiza relaciones entre unidades en el tiempo. Repetición, contraste, variación, retorno y transición permiten reconocer secciones. Las letras A, B y C son etiquetas analíticas de material o función; no son nombres de acordes ni valores estéticos.
+
+Una forma binaria presenta dos secciones principales; puede estar organizada con repeticiones y distintas relaciones tonales. Una ternaria incluye retorno de una sección inicial después de contraste: A-B-A. Un rondó alterna un estribillo recurrente con episodios. Tema y variaciones conserva relaciones identificables mientras cambia aspectos del material. La forma sonata articula exposición, desarrollo y recapitulación con relaciones temáticas y tonales que dependen del repertorio. [F41]
+
+El período puede organizar antecedente y consecuente: una unidad propone un cierre menos conclusivo y la siguiente responde con mayor conclusión. La oración o sentence, en cierto análisis de tradición clásica, combina presentación de una idea básica y repetición con continuación, fragmentación o aceleración y cierre. No toda agrupación de ocho compases es período u oración: hay que demostrar su comportamiento. [F42]
+
+En canción popular se utilizan introducción, estrofa, preestribillo, estribillo, puente, interludio, solo y salida. La estrofa suele cambiar texto entre apariciones; el estribillo concentra material recurrente. Un puente introduce contraste y puede aparecer una sola vez. No toda canción utiliza esas secciones, y sus límites pueden coincidir o no con cambios de armonía. [F43]
+
+El hook es un elemento memorable que puede ser melódico, verbal, rítmico o tímbrico. Un riff puede cumplir función de acompañamiento e identidad a la vez. Una caída de densidad puede actuar como transición sin cambiar de tonalidad. La arquitectura musical tiene varias dimensiones simultáneas.
+
+E58 usa dos motivos contrastantes con retorno para ilustrar A-B-A a escala breve. No pretende ejemplificar una gran forma ternaria completa con sus requisitos históricos. El ejemplo enseña el principio perceptivo del retorno.
+
+Actividad aplicada: construir una tabla con sección, compases, duración, armonía, registro, textura y función. Verificar si el «clímax» elegido coincide con mayor registro, más capas, una llegada armónica o una combinación. Ese mapa ayuda a decidir dónde reservar contraste en lugar de aumentar intensidad constantemente.
+
+
+26. DINÁMICA, ARTICULACIÓN, AGÓGICA Y FRASEO
+
+La dinámica prescribe relaciones de intensidad: pp, p, mp, mf, f y ff, con gradaciones adicionales. No corresponden universalmente a niveles fijos de decibelios. Un forte de flauta y uno de trombón pueden tener niveles físicos diferentes, y un mismo instrumento cambia timbre con su intensidad. Crescendo indica aumento gradual y diminuendo disminución; ambos pueden escribirse con palabras o reguladores. [F44]
+
+La articulación organiza ataques, separación y continuidad. Staccato suele acortar y separar; tenuto indica sostén o peso según el contexto; acento destaca un ataque; marcato pide una ejecución marcada. Legato conecta sonidos, pero la realización depende del instrumento: arco, aire, digitación y envolvente pueden producir continuidades distintas.
+
+La agógica comprende modificaciones temporales expresivas. Ritardando y rallentando suelen indicar desaceleración; accelerando, aceleración; a tempo, retorno al tempo pertinente. Un calderón permite una prolongación cuya realización depende de contexto y coordinación; no equivale siempre a duplicar exactamente la duración.
+
+El fraseo agrupa sonidos en unidades con dirección. La comparación con respiración y puntuación ayuda a comenzar, pero no debe convertir cada ligadura en una obligación de respirar ni cada frase en un tamaño fijo. Las voces e instrumentos de viento necesitan planificar aire; un piano puede articular una frase mediante dinámica y duración sin respiración física del instrumento.
+
+E60 presenta una misma línea con ligadura, staccato, acentos y cambios dinámicos. Esos signos no alteran su armadura ni su suma de duraciones; orientan la ejecución. E61 añade un pequeño crescendo y un ritardando al final. La partitura comunica intención; una reproducción informática básica puede no realizar todos los matices.
+
+En edición, cuantizar todos los ataques o igualar la intensidad de cada nota puede modificar el gesto. Antes de intervenir conviene comparar repetibilidad, intención, coordinación y estilo. Conservar expresión no significa aceptar todo accidente de ejecución: significa identificar qué aspecto se corrige y cuál se desea mantener.
+
+Ejercicio: interpretar un motivo con tres objetivos: continuidad, separación y crecimiento hacia una nota. Escribir indicaciones que un tercero pueda leer y describir qué información seguiría faltando. La actividad muestra que la notación combina precisión con márgenes de interpretación.
+
+
+27. TIMBRE, FAMILIAS INSTRUMENTALES, VOZ Y REGISTRO
+
+Las familias orquestales y los mecanismos de producción sonora son clasificaciones relacionadas pero distintas. «Teclado» describe una interfaz; piano, órgano y sintetizador no producen sonido mediante el mismo mecanismo. En una clasificación organológica general se distinguen idiófonos, membranófonos, cordófonos, aerófonos y electrófonos, con subcategorías y revisiones. [F45]
+
+En cuerdas frotadas, el arco sostiene la vibración y permite variar ataque y continuidad; en cuerdas pulsadas, el sonido suele decaer después del ataque; en cuerdas percutidas, como el piano acústico, el martillo excita una cuerda. La guitarra puede producir notas sostenidas, armónicos, ruidos y articulaciones que cambian su timbre sin cambiar la identidad nominal del instrumento.
+
+Los vientos madera se agrupan por historia y mecanismos de excitación, no solo por material: la flauta suele ser metálica, y el saxofón es de metal pero pertenece a esa familia. En vientos metal, la vibración labial interactúa con la columna de aire. La percusión incluye instrumentos de altura definida y de altura menos definida, sin que esa distinción elimine toda percepción de registro. [F46]
+
+La voz combina excitación laríngea y filtrado por el tracto vocal. Las vocales modifican resonancias y espectro. Registro vocal y tesitura cómoda no se infieren con seguridad a partir de una única nota extrema. Las categorías de soprano, contralto, tenor o bajo requieren más evidencia y contexto que una aplicación que detecta la frecuencia más alta.
+
+Referencias orientativas de escritura y sonido: el piano de 88 teclas va habitualmente de la0 a do8; el violín, de sol3 hacia registros agudos; la viola, de do3 hacia arriba; el violonchelo, de do2 hacia arriba; la guitarra de seis cuerdas en afinación habitual suena desde mi2. Los límites superiores dependen de técnica y nivel. Rango posible, registro idiomático y tesitura cómoda son tres preguntas diferentes. [F47]
+
+La fundamental no ocupa por sí sola todo el espectro de un instrumento. Un bajo con fundamental grave puede tener armónicos importantes en medios y agudos. La idea de asignar a cada familia una franja exclusiva de frecuencias es insuficiente para instrumentar o mezclar.
+
+Actividad original: comparar una nota de dos instrumentos al mismo registro y a intensidad semejante; después comparar el mismo instrumento en dos registros. Anotar ataque, caída, ruido, brillo y continuidad. No se debe atribuir cualquier diferencia a «la familia» cuando también cambian registro, ejecución o captación.
+
+
+28. TRANSPOSICIÓN, INSTRUMENTOS TRANSPOSITORES Y PREPARACIÓN DE PARTES
+
+Transportar desplaza alturas conservando relaciones seleccionadas. Un transporte tonal exacto mantiene los intervalos y exige modificar nombres y armadura de manera coherente. Trasladar una nota por octava conserva su clase de altura, pero no el mismo registro ni necesariamente el mismo timbre.
+
+Para transportar do-mi-sol un tono ascendente, primero mover nombres una segunda y luego ajustar distancias: re-fa#-la. Re-fa-la produciría re menor y cambiaría la estructura original. Una secuencia diatónica dentro de una tonalidad puede alterar semitonos; por eso debe distinguirse del transporte exacto.
+
+En un instrumento en sib, como el clarinete soprano en sib, un do escrito suena normalmente sib una segunda mayor más bajo. Para obtener do de concierto se escribe re. En una trompa en fa, do escrito suena fa una quinta por debajo. Debe verificarse el instrumento y su variante concreta: «clarinete» o «saxofón» sin especificación no define una única transposición. [F48]
+
+La guitarra se escribe habitualmente una octava por encima de su sonido; el contrabajo también utiliza desplazamiento de octava en su notación convencional. Aunque a veces no se marquen como instrumentos transpositores en una introducción elemental, esa relación escrita-sonora debe explicitarse al intercambiar materiales.
+
+E62 compara un fragmento en sonido de concierto con su escritura para clarinete en sib. E63 muestra el do central en distintas claves sin cambiar su altura sonora. Cambiar la clave para representar mejor un registro no equivale automáticamente a transportar.
+
+Una partitura general coordina instrumentos y permite analizar simultaneidad; una parte individual privilegia la ejecución de una persona. La extracción exige revisar saltos de página, silencios de varios compases, números de compás, letras de ensayo y avisos. Una parte técnicamente correcta puede resultar impracticable si obliga a pasar página en medio de un pasaje continuo.
+
+En un arreglo conviene declarar si la partitura está en sonido de concierto o transpuesta, nombrar instrumentos y especificar tempo, compás, armadura y repeticiones. Para una sesión de grabación, la versión, el punto de inicio y las secciones de referencia reducen errores de coordinación.
+
+
+29. PERCUSIÓN, TABLATURA, NOTACIÓN GRÁFICA Y LÍMITES DEL PENTAGRAMA
+
+La clave neutra y las cabezas alternativas permiten escribir percusión sin asignar cada posición a una altura temperada. La posición puede representar un instrumento del kit; una leyenda aclara la correspondencia. Las convenciones varían: no se debe asumir que toda partitura de batería usa idéntico mapa.
+
+Una cabeza en x puede indicar charles o plato en un contexto de batería; sobre instrumentos de cuerda puede representar otro efecto. El significado depende del sistema y de su leyenda. E64 usa clave neutra y etiqueta una célula de percusión; su nota gráfica sirve para leer ritmo, no para afirmar una altura de do.
+
+La tablatura indica cuerda y posición o traste en determinados instrumentos. Puede ser útil para digitaciones y técnicas, pero algunas tablaturas no contienen ritmo completo. «3» en una cuerda no es el tercer grado de una escala ni una duración. Para comunicar una idea a instrumentos distintos, el pentagrama puede aportar información de alturas que la tablatura localiza de otro modo.
+
+La notación proporcional relaciona distancia horizontal con tiempo según una escala declarada. La notación gráfica puede representar densidad, contorno, textura o instrucciones abiertas. La aleatoriedad puede afectar orden, duración, selección de eventos o coordinación. Ninguna partitura gráfica se interpreta responsablemente sin sus reglas.
+
+El pentagrama convencional es especialmente eficaz para relaciones discretas de altura y duración, pero requiere recursos adicionales para afinaciones continuas, electrónica en vivo, gestos, espacialización, espectros o sonidos sin altura definida. Un glissando entre notas no equivale necesariamente a una sucesión cromática: puede ser continuo o escalonado según instrumento e indicación.
+
+La partitura también omite detalles que los intérpretes aprenden por tradición. En músicas de transmisión oral, convertir una grabación en notas puede fijar una versión y ocultar variación, inflexión o interacción. Se debe aclarar qué objetivo tiene la transcripción: enseñar un patrón, analizar un aspecto o documentar una interpretación específica.
+
+Actividad: representar diez segundos de una textura de ruido con una descripción verbal, una línea temporal y una propuesta gráfica. Indicar duración, densidad y cambios espectrales. Evaluar cuál representación comunica mejor el propósito sin forzar alturas inexistentes.
+
+
+30. PARTITURA, MIDI, AUDIO Y PRODUCCIÓN MUSICAL
+
+Una partitura describe relaciones e instrucciones simbólicas; MIDI comunica eventos y controles; audio registra o genera una señal muestreada. Un archivo MIDI no contiene necesariamente el sonido de un piano: contiene datos que un instrumento interpreta. Un audio de piano tampoco conserva automáticamente nombres de notas, voces y armaduras.
+
+En el modelo de notas MIDI habitual, do central corresponde al número 60. El nombre de octava mostrado puede variar entre programas. Con referencia la4 = 440 Hz y temperamento igual, la frecuencia del número m puede calcularse como f = 440 × 2^((m-69)/12). El mensaje y la configuración del instrumento pueden permitir afinaciones y desviaciones adicionales; el nombre de la nota por sí solo no garantiza esa frecuencia en toda implementación. [F49]
+
+La velocidad de ataque MIDI suele influir en intensidad y timbre según el instrumento virtual. No es un valor universal en decibelios. La longitud de un evento puede no coincidir con la cola sonora, debido a envolvente, pedal o reverberación. La edición de notas debe distinguir inicio, fin de pulsación y duración acústica.
+
+El piano roll representa altura y tiempo con una cuadrícula. Puede mostrar con facilidad duración de eventos, pero oculta enarmonía funcional, voces, fraseo y agrupación rítmica si no se incluyen metadatos. Una partitura convertida desde MIDI necesita revisión: una interpretación con pequeñas desviaciones puede generar silencios y figuras ilegibles sin una cuantización de lectura adecuada.
+
+MusicXML intercambia información notacional como altura escrita, compás, claves, voces, ligaduras y articulaciones. Su propósito es diferente al de un audio y más cercano al de una partitura editable. La importación puede variar entre aplicaciones; conviene revisar la representación final. [F50]
+
+La frecuencia de muestreo no es la afinación. Grabar a 44,1 kHz significa tomar 44100 muestras por segundo; no significa que las notas musicales estén a 44100 Hz. El principio de Nyquist relaciona frecuencia de muestreo y banda representable bajo condiciones de muestreo y filtrado. La profundidad de bits se relaciona con cuantización de amplitud, no con número de teclas ni de semitonos. [F51]
+
+Ejemplo resuelto: a negra = 120, una semicorchea dura 0,125 s. En 4/4 hay dieciséis posiciones de semicorchea por compás. Una rejilla de tresillos de corchea divide cada negra en tres, no en cuatro. Confundir esas rejillas cambia el ritmo aunque el número de compás no se modifique.
+
+Procedimiento práctico: fijar referencia de afinación y mapa de tempo; escribir un fragmento; exportar MusicXML para lectura y MIDI para eventos; asignar instrumento; renderizar audio; comparar ataques, alturas, repeticiones y duración. Cada exportación responde a una necesidad y requiere una comprobación propia.
+
+
+31. LECTURA, AUDICIÓN, MEMORIA Y METODOLOGÍA DE ESTUDIO
+
+La alfabetización musical combina reconocimiento visual, anticipación, coordinación y comprensión. Memorizar nombres sin relacionarlos con sonido deja una habilidad incompleta; practicar solo por oído puede dificultar la comunicación escrita cuando el trabajo exige partituras. La enseñanza puede relacionarlas sin confundir los resultados de Fundamentos Musicales y Entrenamiento Auditivo.
+
+La lectura rítmica comienza identificando pulso, compás, subdivisión y células recurrentes. La lectura de alturas puede usar notas de referencia y distancias. Antes de ejecutar un fragmento conviene inspeccionar clave, registro, armadura, cambios, repeticiones y mayor dificultad. Una lectura a primera vista no empieza en el primer ataque: comienza con esa preparación.
+
+La audiación o escucha interior consiste, en un sentido pedagógico general, en imaginar y comprender relaciones sonoras sin depender de su presencia física inmediata. Puede trabajarse cantando una frase, continuándola mentalmente y verificando después. No debe usarse una única técnica como promesa de aprendizaje garantizado para todas las personas.
+
+El solfeo con do fijo asocia do al nombre estable de una nota; el do móvil relaciona sílabas con grados de una tónica. Ambos permiten objetivos distintos y tienen variantes para el modo menor y el cromatismo. Declarar cuál se usa evita confundir nombres absolutos y funciones.
+
+Un dictado puede separarse en tareas: inferir pulso y extensión; registrar patrón rítmico; identificar centro y puntos de apoyo; completar alturas; revisar. El reconocimiento de intervalos aislados no garantiza identificar una línea dentro de una textura compleja. La transferencia necesita ejercicios en contexto. [F52]
+
+Rutina orientativa de treinta minutos: cinco de lectura de notas de referencia; cinco de células rítmicas; diez de construcción y escucha de un ejemplo; cinco de corrección; cinco de registro de errores y próxima tarea. La distribución es ajustable. La regularidad y la retroalimentación concreta importan más que una cantidad universal de minutos.
+
+Para estudiar sin conexión bastan papel pautado, lápiz y un medio de referencia sonora. Una fotografía debe mostrar clave y compás completos. El uso de software no sustituye comprender lo escrito, y la ausencia de software de pago no impide alcanzar los resultados del PIAA.
+
+Actividad: conservar la primera y segunda versión de un fragmento. Clasificar correcciones en altura, duración, agrupación, expresión y presentación. Esa comparación convierte el error en evidencia de un procedimiento que se puede mejorar.
+
+
+32. DIVERSIDAD CULTURAL Y CONTEXTOS COLOMBIANOS
+
+Los conceptos básicos se enseñan mejor cuando se reconoce su procedencia y su ámbito. La notación tonal occidental resulta útil para gran parte de la música profesional, pero no describe por sí sola todos los sistemas rítmicos, afinaciones, relaciones colectivas ni valores de una práctica.
+
+Una estructura pentatónica documentada en varias regiones no prueba un único origen ni idéntica función. Un patrón de seis subdivisiones no demuestra que dos tradiciones compartan género. La comparación responsable distingue semejanza formal, historia de transmisión y significado social.
+
+Las músicas de marimba, cantos y bailes del Pacífico sur colombiano y de Esmeraldas en Ecuador se vinculan con vida comunitaria, transmisión de saberes y contextos rituales y festivos. La documentación de UNESCO permite situar esas prácticas más allá de una lista de instrumentos. No debe convertirlas en un catálogo de «sonidos exóticos» para usar sin contexto. [F53]
+
+En repertorios colombianos aparecen interacciones entre agrupaciones binarias y ternarias. Para estudiar un ejemplo de bambuco, currulao o joropo se requiere una interpretación y una fuente concretas; la etiqueta de género no determina un único patrón universal. Una transcripción puede destacar una capa en 6/8 y otra con agrupación 3/4. La elección debe justificarse por acentos, fraseo, acompañamiento y propósito analítico.
+
+El material de este tratado utiliza ejercicios originales de 3 contra 2 y hemiola para comprender la relación matemática. No los presenta como transcripciones auténticas de esos géneros. La ejecución estilística se aprende también mediante escucha de portadores, contexto y práctica compartida.
+
+Para analizar una grabación de tradición oral: identificar intérpretes, procedencia y ocasión cuando se conozcan; escuchar varias versiones; registrar qué permanece y qué varía; transcribir solo la dimensión necesaria; conservar junto a la partitura una referencia a la interpretación. Si la fuente no permite una afirmación histórica, dejarla abierta.
+
+Los estudios de consonancia y canto humano ayudan a cuestionar simplificaciones: la exposición cultural puede influir en preferencias, y la existencia de patrones comunes no elimina diversidad interna. Tampoco autorizan a negar todos los factores perceptivos compartidos. La buena docencia distingue resultados de un experimento, hipótesis explicativas y decisiones pedagógicas. [F04, F06]
+
+
+33. PROCEDIMIENTO INTEGRAL PARA ESCRIBIR Y REVISAR UNA PARTITURA
+
+Paso 1. Formular el propósito: quién leerá, para qué instrumento y con qué nivel. Especificar si la escritura es una composición, una transcripción o un arreglo. Cuando es transcripción, identificar la versión.
+
+Paso 2. Definir referencia de registro, centro o colección, compás y unidad de tempo. Para un primer fragmento del PIAA puede elegirse do mayor, 4/4 y negra = 80, con ámbito do4-do5.
+
+Paso 3. Esbozar un motivo breve y un plan de cuatro u ocho compases. Identificar un cierre intermedio y uno final. No rellenar compases con notas arbitrarias solo para completar la extensión.
+
+Paso 4. Escribir alturas y duraciones por voz. Sumar cada compás en una unidad común. En polifonía, las voces no se suman entre sí: cada una debe cubrir el tiempo correspondiente. Acordes simultáneos no multiplican la duración del compás por su número de notas.
+
+Paso 5. Revisar ortografía: escala, intervalos, función de alteraciones, alcance de accidentes y ligaduras. La reproducción puede sonar igual con enarmonías incorrectas; escuchar no detecta toda falta de escritura.
+
+Paso 6. Revisar legibilidad: clave apropiada, agrupación conforme al pulso, silencios claros, plicas, espaciado y número razonable de líneas adicionales. Una pieza puede sumar correctamente y aun así resultar difícil de leer.
+
+Paso 7. Añadir tempo, dinámica, articulación, fraseo y nombres de instrumentos con una intención específica. Un exceso de signos contradictorios no agrega precisión. Indicar solo lo que se puede explicar y ejecutar.
+
+Paso 8. Comprobar la realización: cantar o tocar lentamente, usar reproducción si está disponible y contrastar lo escrito con lo que se escucha. Verificar repeticiones, finales y compases incompletos. Revisar también el documento exportado.
+
+Paso 9. Preparar entrega: título, versión, fecha, autoría real, páginas legibles y formato solicitado. Si se entregan MusicXML y audio, ambos deben corresponder a la misma revisión. No atribuir a una persona institucional la autoría de ejercicios nuevos sin autorización.
+
+Paso 10. Explicar decisiones en un párrafo: centro, compás, motivo, cierre, instrumentación y una corrección realizada. Esa explicación permite evaluar comprensión además de apariencia.
+
+Lista final de verificación: altura y octava; duración por voz; agrupación métrica; alteraciones; transporte; expresión; forma; legibilidad; correspondencia entre archivos. No es necesario convertir esa lista en diez calificaciones independientes: puede servir como herramienta de autocorrección.
+
+
+33.1. Repeticiones, recorridos y signos de extensión
+
+Una barra de repetición final devuelve al comienzo de repetición anterior o al inicio si no hay otro indicado. Los corchetes de primera y segunda casilla especifican finales alternos. Por ejemplo, si la primera casilla contiene el compás 4 y la segunda el 5, el recorrido puede ser 1-2-3-4, luego 1-2-3-5. Saltarse también el compás 3 en la segunda pasada sería un error de recorrido, no de altura.
+
+Da capo o D.C. indica volver al principio; dal segno o D.S. indica volver al signo. Fine señala el cierre pertinente y al Fine pide terminar allí después del retorno indicado. Al Coda organiza un salto a la coda cuando corresponde en el recorrido, normalmente después de realizar el retorno. Las repeticiones internas durante una vuelta dependen de instrucciones y convenciones editoriales; si hay ambigüedad en un material de sesión, escribir el recorrido explícito.
+
+Las indicaciones 8va y 8vb desplazan la ejecución por octava arriba o abajo a lo largo de su extensión señalada. Loco restablece el registro escrito ordinario. No equivalen a una nueva clave ni a cambiar de tonalidad. El calderón prolonga un evento de manera contextual; la cesura interrumpe el flujo y requiere coordinación.
+
+El trémolo puede representar repetición rápida de una altura o alternancia entre alturas. La cantidad de barras y el contexto determinan si se prescribe subdivisión medida o una reiteración no estrictamente medida. No se debe confundir con el trino, que alterna una nota y su vecina según convenciones históricas. Divisi divide una sección instrumental entre notas o partes; unisono puede reunirla de nuevo. Un acorde imposible para una sola voz puede ser realizable por una sección dividida.
+
+En 4/4 puede aparecer el signo C como compás común; C cortado representa habitualmente 2/2. No deben interpretarse como acordes de do. Los símbolos cumplen funciones distintas según posición: el C de un cifrado sobre el pentagrama es armónico; el signo de compás aparece en la posición reservada a la organización métrica.
+
+
+34. ANÁLISIS RESUELTO DE UNA COMPOSICIÓN DIDÁCTICA DE OCHO COMPASES
+
+La pieza E59, llamada Estudio de ocho compases, es un ejemplo original en do mayor, 4/4, negra = 80. La melodía utiliza negras y blancas y el acompañamiento sostiene tríadas. No es una obra de repertorio atribuida a un compositor histórico.
+
+Lectura textual de la melodía; todas las alturas tienen octava explícita:
+1. do4 negra, re4 negra, mi4 negra, sol4 negra.
+2. la4 negra, sol4 negra, fa4 negra, mi4 negra.
+3. re4 negra, mi4 negra, fa4 negra, re4 negra.
+4. si3 blanca, sol4 blanca.
+5. do4 negra, re4 negra, mi4 negra, sol4 negra.
+6. la4 negra, do5 negra, si4 negra, la4 negra.
+7. fa4 negra, mi4 negra, re4 negra, si3 negra.
+8. do4 redonda.
+
+Acorde por compás: C | F | Dm | G | C | Am | G7 | C.
+Grados:             I | IV | ii | V | I | vi | V7 | I.
+
+La armadura no tiene alteraciones. La presencia de do como apoyo, el comienzo y el cierre con C y la resolución G7-C sostienen la lectura de do mayor. El ámbito melódico es si3-do5, una novena menor. Esa extensión no debe confundirse con una octava por observar solo los nombres de los extremos.
+
+El compás 1 define un motivo de dos pasos ascendentes y un salto de tercera hacia sol. El compás 5 lo repite exactamente y hace reconocible el retorno. El compás 6 amplía el registro hacia do5 y forma el punto más agudo. El 8 sostiene do4 durante todo el compás, reduciendo la actividad para cerrar.
+
+En el compás 2, la y fa son miembros de F; sol funciona como paso entre la y fa, y mi puede participar de la continuación hacia re del compás siguiente. La lectura de una nota ajena al acorde necesita ese contexto. En el compás 3, mi conecta re y fa sobre Dm. En el 7, fa es la séptima de G7, re y si son miembros del acorde y mi actúa como paso en el descenso fa-mi-re.
+
+Los primeros cuatro compases terminan en V y permiten oír una semicadencia didáctica. Los cuatro siguientes regresan a I. Esta disposición aproxima una relación de antecedente y consecuente con comienzo paralelo, aunque su caracterización formal completa depende de fraseo y ejecución. El texto evita asignar una categoría solo por contar ocho compases.
+
+La cadencia final usa G7-C, pero la melodía llega desde si3 a do4, proporcionando la sensible-tónica. El acompañamiento puede resolver fa-mi. El análisis debe revisar cada voz real antes de afirmar que toda tendencia está realizada; una sucesión de símbolos no garantiza una conducción determinada.
+
+Cálculo temporal: cada negra dura 60/80 = 0,75 s. Cada compás dura 3 s y los ocho compases 24 s sin cambios ni repeticiones. Si un intérprete añade un ritardando, el tiempo real puede aumentar.
+
+Ampliación: transportar el estudio a sol mayor. Mantener duraciones; usar sol-la-si-re como primer motivo; sustituir armonías por G-C-Am-D-G-Em-D7-G y armadura con fa#. La revisión exige conservar intervalos, no trasladar el dibujo del pentagrama sin comprobar alteraciones.
+
+35. EJERCICIOS DE APLICACIÓN Y SOLUCIONES COMENTADAS
+
+Estos ejercicios verifican comprensión escrita. Escucharlos después permite relacionar la solución con su resultado sonoro. Las soluciones de creación admiten variantes: se valora que las decisiones estén justificadas y sean consistentes.
+
+35.1. Registro y claves
+Problema: ubicar do4 en clave de sol y de fa. Identificar las notas de la tercera línea en cada clave.
+Solución: do4 está en la primera línea adicional inferior en sol y primera adicional superior en fa. Las terceras líneas corresponden a si4 en sol y re3 en fa. La línea visual no tiene nombre sin clave.
+
+35.2. Duración y silencio
+Problema: completar 3/4 después de una negra y dos corcheas con un solo silencio.
+Solución: negra más dos corcheas suma dos negras; falta una negra. Añadir un silencio de negra. Una blanca no cabe porque llevaría el total a cuatro.
+
+35.3. Puntillo doble
+Problema: calcular una negra con doble puntillo en semicorcheas.
+Solución: negra = 4 semicorcheas; primer puntillo = 2; segundo = 1. Total 7 semicorcheas, equivalentes a 1,75 negras. Cada puntillo se calcula con respecto a la adición anterior, no siempre como mitad del valor inicial.
+
+35.4. Prolongación sobre una barra
+Problema: un sol4 comienza en el cuarto pulso de 4/4 y debe durar tres negras sin reataque. Escribir la división necesaria.
+Solución: sol4 negra al final del primer compás ligado a sol4 blanca al comienzo del siguiente. En el segundo faltarán dos negras para completar el compás de esa voz. Una blanca con puntillo colocada sin división ocultaría la barra y no sería la escritura convencional pertinente.
+
+35.5. Compás compuesto
+Problema: cuántos pulsos principales y corcheas hay en 9/8 bajo su lectura compuesta habitual.
+Solución: tres pulsos de negra con puntillo y nueve corcheas. Confundirlos con nueve pulsos principales impide leer correctamente la jerarquía aunque la suma sea correcta.
+
+35.6. Duración física
+Problema: duración de cuatro compases de 6/8 a negra con puntillo = 60.
+Solución: un pulso dura un segundo; cada compás tiene dos; cuatro compases duran ocho segundos. A corchea = 60, el mismo número de compases duraría veinticuatro segundos. La figura de referencia cambia el cálculo.
+
+35.7. Anacrusa y cierre
+Problema: proponer una organización regular de 3/4 con anacrusa de corchea.
+Solución: la entrada inicial dura media negra; un cierre complementario puede durar dos negras y media. Esa complementariedad sirve para este ejercicio regular y no es una ley que deba imponerse a toda obra.
+
+35.8. Tres contra dos
+Problema: marcar tres ataques equidistantes contra dos dentro de un ciclo de seis unidades.
+Solución: capa A en posiciones 0, 2 y 4; capa B en 0 y 3. El siguiente ataque conjunto está en 6, inicio del nuevo ciclo. Practicar lentamente sin convertir la capa de tres en una secuencia de duraciones desiguales.
+
+35.9. Escala mayor
+Problema: construir sib mayor y escribir su armadura.
+Solución: sib-do-re-mib-fa-sol-la-sib. Armadura con sib y mib. La sucesión de distancias es 2, 2, 1, 2, 2, 2 y 1 semitonos. Re# no sustituye ortográficamente a mib en esta escala.
+
+35.10. Escala menor
+Problema: construir mi menor natural y armónica.
+Solución: natural mi-fa#-sol-la-si-do-re-mi; armónica eleva re a re#. Ambas conservan fa# en la armadura. El re# es la sensible cromáticamente elevada respecto de la colección natural.
+
+35.11. Relativas y paralelas
+Problema: relativa menor de fa mayor y paralela menor de fa mayor.
+Solución: re menor y fa menor respectivamente. Fa mayor y re menor comparten sib; fa menor comparte tónica con fa mayor pero tiene armadura distinta.
+
+35.12. Modos paralelos
+Problema: diferenciar re dórico y re menor natural.
+Solución: re dórico = re-mi-fa-sol-la-si-do; re menor natural = re-mi-fa-sol-la-sib-do. La sexta natural si distingue el dórico de la colección eólica en esa tónica. Que ambas tengan fa no permite diferenciarlas por su tercera.
+
+35.13. Intervalos enarmónicos
+Problema: clasificar do-fa# y do-solb.
+Solución: cuarta aumentada y quinta disminuida. Ambos abarcan seis semitonos en temperamento igual. La relación acústica coincide bajo ese sistema; la identidad escrita no.
+
+35.14. Intervalo sobre nota alterada
+Problema: construir una tercera mayor sobre lab.
+Solución: lab-do. Los nombres dan tercera y la distancia es cuatro semitonos. Dob produciría una tercera menor, no mayor. Subir automáticamente todas las notas con bemol da una respuesta incorrecta.
+
+35.15. Inversión de intervalo
+Problema: invertir mi-do ascendente y nombrar ambos intervalos.
+Solución: mi4-do5 es sexta menor; do5-mi5 es tercera mayor. Los números suman nueve y menor se transforma en mayor. Debe indicarse registro para evitar interpretar el do original por debajo de mi.
+
+35.16. Tríadas
+Problema: construir fa# menor y si disminuido.
+Solución: fa#-la-do# y si-re-fa. Cada tríada debe revisarse desde su fundamental; el tamaño de la tercera y de la quinta determina su cualidad.
+
+35.17. Bajo e inversión
+Problema: clasificar las notas sol3-do4-mi4.
+Solución: do mayor en segunda inversión porque sol es el bajo. La nota más aguda mi no determina la inversión. El cifrado es C/G bajo la convención internacional.
+
+35.18. Séptimas
+Problema: comparar A7 y Amaj7.
+Solución: A7 = la-do#-mi-sol; Amaj7 = la-do#-mi-sol#. La diferencia está en la séptima; ambos contienen tríada mayor. «7» no significa séptima mayor por defecto en cifrado popular.
+
+35.19. Nota de paso
+Problema: analizar do4-re4-mi4 sobre acorde de do mayor, en negras.
+Solución: re puede funcionar como paso si conecta do y mi dentro de esa continuidad. Su acento y duración pueden modificar el carácter del adorno. Está en la escala de do mayor, pero no en la tríada de do mayor.
+
+35.20. Función y cifrado
+Problema: expresar I-vi-ii-V7-I en sol mayor.
+Solución: G-Em-Am-D7-G. Las notas de D7 son re-fa#-la-do. El fa# pertenece a la armadura y funciona como sensible de sol dentro de ese acorde.
+
+35.21. Cadencia
+Problema: decidir si cualquier G-C en una pieza de do es una cadencia auténtica perfecta.
+Solución: no. Hay que comprobar que articula cierre, que los acordes están en las posiciones exigidas por la definición empleada y que la melodía cierra en tónica. Una etiqueta de progresión no establece por sí sola el tipo completo de cadencia.
+
+35.22. Cromatismo
+Problema: explicar fa# en C-D7-G-C.
+Solución: es la tercera de D7 y sensible de sol dentro de la tonicización de V. D7 funciona como V7/V. No basta ese acorde para demostrar una modulación estable a sol.
+
+35.23. Transporte
+Problema: preparar do-mi-sol de concierto para clarinete en sib.
+Solución: escribir re-fa#-la, una segunda mayor por encima. Si se escribe do-mi-sol, el instrumento sonará sib-re-fa y no coincidirá con la idea de concierto.
+
+35.24. Acústica
+Problema: calcular el quinto armónico de 220 Hz y compararlo con su octava inferior.
+Solución: quinto armónico = 1100 Hz. Dividir por dos una vez da 550 Hz y otra vez 275 Hz. Respecto de 220, 275/220 = 5/4: una tercera mayor justa reducida por dos octavas. El número del armónico no equivale al nombre diatónico del intervalo.
+
+35.25. Cents
+Problema: distancia de 440 a 445 Hz.
+Solución: 1200 log2(445/440), aproximadamente 19,56 cents. La diferencia absoluta es 5 Hz; ese dato no equivale a cinco cents ni a cinco semitonos.
+
+35.26. Textura
+Problema: un violín toca una melodía y un piano acordes bajo ella; después el piano responde con una segunda línea autónoma. Describir el cambio.
+Solución: el primer caso puede describirse como melodía acompañada; el segundo puede acercarse a una textura contrapuntística o polifónica según el grado de autonomía. No se decide contando dos instrumentos en ambos casos.
+
+35.27. Forma
+Problema: justificar una lectura A-B-A sin basarse solo en duración.
+Solución: mostrar material inicial identificable, contraste de B y retorno de rasgos de A. El retorno puede incluir variación. Si los tres bloques usan el mismo material sin contraste ni retorno reconocible, las letras elegidas necesitan revisión.
+
+35.28. Timbre y espectro
+Problema: explicar por qué un bajo puede ser audible en un parlante que reproduce débilmente su fundamental.
+Solución: los armónicos aportan información de periodicidad y altura, además de energía en bandas que el parlante reproduce mejor. La fundamental física débil no implica desaparición de toda identidad de altura. No se debe prometer idéntica sensación de peso grave.
+
+35.29. MIDI y audio
+Problema: una nota MIDI termina a los 0,5 s pero se escucha cola hasta 1 s. ¿Existe necesariamente un error?
+Solución: no. La liberación de la envolvente, el pedal o la reverberación pueden continuar después del fin del evento. Revisar qué mide cada representación antes de recortar.
+
+35.30. Proyecto final de escritura
+Problema: componer ocho compases en fa mayor, 6/8, con anacrusa opcional, un motivo que reaparezca, dos dinámicas y acompañamiento de tríadas.
+Solución orientativa: emplear fa-sol-la como célula; agrupar corcheas 3+3; utilizar F, Bb y C como recursos básicos; conservar sib donde corresponda; cerrar sobre fa con un gesto preparado. Comprobar seis corcheas por compás completo y dos pulsos compuestos. Otras armonías y cierres son posibles si están explicados.
+
+Una rúbrica de revisión puede observar exactitud de altura y duración, coherencia de organización, claridad notacional y explicación de decisiones. Sus pesos deben ajustarse al PIAA aprobado; este banco no reemplaza su sistema de evaluación.
+
+
+36. SECUENCIA DE PROFUNDIZACIÓN DE DIECISÉIS SEMANAS
+
+Esta secuencia organiza contenidos, no modifica horas oficiales. El estudio auditivo acompaña la escritura y se coordina con la asignatura específica de entrenamiento.
+
+Semana 1. Sonido y representación. Diferenciar frecuencia, intensidad y timbre. Producto: descripción de una escucha y lectura de E01.
+Semana 2. Pentagrama, claves y registro. Producto: alturas en sol y fa, con líneas adicionales. E02-E04.
+Semana 3. Alteraciones y enarmonía. Producto: corrección de alturas y explicación de dos semitonos. E05-E06.
+Semana 4. Figuras, silencios, puntillos y ligaduras. Producto: ocho compases cuya suma y agrupación estén verificadas. E07-E08.
+Semana 5. Pulso y compases simples. Producto: versiones en 2/4, 3/4 y 4/4 de un motivo. E09-E11.
+Semana 6. Compás compuesto y entradas. Producto: contraste 3/4-6/8 y una frase anacrúsica. E12-E17.
+Semana 7. Escalas mayores y armaduras. Producto: do, fa y sol mayor con grados identificados. E23-E25.
+Semana 8. Menor natural y pentatonismo. Producto: la, re y mi menor y una melodía pentatónica. E26-E32.
+Semana 9. Intervalos. Producto: construcción y clasificación con número y cualidad. E43-E45.
+Semana 10. Tríadas y arpegios. Producto: mayores y menores en estado fundamental y comparación opcional de inversiones. E49-E50.
+Semana 11. Motivo y frase. Producto: cuatro compases con repetición y variación explicadas. E46-E48.
+Semana 12. Funciones y cierres. Producto: análisis de I-IV-V-I y escritura de un final. E52-E54.
+Semana 13. Timbre y registro. Producto: propuesta instrumental viable y distinción entre altura escrita y sonora. E62-E64.
+Semana 14. Expresión, textura y forma. Producto: dos versiones expresivas y un mapa de secciones. E57-E61.
+Semana 15. Edición integral. Producto: primera versión de ocho compases y registro de errores. E59.
+Semana 16. Revisión y entrega. Producto: partitura final, explicación de decisiones y comparación entre versiones.
+
+Profundizaciones posteriores: afinación histórica y microtonalidad; modos; 9/8 y 12/8; polirritmia y compases aditivos; séptimas y extensiones; cromatismo; contrapunto; análisis cultural. Cada ampliación debe recuperar conocimientos previos y producir una representación que se pueda revisar.
+
+
+37. GLOSARIO RAZONADO Y DISTINCIONES ESENCIALES
+
+Acento: prominencia de un evento; puede ser métrica, dinámica, agógica, tímbrica o de registro.
+Acorde: conjunto organizado de alturas simultáneas o implícitas; no siempre es una tríada.
+Agógica: organización expresiva de variaciones temporales.
+Altura: dimensión perceptiva grave-agudo; no equivale simplemente a amplitud.
+Ámbito: distancia entre extremos de una línea o parte.
+Anacrusa: comienzo que antecede a un apoyo métrico de referencia.
+Armadura: conjunto de alteraciones iniciales con alcance sistemático en la escritura.
+Armónico: componente de frecuencia múltiplo entero de una fundamental.
+Armonía: organización de simultaneidades y sus relaciones temporales; su análisis depende del lenguaje.
+Arpegio: presentación sucesiva de miembros de un acorde.
+Articulación: manera de iniciar, conectar, sostener y separar eventos.
+Bajo: altura o línea más grave en el contexto considerado; puede diferir de la fundamental.
+Becuadro: signo de cancelación de una alteración en el contexto pertinente.
+Cadencia: articulación de llegada o cierre; requiere posición y función en la frase.
+Cent: una de las 1200 partes logarítmicamente iguales de una octava.
+Cifrado: sistema abreviado de representación de acordes o relaciones; hay distintas convenciones.
+Clase de altura: identidad considerada bajo equivalencia de octava, como todos los do.
+Clave: signo que fija referencias de altura en el pentagrama.
+Compás: unidad de organización métrica y su representación mediante barras y cifra.
+Conducción de voces: conexión horizontal de partes entre sonoridades.
+Consonancia: término que puede indicar estabilidad estilística, fusión, baja rugosidad o preferencia; conviene precisar cuál.
+Contrapunto: estudio y práctica de relación entre líneas con autonomía relativa.
+Contratiempo: ataque en posición débil con ausencia en un apoyo fuerte según el patrón y la terminología usados.
+Cromatismo: utilización contextual de alturas ajenas a la colección diatónica de referencia.
+Diatónico: perteneciente a un sistema o colección diatónica; no significa exclusivamente teclas blancas.
+Dinámica: organización de intensidades musicales relativas.
+Disonancia: relación de tensión o inestabilidad según contexto; no sinónimo de sonido incorrecto.
+Dominante: quinto grado o categoría funcional según el uso; distinguir ambas acepciones.
+Enarmonía: escrituras distintas que pueden coincidir en altura dentro de un sistema de afinación.
+Envolvente: evolución temporal de un parámetro del sonido, a menudo amplitud.
+Escala: ordenación de alturas según un patrón.
+Espectro: distribución de componentes frecuenciales de una señal bajo un análisis determinado.
+Espectrograma: representación de frecuencia y magnitud a lo largo del tiempo.
+Figura: signo de duración relativa; requiere contexto temporal para traducirse a segundos.
+Forma: organización de relaciones entre unidades y secciones en el tiempo.
+Frase: unidad con recorrido y delimitación musical; no una cantidad fija de compases.
+Frecuencia: ciclos por segundo de una oscilación periódica.
+Fundamental acústica: referencia de periodicidad de un espectro armónico.
+Fundamental de acorde: nota que identifica su estructura; no necesariamente su sonido más grave.
+Grado: posición y relación de una altura dentro de una escala o tonalidad.
+Groove: experiencia de organización y coordinación rítmica que involucra más que la posición exacta de ataques.
+Hemiola: relación o reagrupación de dos y tres con terminologías históricas diversas.
+Heterofonía: variantes simultáneas de una misma línea.
+Homofonía: organización con jerarquía compartida o melodía acompañada según el uso.
+Inarmonicidad: desviación de los parciales respecto de múltiplos enteros ideales.
+Intervalo: relación entre dos alturas, definida por número y cualidad en la notación diatónica.
+Inversión de acorde: disposición determinada por qué miembro está en el bajo.
+Inversión de intervalo: reorganización por octava que cambia la relación superior-inferior.
+Legato: continuidad entre sonidos; su realización es instrumental y contextual.
+Ligadura de expresión: curva que organiza conexión o fraseo sin sumar valores por sí misma.
+Ligadura de prolongación: curva que suma duraciones de una misma altura sin nuevo ataque.
+Melodía: organización sucesiva de alturas, duraciones y apoyos con identidad contextual.
+Métrica: organización de niveles y jerarquías temporales.
+Microtonalidad: relaciones de altura que exceden el marco exclusivo de doce semitonos iguales.
+MIDI: sistema de comunicación de eventos y controles musicales; no es una grabación sonora.
+Modo: patrón y comportamiento de organización de alturas cuyo significado depende de la tradición.
+Modulación: establecimiento de otro centro tonal con apoyo contextual suficiente.
+Monodia: textura de una sola línea, aunque pueda estar duplicada.
+Motivo: unidad breve reconocible y susceptible de transformación.
+MusicXML: formato de intercambio de información notacional.
+Octava: intervalo de proporción ideal 2:1 y equivalencia de clase adoptada en el sistema explicado.
+Orquestación: distribución y combinación de recursos instrumentales en un contexto musical.
+Ostinato: patrón recurrente que puede ser rítmico, melódico o armónico.
+Parcial: componente de un espectro; puede ser armónico o inarmónico.
+Pedal: altura sostenida o reiterada mientras otras relaciones cambian.
+Pentagrama: cinco líneas que representan posiciones cuya altura determina la clave.
+Pentatónica: colección de cinco clases de altura; existen múltiples patrones.
+Polifonía: textura de líneas con independencia relativa.
+Polimetría: coexistencia de organizaciones métricas diferenciadas.
+Polirritmia: superposición de organizaciones rítmicas diferentes.
+Predominante: función que prepara habitualmente una dominante en ciertos lenguajes tonales.
+Pulso: referencia temporal recurrente explícita o inferida.
+Puntillo: adición de la mitad del valor de una figura; los siguientes añaden mitades sucesivas.
+Registro: región de altura ocupada por una voz, línea o instrumento.
+Ritmo: organización de ataques, duraciones y pausas.
+Ritmo armónico: velocidad y distribución de los cambios de armonía.
+Rubato: flexibilización expresiva del tiempo según práctica y contexto.
+Semitono: intervalo mínimo en doce divisiones iguales; el concepto y su tamaño cambian en otros sistemas.
+Sensible: grado situado un semitono por debajo de una tónica y relacionado direccionalmente con ella.
+Síncopa: conflicto o desplazamiento de énfasis respecto de una expectativa métrica.
+Sonoridad: magnitud perceptiva de intensidad; no equivale directamente a una medida física única.
+Subdivisión: partición de una unidad temporal en unidades menores.
+Temperamento: ajuste sistemático de relaciones de afinación para un conjunto de prioridades musicales.
+Tempo: rapidez de una unidad temporal indicada.
+Tesitura: zona de uso predominante o cómodo, según contexto; distinta del rango extremo posible.
+Textura: relación funcional entre partes simultáneas.
+Timbre: cualidades que distinguen sonidos más allá de su altura y sonoridad, con componentes espectrales y temporales.
+Tonalidad: organización jerárquica alrededor de un centro en un sistema tonal.
+Tonicización: establecimiento temporal de peso de tónica en una armonía secundaria.
+Tónica: centro de referencia de una organización tonal o modal según el caso.
+Transposición: desplazamiento sistemático de alturas conservando relaciones definidas.
+Tríada: estructura de fundamental, tercera y quinta organizada por terceras.
+Tresillo: tres unidades en el espacio de dos del mismo valor nominal en el caso 3:2.
+Voicing: distribución concreta de miembros de una armonía entre registros y partes.
+
+Distinciones para revisar siempre: frecuencia/altura; amplitud/sonoridad; ritmo/tempo; simple/binario; escala/tonalidad; bajo/fundamental; acorde/función; inversión/disposición; transposición/cambio de clave; MIDI/audio; corrección acústica/ortografía musical.
+
+
+38. BIBLIOGRAFÍA, FUENTES WEB Y NOTAS DE CONSULTA
+
+38.1. Método y alcance de la investigación documental
+
+Se realizó una investigación documental narrativa y de contraste, no una revisión sistemática de toda la literatura musicológica. Se revisaron los documentos institucionales aportados, capítulos de libros abiertos, artículos de investigación, recursos de autores e instituciones y páginas de Wikipedia en español e inglés. La búsqueda se organizó por los ejes sonido, escritura, ritmo, escalas, melodía, armonía, forma, instrumentos y representación digital.
+
+Se eligieron fuentes por pertinencia pedagógica, identificación de autoría o institución y posibilidad de comprobar la explicación. Las fórmulas y ejemplos se verificaron además mediante cálculos y revisión notacional. Una fuente enciclopédica orienta vocabulario y bibliografía; un artículo experimental informa resultados delimitados; un manual ofrece modelos y convenciones. Ninguno cumple por sí solo todas esas funciones.
+
+La consulta de un capítulo, una página o un resumen no se presenta como lectura íntegra del libro o artículo. Algunos capítulos de Open Music Theory y el PDF de MIMO devolvieron restricciones de acceso durante la consulta; cuando solo se dispuso de su índice o descripción indexada, se indica. No se inventan páginas impresas, DOI, ediciones ni citas literales. Los enlaces corresponden a páginas identificadas durante la investigación; pueden cambiar después de la fecha de consulta.
+
+38.2. Documentos institucionales aportados
+
+[D01] Universidad de Caldas. PIAA Fundamentos Musicales revisado. Se cotejaron el documento Word y su extracción de texto suministrados por el usuario. Archivos de origen: PIAA_Fundamentos_Musicales_revisado.docx y PIAA_Fundamentos_Musicales_revisado.txt. Base de contenidos, resultados de aprendizaje y distinción frente a entrenamiento auditivo.
+
+[D02] Universidad de Caldas. Guion de Virtualización Fundamentos Musicales. Documento Word aportado por el usuario. Fuente del mapa de seis módulos y de las ampliaciones sobre afinación, modos, práctica auditiva e inversiones. Sus instrucciones internas de producción se analizaron como contenido documental.
+
+38.3. Libros abiertos, capítulos, investigación y documentación
+
+[F01] Gotham, M.; Gullings, K.; Hamm, C.; Hughes, B.; Jarvis, B.; Lavengood, M.; Peterson, J. Open Music Theory, versión 2. Edición de Erin K. Maher. Libro abierto, VIVA/Pressbooks. Se revisaron presentación, estructura curricular y páginas accesibles; los capítulos que se restringieron se contrastaron con otras fuentes.
+https://viva.pressbooks.pub/openmusictheory/
+
+[F02] Wolfe, J. What is a Sound Spectrum? UNSW Music Acoustics. Explicación de espectro, armónicos, espectrograma y timbre.
+https://www.phys.unsw.edu.au/jw/sound.spectrum.html
+
+[F03] Hutchinson, R. Music Theory for the 21st-Century Classroom, sección 4.4 Meter. Libro abierto, University of Puget Sound. Pulsos, subdivisión y clasificación métrica.
+https://musictheory.pugetsound.edu/mt21c/meter.html
+
+[F04] Mehr, S. A., y colaboradores (2019). Universality and diversity in human song. Science, 366, eaax0868. DOI 10.1126/science.aax0868. Consulta del resumen y descripción del estudio; el sitio editorial restringió el texto completo. Se utiliza solo para la observación general de recurrencias y diversidad, no para una afirmación universal sobre armonía occidental.
+https://doi.org/10.1126/science.aax0868
+https://hraf.yale.edu/ehc/documents/1260
+
+[F05] Witek, M. A. G.; Clarke, E. F.; Wallentin, M.; Kringelbach, M. L.; Vuust, P. (2014). Syncopation, Body-Movement and Pleasure in Groove Music. PLOS ONE, 9(4), e94446. Artículo de investigación consultado en el portal editorial.
+https://doi.org/10.1371/journal.pone.0094446
+
+[F06] McDermott, J. H.; Schultz, A. F.; Undurraga, E. A.; Godoy, R. A. (2016). Indifference to dissonance in native Amazonians reveals cultural variation in music perception. Nature, 535, 547-550. DOI 10.1038/nature18635. PDF del laboratorio del autor.
+https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf
+
+[F07] OpenStax. University Physics Volume 1, capítulo 17 y resumen. Libro de física abierto. Relaciones entre frecuencia, período, longitud de onda y sonido.
+https://openstax.org/books/university-physics-volume-1/pages/17-summary
+
+[F08] OpenStax. Physics, sección 14.2 Sound Intensity and Sound Level. Medidas físicas y escala de decibelios.
+https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level
+
+[F09] Auditory Neuroscience. Pitch y demostraciones de fundamental ausente. Material web complementario del libro Auditory Neuroscience. Se consultaron los recursos web, no se afirma lectura íntegra del libro.
+https://auditoryneuroscience.com/book/export/html/25
+
+[F10] Scholtz, K. P. (1998). Algorithms for Mapping Diatonic Keyboard Tunings and Temperaments. Music Theory Online, 4(4). Artículo sobre afinación pitagórica, justa y temperamentos. Complemento: Wolfe, Tartini tones and temperament; AudioLabs, Pythagorean Tuning.
+https://www.mtosmt.org/issues/mto.98.4.4/mto.98.4.4.scholtz.html
+https://www.phys.unsw.edu.au/jw/tartini-temperament.html
+https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1E10_PythagoreanTuning.html
+
+[F11] Hutchinson. Sección 1.2 Notation. Claves y representación en pentagrama.
+https://musictheory.pugetsound.edu/mt21c/Notation.html
+
+[F12] Hutchinson. Capítulo 1 Basic Concepts, apartados de alteraciones y enarmonía. Consultar además el capítulo de Open Music Theory sobre semitonos y alteraciones; parte del acceso de este último fue restringido.
+https://musictheory.pugetsound.edu/mt21c/MusicTheory.html
+
+[F13] Hutchinson. Sección 4.2 Durational Symbols.
+https://musictheory.pugetsound.edu/mt21c/DurationalSymbols.html
+
+[F14] Hutchinson. Sección 4.3 Dots and Ties.
+https://musictheory.pugetsound.edu/mt21c/DotsAndTies.html
+
+[F15] Hutchinson. Sección 4.1 Time Signature. Complementar con F03 para la distinción entre valor escrito y pulso.
+https://musictheory.pugetsound.edu/mt21c/TimeSignature.html
+
+[F16] Gotham, Hamm y Shaffer. Simple Meter and Time Signatures, en Open Music Theory. Se contrastó con F03 y F15.
+https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/
+
+[F17] Hutchinson. Sección 4.5 Tuplets.
+https://musictheory.pugetsound.edu/mt21c/Tuplets.html
+
+[F18] Sioros, G., y colaboradores (2014). Syncopation creates the sensation of groove in synthesized music examples. Frontiers in Psychology, 5, 1036.
+https://doi.org/10.3389/fpsyg.2014.01036
+
+[F19] Hutchinson. Sección 2.2 The Major Scale.
+https://musictheory.pugetsound.edu/mt21c/TheMajorScale.html
+
+[F20] Hutchinson. Sección 2.3 Major Key Signatures.
+https://musictheory.pugetsound.edu/mt21c/MajorKeySignatures.html
+
+[F21] Hutchinson. Sección 3.1 Minor Scales.
+https://musictheory.pugetsound.edu/mt21c/MinorScales.html
+
+[F22] Rodríguez Alvira, J. Referencia sobre escalas pentatónicas, teoria.com. Para el mapa de variantes del blues se consultó también Wikipedia, Blues scale, identificada como fuente enciclopédica y no como estudio primario.
+https://www.teoria.com/es/referencia/o-p/pentatonicas.php
+https://en.wikipedia.org/wiki/Blues_scale
+
+[F23] Wikipedia. Octatonic scale. Fuente enciclopédica para terminología y rutas bibliográficas. La colección del ejemplo se verificó mediante su alternancia de semitonos.
+https://en.wikipedia.org/wiki/Octatonic_scale
+
+[F24] Wikipedia. Mode (music) y Modo musical. Contraste entre usos históricos y modernos; fórmulas verificadas con la colección diatónica. Complemento: ejercicio de modos de teoria.com.
+https://en.wikipedia.org/wiki/Mode_(music)
+https://es.wikipedia.org/wiki/Modo_musical
+https://www.teoria.com/es/ejercicios/ms.php
+
+[F25] Lackner, K. Modes in the Mayo-8 Chants. Recurso académico de Colby College sobre modalidad del canto. Consulta de la descripción y material web accesible.
+https://www.colby.edu/music/saunders/MU241/Lackner.html
+
+[F26] Hutchinson. Sección 5.2 How to Identify Perfect, Major, and Minor Intervals.
+https://musictheory.pugetsound.edu/mt21c/HowToIdentifyIntervals.html
+
+[F27] Hutchinson. Sección 11.1 Motive.
+https://musictheory.pugetsound.edu/mt21c/MotiveSection.html
+
+[F28] Hutchinson. Sección 11.4 Phrase.
+https://musictheory.pugetsound.edu/mt21c/PhraseSection.html
+
+[F29] Hutchinson. Sección 10.1 Introduction to Non-Chord Tones. Complementos: Passing Tones y Suspension.
+https://musictheory.pugetsound.edu/mt21c/NonChordTonesIntroduction.html
+https://musictheory.pugetsound.edu/mt21c/PassingTones.html
+https://musictheory.pugetsound.edu/mt21c/Suspension.html
+
+[F30] Hutchinson. Sección 6.1 Introduction to Triads.
+https://musictheory.pugetsound.edu/mt21c/TriadsIntroduction.html
+
+[F31] Hutchinson. Sección 6.3 Inverted Triads.
+https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html
+
+[F32] Hutchinson. Sección 8.1 Introduction to Seventh Chords.
+https://musictheory.pugetsound.edu/mt21c/SeventhChordsIntroduction.html
+
+[F33] Hutchinson. Sección 6.2 Lead-Sheet Symbols y apartado de séptimas F32. Los ejemplos de símbolos añadidos se explican con sus notas para hacer explícita la convención.
+https://musictheory.pugetsound.edu/mt21c/LeadSheetSymbols.html
+
+[F34] Hutchinson. Capítulo 7 Roman Numerals and Cadences, índice y apartados relacionados con acordes diatónicos. Las tríadas aquí escritas se construyeron sobre cada grado de do mayor.
+https://musictheory.pugetsound.edu/mt21c/MusicTheory.html
+
+[F35] Hutchinson. Sección 9.4 Harmonic Function. El libro distingue categorías que no coinciden exactamente con todas las escuelas de tres funciones; se conserva esa diferencia conceptual.
+https://musictheory.pugetsound.edu/mt21c/HarmonicFunction.html
+
+[F36] Hutchinson. Sección 7.4 Cadences.
+https://musictheory.pugetsound.edu/mt21c/cadences.html
+
+[F37] Hutchinson. Sección 30.1 Species Counterpoint. Complemento: Avoiding Objectionable Parallels.
+https://musictheory.pugetsound.edu/mt21c/SpeciesCounterpoint.html
+https://musictheory.pugetsound.edu/mt21c/AvoidingObjectionableParallels.html
+
+[F38] Hutchinson. Tonicization y Tonicization versus Modulation.
+https://musictheory.pugetsound.edu/mt21c/Tonicization.html
+https://musictheory.pugetsound.edu/mt21c/TonicizationVersusModulation.html
+
+[F39] Hutchinson. Mode Mixture.
+https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html
+
+[F40] Hutchinson. Sección 14.1 Texture. Complemento enciclopédico: Music theory, apartado de textura.
+https://musictheory.pugetsound.edu/mt21c/Texture.html
+https://en.wikipedia.org/wiki/Music_theory
+
+[F41] Hutchinson. Binary and Ternary Form y Sonata Form. Complemento: Wikipedia, Musical form, para mapa de terminología formal.
+https://musictheory.pugetsound.edu/mt21c/BinaryAndTernaryIntroduction.html
+https://musictheory.pugetsound.edu/mt21c/SonataIntroduction.html
+https://en.wikipedia.org/wiki/Musical_form
+
+[F42] Hutchinson. The Period. Capítulo 13 de formas de frase.
+https://musictheory.pugetsound.edu/mt21c/PeriodForm.html
+
+[F43] Hutchinson. Verse-Chorus Form.
+https://musictheory.pugetsound.edu/mt21c/VerseChorusForm.html
+
+[F44] Wikipedia. Dynamics (music). Fuente enciclopédica complementaria para signos dinámicos. Contraste con convenciones de notación del PIAA y recursos de notación.
+https://en.wikipedia.org/wiki/Dynamics_(music)
+
+[F45] MIMO. Revision of the Hornbostel-Sachs Classification of Musical Instruments, 8 de julio de 2011. Se identificó el documento, pero su descarga fue restringida durante la consulta. Para la descripción introductoria se consultaron las entradas enciclopédicas Hornbostel-Sachs en español e inglés; no se reproduce una taxonomía especializada completa.
+https://mimo-international.com/documents/Hornbostel%20Sachs.pdf
+https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs
+https://es.wikipedia.org/wiki/Hornbostel-Sachs
+
+[F46] Wolfe, J. How Do Woodwind Instruments Work? y Brass instrument (lip reed) acoustics: an introduction. UNSW Music Acoustics.
+https://www.phys.unsw.edu.au/jw/woodwind.html
+https://www.phys.unsw.edu.au/jw/brassacoustics.html
+
+[F47] Philharmonia Orchestra. Instruments y recursos por instrumento, incluyendo Cello. Referencia instrumental primaria; los rangos indicados son orientativos y se distinguen de la tesitura cómoda. Complemento: Vienna Symphonic Library, Viola.
+https://philharmonia.co.uk/resources/instruments/
+https://philharmonia.co.uk/resources/instruments/cello/
+https://www.vsl.co.at/academy/strings/viola
+
+[F48] Steps to Music Theory. Transposing Instruments. Libro abierto alojado por Texas A&M University Libraries. Complemento: Wikipedia, Instrumento transpositor.
+https://odp.library.tamu.edu/stepstomusictheory/chapter/transposing-instruments/
+https://es.wikipedia.org/wiki/Instrumento_transpositor
+
+[F49] MIDI Association. MIDI Octave and Note Numbering Standard. Aclaración sobre número 60 y nombres de octava en discusión técnica del organismo. Es una aclaración del sitio, no reproducción completa de la especificación MIDI.
+https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard
+
+[F50] W3C Music Notation Community Group. MusicXML 4.0, Notation Basics y The Structure of MusicXML Files. Documentación del formato.
+https://www.w3.org/2021/06/musicxml40/tutorial/notation-basics/
+https://www.w3.org/2021/06/musicxml40/tutorial/structure-of-musicxml-files/
+
+[F51] Wolfe, J. Musical sounds, musical instruments and musical signals. Apéndice multimedia del capítulo Musical sounds and musical signals, incluido en Sound Musicianship: Understanding the Crafts of Music, editado por A. Brown, 2012. Se consultó el apéndice web. Complemento: material docente Nyquist-Shannon de Leiden University.
+https://www.phys.unsw.edu.au/jw/musical-sounds-musical-instruments.html
+https://home.strw.leidenuniv.nl/~por/AOT2019/docs/AOT_2019_Ex13_NyquistTheorem.pdf
+
+[F52] Open Music Theory. Digital Workbook y referencia a The Basics of Sight-singing and Dictation. Se consultaron la organización y descripción de recursos; la rutina concreta del capítulo 31 es una propuesta pedagógica de este tratado.
+https://viva.pressbooks.pub/openmusictheory/chapter/digital-workbook/
+
+[F53] UNESCO. Marimba music, traditional chants and dances from the Colombia South Pacific region and Esmeraldas Province of Ecuador. Ficha patrimonial y descripción institucional, inscripción de 2015. La versión española presentó una barrera de acceso; se utilizaron descripciones institucionales accesibles en inglés.
+https://ich.unesco.org/en/RL/marimba-music-traditional-chants-and-dances-from-colombias-south-pacific-region-and-esmeraldas-province-of-ecuador-01099
+https://www.unesco.org/tich4sd/en/colombiaecuador/marimba
+
+38.4. Investigación adicional en Wikipedia y lectura crítica
+
+Se incorporó Wikipedia por petición expresa del usuario. Sus entradas sirven para ampliar vocabulario, localizar asuntos y encontrar referencias; su consulta no equivale a verificar todas las afirmaciones de cada artículo. En las versiones examinadas aparecieron algunas simplificaciones o afirmaciones que este tratado no adopta.
+
+En Armonía se encontró una afirmación de exclusividad de la polifonía occidental. No debe utilizarse como fundamento: la simultaneidad organizada no pertenece únicamente a una cultura. Es necesario distinguir una teoría histórica de armonía funcional y el conjunto mundial de prácticas simultáneas. La referencia se conserva como objeto de lectura crítica, no como respaldo de esa exclusividad. [W09]
+
+En Bambuco se encontró una formulación que privilegia rígidamente 6/8 frente a 3/4 y vincula la otra escritura con pérdida de carácter. Este tratado no convierte esa valoración en una ley. Se recomienda estudiar transcripciones, interpretaciones y debates concretos y explicar qué capa representa cada escritura. Para un debate especializado hace falta bibliografía adicional del repertorio, no solo una definición enciclopédica. [W08]
+
+La entrada española enlazada como Polirritmia remitió a Rítmica en cruz. Se contrastó con Polyrhythm en inglés para mantener separadas superposición rítmica, rítmica cruzada y polimetría. El contraste de versiones fue útil, pero sus categorías también necesitan contextualización. [W06, W17]
+
+En Modo musical se observan varios estratos históricos de nomenclatura. Las fórmulas modernas del capítulo 15 se verificaron directamente por intervalos y no se presentaron como reconstrucción automática de teoría griega o canto medieval. Un nombre compartido no demuestra identidad histórica. [W05, W15]
+
+Registro de páginas consultadas de Wikipedia, todas con fecha de consulta 6 de noviembre de 2026:
+
+[W01] Teoría musical. Mapa general de disciplinas y fundamentos.
+https://es.wikipedia.org/wiki/Teor%C3%ADa_musical
+[W02] Notación musical. Sistemas y convenciones de representación.
+https://es.wikipedia.org/wiki/Notaci%C3%B3n_musical
+[W03] Afinación. Referencia y ajuste de alturas.
+https://es.wikipedia.org/wiki/Afinaci%C3%B3n
+[W04] Temperamento igual. Modelo de división logarítmica.
+https://es.wikipedia.org/wiki/Temperamento_igual
+[W05] Modo musical. Distinciones históricas y nomenclatura.
+https://es.wikipedia.org/wiki/Modo_musical
+[W06] Polirritmia, con redirección observada a Rítmica en cruz.
+https://es.wikipedia.org/wiki/Polirritmia
+[W07] Forma musical. Organización y tipologías.
+https://es.wikipedia.org/wiki/Forma_musical
+[W08] Bambuco. Consulta crítica de métrica, instrumentos y referencias.
+https://es.wikipedia.org/wiki/Bambuco
+[W09] Armonía. Consulta crítica de definiciones e historia.
+https://es.wikipedia.org/wiki/Armon%C3%ADa
+[W10] Serie armónica (música). Se eligió el artículo musical, no la desambiguación matemática.
+https://es.wikipedia.org/wiki/Serie_arm%C3%B3nica_(m%C3%BAsica)
+[W11] Hemiolia. Agrupaciones y relación de dos y tres.
+https://es.wikipedia.org/wiki/Hemiolia
+[W12] Métrica (música). Tipos de comienzo y jerarquías temporales.
+https://es.wikipedia.org/wiki/M%C3%A9trica_(m%C3%BAsica)
+[W13] Contrapunto. Conceptos y rutas históricas.
+https://es.wikipedia.org/wiki/Contrapunto
+[W14] Instrumento transpositor. Relación entre escritura y sonido.
+https://es.wikipedia.org/wiki/Instrumento_transpositor
+[W15] Mode (music). Complemento en inglés de modalidad.
+https://en.wikipedia.org/wiki/Mode_(music)
+[W16] Music theory. Ampliación del mapa temático y contraste de categorías.
+https://en.wikipedia.org/wiki/Music_theory
+[W17] Polyrhythm. Diferencia entre polirritmia y polimetría.
+https://en.wikipedia.org/wiki/Polyrhythm
+[W18] Musical form. Niveles de organización y etiquetas.
+https://en.wikipedia.org/wiki/Musical_form
+[W19] Hornbostel-Sachs y Hornbostel-Sachs en inglés. Clasificación organológica y revisiones.
+https://es.wikipedia.org/wiki/Hornbostel-Sachs
+https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs
+[W20] Blues scale. Variantes y límites del modelo de escala.
+https://en.wikipedia.org/wiki/Blues_scale
+[W21] Octatonic scale. Alternancia y simetría.
+https://en.wikipedia.org/wiki/Octatonic_scale
+[W22] Dynamics (music). Signos y carácter relativo de los matices.
+https://en.wikipedia.org/wiki/Dynamics_(music)
+
+38.5. Libros recomendados por los documentos de partida
+
+Se conservan como ruta de profundización. No se atribuyen a esos libros páginas o afirmaciones concretas sin haber consultado la edición correspondiente. Los datos siguientes proceden de los documentos institucionales y requieren comprobación bibliográfica antes de normalizarlos para una publicación académica:
+
+Abromont, C. Teoría de la música: una guía. Fondo de Cultura Económica. Referencia del PIAA; verificar coautoría y edición de la traducción utilizada.
+Danhauser, A. Teoría de la música. Ricordi.
+De Pedro, D. Teoría de la música, volúmenes I y II. Real Musical.
+Hindemith, P. Adiestramiento elemental para músicos. Ricordi.
+Kolneder, W. Cantar, oír, escribir. Casa Jayes, según el PIAA.
+Pozzoli, H. Solfeos hablados y entonados. Ricordi.
+Villa Rojo, J. Lectura musical. Real Musical.
+Zamacois, J. Teoría de la música. Labor.
+Laitz, S. G., y Callahan, M. R. The Complete Musician, quinta edición, Oxford University Press, según el PIAA.
+Piston, W. Armonía. Referencia del guion; verificar traducción y edición disponibles.
+Michels, U. Atlas de música, volumen 1. Alianza Editorial.
+Kliewer, V. Fundamentos de la teoría musical. El guion no aporta datos suficientes para identificar inequívocamente la edición; debe completarse antes de citarla formalmente.
+
+Para una segunda fase de investigación, conviene consultar ediciones verificadas de estos manuales en biblioteca y comparar sus convenciones de notación y clasificación. Una referencia heredada de un programa no constituye evidencia de haber consultado la obra.
+
+
+39. CATÁLOGO DE EJEMPLOS ESCRITOS Y EN PENTAGRAMA
+
+Las duraciones del catálogo se expresan como fracciones de negra, con independencia del pulso de cada compás. Un signo + reúne alturas simultáneas; ~ prolonga sin nuevo ataque. Las figuras reales se encuentran en el cuaderno.
+
+E01 Serie armónica aproximada
+Primeros ocho parciales sobre do2. Mi4 y sib4 son aproximaciones temperadas: el parcial 5 está unos 14 cents bajo mi4; el 7, unos 31 cents bajo sib4. No es una serie exactamente temperada.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do2 (1 negras); do3 (1 negras); sol3 (1 negras); do4 (1 negras).
+  Compás 2: mi4 (1 negras); sol4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E02 Lectura en clave de sol
+Do4 es el do central. Recorrer posiciones y líneas adicionales.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+  Compás 3: re5 (1 negras); mi5 (1 negras); fa5 (1 negras); sol5 (1 negras).
+
+E03 Lectura en clave de fa
+La cuarta línea es fa3. Comparar el registro con E02.
+Compás 4/4.
+Ejemplo:
+  Compás 1: sol2 (1 negras); la2 (1 negras); si2 (1 negras); do3 (1 negras).
+  Compás 2: re3 (1 negras); mi3 (1 negras); fa3 (1 negras); sol3 (1 negras).
+  Compás 3: la3 (1 negras); si3 (1 negras); do4 (1 negras); silencio (1 negras).
+
+E04 Clave de do en tercera línea
+Do4 está en la línea central. La clave cambia la referencia de lectura.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); fa4 (1 negras); mi4 (1 negras); do4 (1 negras).
+
+E05 Enarmonía escrita
+Do sostenido y re bemol: mismo sonido en doce divisiones iguales, diferente escritura.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do#4 (2 negras); reb4 (2 negras).
+
+E06 Alcance de alteraciones
+Fa sostenido, su repetición en el compás y becuadro. En el siguiente compás vuelve fa natural.
+Compás 4/4.
+Ejemplo:
+  Compás 1: fa#4 (1 negras); fa#4 (1 negras); fa4 (1 negras); sol4 (1 negras).
+  Compás 2: fa4 (1 negras); sol4 (1 negras); la4 (1 negras); fa4 (1 negras).
+
+E07 Figuras y silencios
+La redonda ocupa cuatro negras; las divisiones posteriores conservan cuatro negras por compás.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (4 negras).
+  Compás 2: do4 (2 negras); silencio (2 negras).
+  Compás 3: do4 (1 negras); silencio (1 negras); do4 (1 negras); silencio (1 negras).
+  Compás 4: do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras).
+  Compás 5: do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras).
+
+E08 Puntillo y ligadura de prolongación
+Negra con puntillo más corchea equivale a dos negras; la ligadura suma duraciones sin repetir ataque.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (3/2 negras); re4 (1/2 negras); mi4 (2 negras).
+  Compás 2: do4 (1 negras) ~; do4 (1/2 negras); re4 (1/2 negras); mi4 (2 negras).
+
+E09 Compás de dos por cuatro
+Dos pulsos de negra, subdivisibles en dos.
+Compás 2/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras).
+  Compás 2: mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); mi4 (1/2 negras).
+
+E10 Compás de tres por cuatro
+Tres pulsos simples; seis corcheas agrupadas dos más dos más dos.
+Compás 3/4.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+  Compás 2: sol4 (2 negras); do4 (1 negras).
+
+E11 Compás de cuatro por cuatro
+Cuatro pulsos de negra. Los silencios también completan el compás.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); mi4 (1 negras); sol4 (1 negras); mi4 (1 negras).
+  Compás 2: do4 (2 negras); silencio (1 negras); sol4 (1 negras).
+
+E12 Compás de seis por ocho
+Dos pulsos de negra con puntillo. Agrupación de corcheas tres más tres.
+Compás 6/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+  Compás 2: sol4 (3/2 negras); do4 (3/2 negras).
+
+E13 Compás de nueve por ocho
+Tres pulsos compuestos. Cada grupo de tres corcheas forma un pulso.
+Compás 9/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras); sol4 (1/2 negras); mi4 (1/2 negras); do4 (1/2 negras).
+
+E14 Compás de doce por ocho
+Cuatro pulsos compuestos.
+Compás 12/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras); sol4 (1/2 negras); fa4 (1/2 negras); mi4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); do4 (1/2 negras).
+
+E15 Síncopa ligada
+El ataque de la segunda corchea se prolonga sobre el segundo pulso.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras) ~; re4 (1 negras); mi4 (1 negras); do4 (1 negras).
+
+E16 Contratiempo
+Los pulsos empiezan con silencio y los ataques aparecen en su segunda mitad.
+Compás 4/4.
+Ejemplo:
+  Compás 1: silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras).
+
+E17 Anacrusa
+Una negra inicial conduce al primer compás completo. El cierre de tres negras complementa la anacrusa.
+Compás 4/4.
+Ejemplo:
+  Compás 1: sol4 (1 negras).
+  Compás 2: do5 (1 negras); si4 (1 negras); la4 (1 negras); sol4 (1 negras).
+  Compás 3: do5 (3 negras).
+
+E18 Tresillos y división binaria
+Tres corcheas de tresillo ocupan una negra; después aparece una pareja de corcheas ordinarias.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1/3 negras) [inicio de tresillo 3:2]; do4 (1/3 negras); do4 (1/3 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (2 negras).
+
+E19 Hemiola y reagrupación
+Seis corcheas conservan su duración: primero tres más tres y luego dos más dos más dos.
+Compás 6/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+  Compás 2: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+
+E20 Tres contra dos
+En el mismo intervalo común: arriba tres ataques equidistantes y abajo dos.
+Compás 2/4.
+Tres:
+  Compás 1: do4 (2/3 negras) [inicio de tresillo 3:2]; do4 (2/3 negras); do4 (2/3 negras).
+Dos:
+  Compás 1: do3 (1 negras); do3 (1 negras).
+
+E21 Cinco por ocho en dos más tres
+Agrupación aditiva explícita de cinco corcheas.
+Compás 5/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras).
+
+E22 Siete por ocho en dos más dos más tres
+La cifra no basta para deducir la distribución interna.
+Compás 7/8.
+Ejemplo:
+  Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras); si4 (1/2 negras).
+
+E23 Do mayor
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E24 Fa mayor
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: fa4 (1 negras); sol4 (1 negras); la4 (1 negras); sib4 (1 negras).
+  Compás 2: do5 (1 negras); re5 (1 negras); mi5 (1 negras); fa5 (1 negras).
+
+E25 Sol mayor
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+  Compás 2: re5 (1 negras); mi5 (1 negras); fa#5 (1 negras); sol5 (1 negras).
+
+E26 La menor natural
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: la3 (1 negras); si3 (1 negras); do4 (1 negras); re4 (1 negras).
+  Compás 2: mi4 (1 negras); fa4 (1 negras); sol4 (1 negras); la4 (1 negras).
+
+E27 Re menor natural
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: re4 (1 negras); mi4 (1 negras); fa4 (1 negras); sol4 (1 negras).
+  Compás 2: la4 (1 negras); sib4 (1 negras); do5 (1 negras); re5 (1 negras).
+
+E28 Mi menor natural
+Leer las alturas y verificar el patrón de intervalos. Las notas finales repetidas o los silencios completan la métrica del ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: mi4 (1 negras); fa#4 (1 negras); sol4 (1 negras); la4 (1 negras).
+  Compás 2: si4 (1 negras); do5 (1 negras); re5 (1 negras); mi5 (1 negras).
+
+E29 La menor armónica
+Séptimo grado elevado: sol sostenido. Fa-sol sostenido es segunda aumentada.
+Compás 4/4.
+Ejemplo:
+  Compás 1: la3 (1 negras); si3 (1 negras); do4 (1 negras); re4 (1 negras).
+  Compás 2: mi4 (1 negras); fa4 (1 negras); sol#4 (1 negras); la4 (1 negras).
+
+E30 La menor melódica
+Modelo clásico de ascenso con sexto y séptimo elevados y descenso natural. El silencio final completa el compás.
+Compás 4/4.
+Ejemplo:
+  Compás 1: la3 (1 negras); si3 (1 negras); do4 (1 negras); re4 (1 negras).
+  Compás 2: mi4 (1 negras); fa#4 (1 negras); sol#4 (1 negras); la4 (1 negras).
+  Compás 3: sol4 (1 negras); fa4 (1 negras); mi4 (1 negras); re4 (1 negras).
+  Compás 4: do4 (1 negras); si3 (1 negras); la3 (1 negras); silencio (1 negras).
+
+E31 Do pentatónica mayor
+Grados 1, 2, 3, 5 y 6 más repetición de tónica. Cinco clases de altura, no seis.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: la4 (1 negras); do5 (1 negras); silencio (1 negras); silencio (1 negras).
+
+E32 La pentatónica menor
+Grados 1, b3, 4, 5 y b7. Comparar su centro con E31.
+Compás 4/4.
+Ejemplo:
+  Compás 1: la3 (1 negras); do4 (1 negras); re4 (1 negras); mi4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); silencio (1 negras); silencio (1 negras).
+
+E33 Colección de blues menor en do
+Modelo de seis alturas; no representa todas las inflexiones de una interpretación de blues.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); mib4 (1 negras); fa4 (1 negras); solb4 (1 negras).
+  Compás 2: sol4 (1 negras); sib4 (1 negras); do5 (1 negras); silencio (1 negras).
+
+E34 Tonos enteros
+Seis clases separadas por tonos. Las enarmonías se eligen para mostrar una colección de ejercicio.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa#4 (1 negras).
+  Compás 2: sol#4 (1 negras); la#4 (1 negras); do5 (1 negras); silencio (1 negras).
+
+E35 Octatónica tono semitono
+Alternancia tono-semitono. Ocho clases antes de repetir la tónica.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+  Compás 2: solb4 (1 negras); lab4 (1 negras); la4 (1 negras); si4 (1 negras).
+  Compás 3: do5 (1 negras); silencio (1 negras); silencio (1 negras); silencio (1 negras).
+
+E36 Do jónico
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E37 Do dórico
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E38 Do frigio
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); reb4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E39 Do lidio
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa#4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E40 Do mixolidio
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); la4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E41 Do eólico
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+  Compás 2: sol4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E42 Do locrio
+Comparación modal sobre la misma tónica do. La armadura representa la colección; no declara una tonalidad mayor distinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); reb4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+  Compás 2: solb4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E43 Segundas y terceras
+Intervalos armónicos desde do: segunda menor, segunda mayor, tercera menor y tercera mayor.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+reb4 (1 negras); do4+re4 (1 negras); do4+mib4 (1 negras); do4+mi4 (1 negras).
+
+E44 Cuarta quinta octava y tritono
+Cuarta justa, quinta justa, octava justa y cuarta aumentada.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+fa4 (1 negras); do4+sol4 (1 negras); do4+do5 (1 negras); do4+fa#4 (1 negras).
+
+E45 Número diatónico y enarmonía
+Do-re sostenido: segunda aumentada. Do-mi bemol: tercera menor. Igual número de semitonos no implica igual intervalo escrito.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+re#4 (2 negras); do4+mib4 (2 negras).
+
+E46 Motivo secuencia y transporte
+Original do-re-mi-sol; secuencia diatónica re-mi-fa-la; transporte exacto re-mi-fa sostenido-la.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: re4 (1 negras); mi4 (1 negras); fa4 (1 negras); la4 (1 negras).
+  Compás 3: re4 (1 negras); mi4 (1 negras); fa#4 (1 negras); la4 (1 negras).
+
+E47 Paso y bordadura
+Do-re-mi contiene paso; mi-fa-mi contiene bordadura. Interpretar sobre contexto de do mayor.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: mi4 (1 negras); fa4 (1 negras); mi4 (1 negras); do4 (1 negras).
+
+E48 Retardo cuatro tres
+Do se prepara en C y se liga sobre G; después resuelve a si. El bajo muestra por qué cambia su relación.
+Compás 4/4.
+Melodía:
+  Compás 1: do4 (4 negras) ~.
+  Compás 2: do4 (2 negras); si3 (2 negras).
+Armonía:
+  Compás 1: do3+mi3+sol3 (4 negras).
+  Compás 2: sol2+re3+sol3 (4 negras).
+
+E49 Cuatro cualidades de tríada
+Do mayor, do menor, do disminuido y do aumentado. Comparar la tercera y la quinta.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+mi4+sol4 (1 negras); do4+mib4+sol4 (1 negras); do4+mib4+solb4 (1 negras); do4+mi4+sol#4 (1 negras).
+
+E50 Inversiones de do mayor
+Estado fundamental, primera inversión y segunda inversión. La fundamental sigue siendo do.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+mi4+sol4 (2 negras); mi4+sol4+do5 (2 negras).
+  Compás 2: sol3+do4+mi4 (4 negras).
+
+E51 Acordes de séptima
+Cmaj7, C7, Cm7, Cm7b5 y Cdim7. La séptima disminuida de do se escribe sibb.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+mi4+sol4+si4 (2 negras); do4+mi4+sol4+sib4 (2 negras).
+  Compás 2: do4+mib4+sol4+sib4 (2 negras); do4+mib4+solb4+sib4 (2 negras).
+  Compás 3: do4+mib4+solb4+sibb4 (4 negras).
+
+E52 Progresión I IV V I
+Do mayor, fa mayor, sol mayor y do mayor en estado fundamental.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do3+mi3+sol3 (4 negras).
+  Compás 2: fa2+la2+do3 (4 negras).
+  Compás 3: sol2+si2+re3 (4 negras).
+  Compás 4: do3+mi3+sol3 (4 negras).
+
+E53 Llegadas cadenciales
+Pares separados: V-I, IV-I y V-vi. Las etiquetas describen modelos de cierre en do mayor.
+Compás 4/4.
+Ejemplo:
+  Compás 1: sol3+si3+re4 (2 negras); do4+mi4+sol4 (2 negras).
+  Compás 2: fa3+la3+do4 (2 negras); do4+mi4+sol4 (2 negras).
+  Compás 3: sol3+si3+re4 (2 negras); la3+do4+mi4 (2 negras).
+
+E54 Conducción de voces y bajo
+Las tres voces superiores conservan notas comunes o usan movimientos cercanos; el bajo presenta I-IV-V-I.
+Compás 4/4.
+Voces:
+  Compás 1: mi4+sol4+do5 (4 negras).
+  Compás 2: fa4+la4+do5 (4 negras).
+  Compás 3: re4+sol4+si4 (4 negras).
+  Compás 4: mi4+sol4+do5 (4 negras).
+Bajo:
+  Compás 1: do3 (4 negras).
+  Compás 2: fa2 (4 negras).
+  Compás 3: sol2 (4 negras).
+  Compás 4: do3 (4 negras).
+
+E55 Dominante secundaria
+C-D7-G-C. Fa sostenido dirige hacia sol; D7 es V7/V en do.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4+mi4+sol4 (4 negras).
+  Compás 2: re4+fa#4+la4+do5 (4 negras).
+  Compás 3: sol3+si3+re4 (4 negras).
+  Compás 4: do4+mi4+sol4 (4 negras).
+
+E56 Intercambio modal
+F-Fm-C. El la bemol de fa menor procede del modo paralelo menor.
+Compás 4/4.
+Ejemplo:
+  Compás 1: fa3+la3+do4 (4 negras).
+  Compás 2: fa3+lab3+do4 (4 negras).
+  Compás 3: do4+mi4+sol4 (4 negras).
+
+E57 Melodía y acompañamiento
+La línea superior y los acordes sostenidos forman una textura de melodía acompañada.
+Compás 4/4.
+Melodía:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: fa4 (1 negras); mi4 (1 negras); re4 (1 negras); do4 (1 negras).
+Acompañamiento:
+  Compás 1: do3+mi3+sol3 (4 negras).
+  Compás 2: sol2+si2+re3 (4 negras).
+
+E58 Principio de retorno A B A
+Dos compases A, dos B y retorno de A. Las letras describen relación de material.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: mi4 (2 negras); do4 (2 negras).
+  Compás 3: la4 (1 negras); sol4 (1 negras); fa4 (1 negras); mi4 (1 negras).
+  Compás 4: re4 (2 negras); sol4 (2 negras).
+  Compás 5: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 6: mi4 (2 negras); do4 (2 negras).
+
+E59 Estudio de ocho compases
+Composición original analizada en el capítulo 34. Do mayor, cuatro por cuatro, negra igual a 80. Duración nominal: 24 segundos.
+Compás 4/4.
+Melodía:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: la4 (1 negras); sol4 (1 negras); fa4 (1 negras); mi4 (1 negras).
+  Compás 3: re4 (1 negras); mi4 (1 negras); fa4 (1 negras); re4 (1 negras).
+  Compás 4: si3 (2 negras); sol4 (2 negras).
+  Compás 5: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 6: la4 (1 negras); do5 (1 negras); si4 (1 negras); la4 (1 negras).
+  Compás 7: fa4 (1 negras); mi4 (1 negras); re4 (1 negras); si3 (1 negras).
+  Compás 8: do4 (4 negras).
+Armonía:
+  Compás 1: do3+mi3+sol3 (4 negras).
+  Compás 2: fa2+la2+do3 (4 negras).
+  Compás 3: re3+fa3+la3 (4 negras).
+  Compás 4: sol2+si2+re3 (4 negras).
+  Compás 5: do3+mi3+sol3 (4 negras).
+  Compás 6: la2+do3+mi3 (4 negras).
+  Compás 7: sol2+si2+re3+fa3 (4 negras).
+  Compás 8: do3+mi3+sol3 (4 negras).
+
+E60 Articulación y dinámica
+Ligadura de expresión en el primer compás; staccato y acentos en el segundo. Las duraciones escritas permanecen.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras) [ligadura de expresión start]; re4 (1 negras); mi4 (1 negras); sol4 (1 negras) [ligadura de expresión stop].
+  Compás 2: fa4 (1 negras) [staccato]; mi4 (1 negras) [staccato]; re4 (1 negras) [accent]; do4 (1 negras) [tenuto].
+
+E61 Crecimiento y flexibilidad temporal
+Crescendo hasta el segundo compás; ritardando y calderón al final.
+Compás 4/4.
+Ejemplo:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+  Compás 2: fa4 (1 negras); mi4 (1 negras); do4 (2 negras).
+
+E62 Sonido de concierto y clarinete en si bemol
+Arriba, do-re-mi-sol de concierto; abajo, re-mi-fa sostenido-la escritos para clarinete en sib. Las alturas sonoras coinciden.
+Compás 4/4.
+Concierto:
+  Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Clarinete en sib:
+  Compás 1: re4 (1 negras); mi4 (1 negras); fa#4 (1 negras); la4 (1 negras).
+
+E63 Do central en tres claves
+La misma altura do4 en claves de sol, fa y do en tercera línea. Cambia la posición gráfica, no el sonido.
+Compás 4/4.
+Sol:
+  Compás 1: do4 (4 negras).
+Fa:
+  Compás 1: do4 (4 negras).
+Do:
+  Compás 1: do4 (4 negras).
+
+E64 Ritmo con clave neutra
+Percusión de una línea, altura no definida. x representa el golpe indicado por esta leyenda: palmada; los silencios son corcheas.
+Compás 4/4.
+Ejemplo:
+  Compás 1: silencio (1/2 negras); palmada (1/2 negras); silencio (1/2 negras); palmada (1/2 negras); silencio (1/2 negras); palmada (1/2 negras); silencio (1/2 negras); palmada (1/2 negras).
