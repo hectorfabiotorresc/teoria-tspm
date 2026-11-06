@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de la plataforma</title>
+<meta name="description" content="Pantallas, roles y flujos de la plataforma de teoría musical TSPM">
+<link rel="icon" href="./icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600&family=Public+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root { --papel:#FFFFFF; --papel-2:#F6F5F2; --tinta:#15181D; --tinta-2:#5A5F68; --regla:#D9D6CF; --acento:#C25E00; --acento-suave:#FBEBDD; --azul:#2F5D8A; --azul-suave:#E3ECF5; --verde:#2E7D4F; --verde-suave:#E2F1E8;
+  --f-display:"Spectral", Georgia, serif; --f-texto:"Public Sans", system-ui, sans-serif; --f-mono:"JetBrains Mono", ui-monospace, monospace; color-scheme: light }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; --verde:#6CC593; --verde-suave:#16301F; color-scheme: dark } }
+:root[data-theme="dark"] { --papel:#14161A; --papel-2:#1C1F24; --tinta:#ECEAE6; --tinta-2:#A6A9AF; --regla:#33373E; --acento:#F08A2E; --acento-suave:#3A2613; --azul:#7FAEDB; --azul-suave:#1B2A3A; --verde:#6CC593; --verde-suave:#16301F; color-scheme: dark }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--papel); color: var(--tinta); font: 16px/1.55 var(--f-texto) }
+main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px }
+h1 { font: 600 clamp(30px, 6vw, 44px)/1.1 var(--f-display); margin: 4px 0 12px }
+h2 { font: 600 26px/1.2 var(--f-display); margin: 48px 0 12px }
+h3 { font-size: 17px; margin: 20px 0 6px }
+.eyebrow { font: 600 12px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2) }
+.lede { font-size: 19px; color: var(--tinta-2); max-width: 62ch }
+.lienzo { overflow-x: auto; border: 1px solid var(--regla); border-radius: 12px; background: var(--papel-2); padding: 8px; margin: 16px 0 }
+.lienzo svg { display: block; min-width: 720px; width: 100%; height: auto }
+svg text { font-family: var(--f-texto); fill: var(--tinta) }
+svg .t-chico { font-size: 12px; fill: var(--tinta-2) }
+svg .t-titulo { font-size: 15px; font-weight: 700 }
+svg .t-banda { font: 600 12px var(--f-mono); letter-spacing: .08em; fill: var(--tinta-2) }
+svg .caja { fill: var(--papel); stroke: var(--regla); stroke-width: 1.5 }
+svg .caja-est { fill: var(--azul-suave); stroke: var(--azul); stroke-width: 1.5 }
+svg .caja-tut { fill: var(--acento-suave); stroke: var(--acento); stroke-width: 1.5 }
+svg .caja-com { fill: var(--verde-suave); stroke: var(--verde); stroke-width: 1.5 }
+svg .flecha { stroke: var(--tinta-2); stroke-width: 1.6; fill: none; marker-end: url(#punta) }
+svg .flecha-codigo { stroke: var(--acento); stroke-width: 2; fill: none; stroke-dasharray: 6 4; marker-end: url(#punta-a) }
+svg .banda { fill: none; stroke: var(--regla); stroke-dasharray: 3 4 }
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; color: var(--tinta-2) }
+.leyenda span::before { content: ""; display: inline-block; width: 14px; height: 14px; border-radius: 4px; margin-right: 6px; vertical-align: -2px; border: 1.5px solid }
+.l-est::before { background: var(--azul-suave); border-color: var(--azul) !important }
+.l-tut::before { background: var(--acento-suave); border-color: var(--acento) !important }
+.l-com::before { background: var(--verde-suave); border-color: var(--verde) !important }
+.l-cod::before { border: 0 !important; border-top: 2px dashed var(--acento) !important; height: 0 !important; width: 22px !important; border-radius: 0 !important; vertical-align: 4px !important }
+table { border-collapse: collapse; width: 100%; font-size: 15px }
+th, td { border-bottom: 1px solid var(--regla); padding: 8px 10px; text-align: left; vertical-align: top }
+th { font: 600 12px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta-2) }
+.tabla { overflow-x: auto }
+code { font: 13px var(--f-mono); background: var(--papel-2); padding: 1px 5px; border-radius: 4px }
+.cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0 }
+.cifras div { border: 1px solid var(--regla); border-radius: 10px; padding: 12px 14px }
+.cifras b { display: block; font: 600 30px var(--f-display); font-variant-numeric: tabular-nums }
+a { color: var(--acento) }
+@media print { .lienzo { overflow: visible } .lienzo svg { min-width: 0 } }
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">Teoría musical TSPM · Universidad de Caldas</div>
+<h1>Mapa de la plataforma</h1>
+<p class="lede">Qué pantallas tiene la plataforma, quién usa cada una y cómo circulan las tareas y los reportes entre el tutor y sus estudiantes, sin servidor.</p>
+
+<div class="cifras">
+  <div><span class="eyebrow">Habilidades</span><b>122</b>en el mapa de conocimiento</div>
+  <div><span class="eyebrow">Lecciones</span><b>38</b>interactivas</div>
+  <div><span class="eyebrow">Tipos de ejercicio</span><b>66</b>generados al azar</div>
+  <div><span class="eyebrow">Asignaturas</span><b>6</b>del semestre 1 al 5</div>
+</div>
+
+<h2>Pantallas y recorridos</h2>
+<div class="leyenda"><span class="l-est">Estudiante</span><span class="l-tut">Tutor</span><span class="l-com">Ambos roles</span><span class="l-cod">Código o archivo que se comparte</span></div>
+<div class="lienzo">
+<svg viewBox="0 0 960 700" role="img" aria-labelledby="t-mapa d-mapa">
+  <title id="t-mapa">Diagrama de pantallas de la plataforma</title>
+  <desc id="d-mapa">La entrada lleva a la pantalla de usuarios. El estudiante usa Mapa, Lección, Práctica, Tareas, Repaso y Mi progreso. El tutor usa el Panel con grupos, tareas, compartir, importar y tablero. El código del grupo va del tutor al estudiante; el código de reporte va del estudiante al tutor.</desc>
+  <defs>
+    <marker id="punta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--tinta-2)"/></marker>
+    <marker id="punta-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--acento)"/></marker>
+  </defs>
+
+  <!-- entrada -->
+  <rect class="caja-com" x="370" y="16" width="220" height="62" rx="10"/>
+  <text class="t-titulo" x="480" y="42" text-anchor="middle">¿Quién va a practicar?</text>
+  <text class="t-chico" x="480" y="62" text-anchor="middle">elegir usuario · crear · PIN</text>
+  <path class="flecha" d="M420 78 C 380 110, 260 110, 230 132"/>
+  <path class="flecha" d="M540 78 C 580 110, 700 110, 730 132"/>
+
+  <!-- bandas -->
+  <rect class="banda" x="12" y="120" width="456" height="566" rx="14"/>
+  <text class="t-banda" x="28" y="148">ESTUDIANTE</text>
+  <rect class="banda" x="492" y="120" width="456" height="566" rx="14"/>
+  <text class="t-banda" x="508" y="148">TUTOR</text>
+
+  <!-- estudiante -->
+  <rect class="caja-est" x="140" y="136" width="180" height="58" rx="10"/>
+  <text class="t-titulo" x="230" y="160" text-anchor="middle">Mapa</text>
+  <text class="t-chico" x="230" y="179" text-anchor="middle">asignaturas · habilidades</text>
+  <path class="flecha" d="M190 194 L120 236"/>
+  <path class="flecha" d="M270 194 L340 236"/>
+
+  <rect class="caja-est" x="32" y="238" width="176" height="62" rx="10"/>
+  <text class="t-titulo" x="120" y="262" text-anchor="middle">Lección</text>
+  <text class="t-chico" x="120" y="282" text-anchor="middle">explica · explora · practica</text>
+  <rect class="caja-est" x="252" y="238" width="196" height="62" rx="10"/>
+  <text class="t-titulo" x="350" y="262" text-anchor="middle">Práctica adaptativa</text>
+  <text class="t-chico" x="350" y="282" text-anchor="middle">nivel según tu dominio</text>
+  <path class="flecha" d="M208 269 L250 269"/>
+
+  <rect class="caja-est" x="32" y="336" width="196" height="76" rx="10"/>
+  <text class="t-titulo" x="130" y="360" text-anchor="middle">Mis tareas</text>
+  <text class="t-chico" x="130" y="380" text-anchor="middle">unirse a un grupo</text>
+  <text class="t-chico" x="130" y="398" text-anchor="middle">pendiente · hecha · vencida</text>
+  <rect class="caja-est" x="252" y="336" width="196" height="76" rx="10"/>
+  <text class="t-titulo" x="350" y="360" text-anchor="middle">Hacer la tarea</text>
+  <text class="t-chico" x="350" y="380" text-anchor="middle">ítems al azar, distintos</text>
+  <text class="t-chico" x="350" y="398" text-anchor="middle">para cada estudiante</text>
+  <path class="flecha" d="M228 374 L250 374"/>
+  <path class="flecha" d="M350 412 C 350 436, 200 432, 180 454"/>
+
+  <rect class="caja-est" x="32" y="456" width="196" height="62" rx="10"/>
+  <text class="t-titulo" x="130" y="480" text-anchor="middle">Generar reporte</text>
+  <text class="t-chico" x="130" y="500" text-anchor="middle">código TSPM-R1 o .json</text>
+
+  <rect class="caja-est" x="252" y="456" width="196" height="62" rx="10"/>
+  <text class="t-titulo" x="350" y="480" text-anchor="middle">Repaso de hoy</text>
+  <text class="t-chico" x="350" y="500" text-anchor="middle">repetición espaciada</text>
+
+  <rect class="caja-est" x="32" y="552" width="196" height="62" rx="10"/>
+  <text class="t-titulo" x="130" y="576" text-anchor="middle">Mi progreso</text>
+  <text class="t-chico" x="130" y="596" text-anchor="middle">calibración · errores · bitácora</text>
+
+  <!-- tutor -->
+  <rect class="caja-tut" x="620" y="136" width="200" height="58" rx="10"/>
+  <text class="t-titulo" x="720" y="160" text-anchor="middle">Panel del tutor</text>
+  <text class="t-chico" x="720" y="179" text-anchor="middle">grupos</text>
+  <path class="flecha" d="M720 194 L720 236"/>
+  <rect class="caja-tut" x="600" y="238" width="240" height="62" rx="10"/>
+  <text class="t-titulo" x="720" y="262" text-anchor="middle">Tareas</text>
+  <text class="t-chico" x="720" y="282" text-anchor="middle">habilidades · cantidad · nivel · fecha</text>
+  <path class="flecha" d="M720 300 L720 336"/>
+  <rect class="caja-tut" x="600" y="338" width="240" height="62" rx="10"/>
+  <text class="t-titulo" x="720" y="362" text-anchor="middle">Compartir con estudiantes</text>
+  <text class="t-chico" x="720" y="382" text-anchor="middle">enlace o código TSPM-G1</text>
+  <rect class="caja-tut" x="600" y="456" width="240" height="62" rx="10"/>
+  <text class="t-titulo" x="720" y="480" text-anchor="middle">Importar reportes</text>
+  <text class="t-chico" x="720" y="500" text-anchor="middle">pegar códigos o elegir archivos</text>
+  <path class="flecha" d="M720 518 L720 552"/>
+  <rect class="caja-tut" x="580" y="554" width="280" height="76" rx="10"/>
+  <text class="t-titulo" x="720" y="578" text-anchor="middle">Tablero del grupo</text>
+  <text class="t-chico" x="720" y="598" text-anchor="middle">entregas · dominio por habilidad</text>
+  <text class="t-chico" x="720" y="616" text-anchor="middle">errores frecuentes · notas CSV 0–5</text>
+
+  <!-- intercambio -->
+  <path class="flecha-codigo" d="M600 369 C 570 369, 560 318, 530 318 L 140 318 L 140 333"/>
+  <text class="t-chico" x="520" y="312" text-anchor="end" style="fill:var(--acento)">código del grupo</text>
+  <path class="flecha-codigo" d="M110 518 L 110 536 L 560 536 C 585 536, 590 510, 598 495"/>
+  <text class="t-chico" x="420" y="551" text-anchor="middle" style="fill:var(--acento)">código de reporte</text>
+
+  <!-- comunes -->
+  <rect class="caja-com" x="252" y="600" width="196" height="62" rx="10"/>
+  <text class="t-titulo" x="350" y="624" text-anchor="middle">Herramientas · Ayuda</text>
+  <text class="t-chico" x="350" y="644" text-anchor="middle">teclado · afinador · instalar</text>
+  <rect class="caja-com" x="580" y="644" width="280" height="34" rx="8"/>
+  <text class="t-chico" x="720" y="666" text-anchor="middle">el tutor también ve el Mapa y puede probar cada práctica</text>
+</svg>
+</div>
+
+<h2>El ciclo de una tarea</h2>
+<div class="tabla"><table>
+<thead><tr><th>Paso</th><th>Quién</th><th>Dónde</th><th>Qué ocurre</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Tutor</td><td>Panel → Tareas</td><td>Crea el grupo y una tarea: elige habilidades, número de ejercicios (3–40), nivel (adaptativo o fijo) y fecha límite.</td></tr>
+<tr><td>2</td><td>Tutor</td><td>Panel → Compartir</td><td>Copia el enlace o el código del grupo y lo publica en el aula virtual o el chat del curso.</td></tr>
+<tr><td>3</td><td>Estudiante</td><td>Mis tareas</td><td>Abre el enlace o pega el código: queda en el grupo y ve sus tareas.</td></tr>
+<tr><td>4</td><td>Estudiante</td><td>Hacer la tarea</td><td>Resuelve ejercicios generados al azar: cada estudiante recibe ítems distintos de los mismos tipos. Se guarda el mejor intento.</td></tr>
+<tr><td>5</td><td>Estudiante</td><td>Mis tareas</td><td>Genera su reporte (código o archivo .json) y lo envía al tutor.</td></tr>
+<tr><td>6</td><td>Tutor</td><td>Panel → Importar</td><td>Pega los códigos o carga los archivos. En un computador compartido, los estudiantes del grupo aparecen solos.</td></tr>
+<tr><td>7</td><td>Tutor</td><td>Panel → Tablero</td><td>Ve entregas, dominio por habilidad (de menor a mayor) y errores frecuentes; descarga las notas en CSV.</td></tr>
+</tbody></table></div>
+
+<h2>Contenido</h2>
+<div class="tabla"><table>
+<thead><tr><th>Asignatura</th><th>Semestre</th><th>Habilidades</th></tr></thead>
+<tbody>
+<tr><td>Fundamentos Musicales</td><td>1</td><td>36</td></tr>
+<tr><td>Entrenamiento Auditivo Básico</td><td>2</td><td>32</td></tr>
+<tr><td>Armonía Básica Aplicada</td><td>2</td><td>46</td></tr>
+<tr><td>Entrenamiento Auditivo Medio</td><td>3</td><td>23</td></tr>
+<tr><td>Entrenamiento Auditivo Avanzado</td><td>4</td><td>36</td></tr>
+<tr><td>Ampliación profesional (oído técnico)</td><td>5</td><td>44</td></tr>
+</tbody></table></div>
+<p>Una habilidad puede pertenecer a varias asignaturas. El grafo completo, con prerrequisitos, está en el <a href="./mapa_habilidades.html">mapa de habilidades</a>.</p>
+
+<h3>Modos de ejercicio</h3>
+<div class="tabla"><table>
+<thead><tr><th>Modo</th><th>Cómo responde el estudiante</th></tr></thead>
+<tbody>
+<tr><td>Opciones</td><td>Elige entre 3 a 6 respuestas; las incorrectas corresponden a errores típicos.</td></tr>
+<tr><td>Pentagrama</td><td>Toca el pentagrama para poner una nota y ajusta su alteración.</td></tr>
+<tr><td>Escribir</td><td>Escribe varias notas: escalas, intervalos de oído y dictados melódicos.</td></tr>
+<tr><td>Canto</td><td>Canta con el micrófono; la afinación se mide en cents en el propio dispositivo.</td></tr>
+<tr><td>Auditivo</td><td>Escucha y reconoce: intervalos, acordes, funciones, modos, tonalidad.</td></tr>
+<tr><td>Oído técnico</td><td>Compara A/B: ecualización, niveles, panorama estéreo.</td></tr>
+</tbody></table></div>
+
+<h2>Dónde viven los datos</h2>
+<p>Todo se guarda en el dispositivo (almacenamiento local del navegador o de la app de escritorio), por usuario. No hay servidor: tareas y reportes viajan como códigos o archivos. Cada código lleva una huella que detecta si se copió incompleto. El progreso no pasa solo de un dispositivo a otro.</p>
+</main>
+</body>
+</html>
