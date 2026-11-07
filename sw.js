@@ -1,6 +1,6 @@
 // Service worker: la plataforma funciona sin conexión después de la primera visita (decisión D6).
 // HTML: red primero con respaldo en caché. Recursos con hash (JS, CSS, fuentes): caché primero.
-const CACHE = "tspm-teoria-v15";
+const CACHE = "tspm-teoria-v16";
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icono.svg", "./icono-192.png", "./icono-512.png", "./apple-touch-icon.png", "./manual.html", "./mapa_plataforma.html"])).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", (e) => {
@@ -9,9 +9,10 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   const esHTML = req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html");
   if (esHTML) {
-    // la app (index) se guarda con una sola clave; otras páginas (manual, mapa) con la suya
+    // cada app (la completa y las de cada curso, una por carpeta) se guarda con la clave de su carpeta; otras páginas con la suya
     const otra = /\/[^/]+\.html$/.test(url.pathname) && !url.pathname.endsWith("/index.html");
-    e.respondWith(fetch(req).then((r) => { const copia = r.clone(); caches.open(CACHE).then((c) => c.put(otra ? req : "./index.html", copia)); return r; }).catch(() => (otra ? caches.match(req, { ignoreSearch: true }) : Promise.resolve(undefined)).then((hit) => hit || caches.match("./index.html"))));
+    const clave = otra ? req : new URL(url.pathname.replace(/index\.html$/, "") + "index.html", url.origin).href;
+    e.respondWith(fetch(req).then((r) => { const copia = r.clone(); caches.open(CACHE).then((c) => c.put(clave, copia)); return r; }).catch(() => caches.match(clave, { ignoreSearch: true }).then((hit) => hit || caches.match("./index.html"))));
     return;
   }
   // narración: el audio se pide por rangos de bytes; se deja pasar a la red sin guardarlo

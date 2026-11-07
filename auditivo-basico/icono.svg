@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs><clipPath id="r"><rect width="512" height="512" rx="96"/></clipPath></defs>
+<g clip-path="url(#r)"><rect width="512" height="512" fill="#FFFFFF"/>
+<path d="M96.0 150.0H416.0M96.0 190.0H416.0M96.0 230.0H416.0M96.0 270.0H416.0M96.0 310.0H416.0" stroke="#15181D" stroke-width="10.0"/>
+<ellipse cx="300.0" cy="270.0" rx="42.0" ry="30.0" transform="rotate(-20 300.0 270.0)" fill="#1F6FB2"/>
+<path d="M338.0 262.0V110.0" stroke="#1F6FB2" stroke-width="12.0"/>
+<rect y="372.0" width="512" height="140.0" fill="#1F6FB2"/>
+<text x="256" y="462.0" font-family="Helvetica Neue, Helvetica, Arial" font-weight="700" font-size="72.0" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">OÍDO 1</text></g></svg>
