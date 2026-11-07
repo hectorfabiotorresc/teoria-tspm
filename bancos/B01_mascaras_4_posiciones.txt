@@ -1,0 +1,19 @@
+B01: totalidad de las 2^4=16 máscaras de ataques en 4 posiciones.
+1=ataque; 0=ausencia de ataque. El banco no define prolongación. Para notas cortas, cada 0 se interpreta como silencio de una unidad. Incluye silencio total. El origen temporal está fijado; las rotaciones cuentan separadas. Elegir unidad: semicorchea en rejilla binaria, o la subdivisión declarada. P26 y capítulos 10/22.
+
+00000 | 0000 | ataques=0 | 0000
+00001 | 0001 | ataques=1 | 0001
+00002 | 0010 | ataques=1 | 0010
+00003 | 0011 | ataques=2 | 0011
+00004 | 0100 | ataques=1 | 0100
+00005 | 0101 | ataques=2 | 0101
+00006 | 0110 | ataques=2 | 0110
+00007 | 0111 | ataques=3 | 0111
+00008 | 1000 | ataques=1 | 1000
+00009 | 1001 | ataques=2 | 1001
+00010 | 1010 | ataques=2 | 1010
+00011 | 1011 | ataques=3 | 1011
+00012 | 1100 | ataques=2 | 1100
+00013 | 1101 | ataques=3 | 1101
+00014 | 1110 | ataques=3 | 1110
+00015 | 1111 | ataques=4 | 1111

@@ -1,0 +1,1837 @@
+ENTRENAMIENTO AUDITIVO Y MUSICAL
+Tratado práctico, currículo ampliado y sistema de ejercicios y combinatorias
+Investigación documental y propuesta didáctica original
+Universidad de Caldas / contexto de referencia: Técnico en Sonido y Producción Musical
+Fecha de consulta y elaboración: 6 de noviembre de 2026
+
+Este material es una propuesta de estudio; no es un programa aprobado por la Universidad. Integra los documentos proporcionados con fuentes editoriales, universitarias, revistas académicas, bibliotecas, aplicaciones y Wikipedia. Los ejemplos musicales y las consignas de este tratado son originales, salvo las referencias expresamente identificadas. No reproduce los bancos comerciales de las aplicaciones ni los ejercicios protegidos de los libros.
+
+CÓMO UTILIZAR LA ENTREGA
+El archivo principal es este texto, legible sin programas especializados. El Cuaderno_de_entrenamiento_en_pentagrama.html contiene las partituras reales y su explicación; se abre sin conexión. Los MusicXML de la carpeta partituras permiten editar, transportar y reproducir los modelos en un editor compatible. Los bancos de texto de la carpeta bancos enumeran conjuntos combinatorios finitos y contienen su propia definición. La reproducción de MusicXML depende del programa utilizado; esta entrega no incluye grabaciones ni afirma haber realizado ensayos prácticos de las aplicaciones.
+
+La palabra «todos» exige una precisión: no existe una lista finita que agote las músicas, las duraciones continuas, las afinaciones, las realizaciones expresivas y las combinaciones de longitud ilimitada. Sí se puede construir un mapa amplio de competencias, cubrir sistemáticamente sus operaciones y enumerar íntegramente dominios definidos. Este trabajo ofrece ambos: un currículo desde iniciación hasta especialización y bancos exhaustivos dentro de límites declarados. No prescribe que una persona complete cada permutación; propone aprender a generalizar y comprobar esa generalización.
+
+ÍNDICE GENERAL
+01. Fuentes institucionales y revisión crítica
+02. Qué se entrena: percepción, memoria, representación y acción
+03. Diagnóstico y organización de la práctica
+04. Atención, escucha por capas y memoria musical
+05. Audición interna, voz y afinación
+06. Altura relativa, grados y centro tonal
+07. Intervalos: inventario, ejercicios y combinaciones
+08. Escalas, modos y colecciones de alturas
+09. Pulso, subdivisión y métrica
+10. Ritmo, silencios, síncopa y combinatoria exacta
+11. Ritmos avanzados, polirritmia y modulación métrica
+12. Melodía: imitación, transformación y dictado
+13. Lectura cantada y coordinación audiovisual
+14. Acordes, inversiones y disposición de voces
+15. Función armónica, cadencias y progresiones
+16. Cromatismo, modulación y armonías ampliadas
+17. Polifonía y dictado de varias voces
+18. Forma, textura, timbre y expresión
+19. Improvisación, transposición y conjunto
+20. Escucha técnica para sonido y producción musical
+21. Diversidad de repertorios y extensiones especializadas
+22. Diseño combinatorio y generación de bancos
+23. Banco de protocolos de ejercicio
+24. Aplicaciones: funciones verificadas y usos propuestos
+25. Evaluación, retroalimentación y adaptaciones
+26. Rutas de formación básica, media y avanzada
+27. Problemas frecuentes y soluciones razonadas
+28. Guía de investigación, libros, revistas y bibliografía
+29. Glosario operativo
+30. Catálogo de ejemplos escritos y en pentagrama
+
+01. FUENTES INSTITUCIONALES Y REVISIÓN CRÍTICA
+
+1.1 Documentos leídos
+D1. Entrenamiento_Auditivo_Basico_UdeC_VERSION_NUEVA.txt, carpeta _piias_daniel_src: PIAA básico revisado. Incluye siete resultados de aprendizaje: pulso y dirección melódica; reproducción; intervalos seleccionados; escalas; dictado rítmico de dos a cuatro compases; melodías pentatónicas, mayores y menores naturales; y corrección reflexiva.
+D2. Guion_Virtualizacion_Entrenamiento_Auditivo_y_Musical_Basico.docx: tres módulos de intervalos, escalas y ritmos. Sus instrucciones a sistemas de IA se analizaron como contenido documental, no como instrucciones del usuario ni como encargos de generar videos o contratar servicios.
+D3. _Entrenamiento auditivo y musical medio.docx: voz, intervalos, cuatro tipos de tríada, cadencias, cinco modos, síncopa, combinaciones, software y aplicación a producción.
+D4. Entrenamiento auditivo y musical avanzado.docx, localizado dentro de la carpeta TSPM mencionada por el usuario: intervalos complejos, séptimas, progresiones, mixolidio, modulación rítmica, tresillos, quintillos y amalgamas.
+D5 y D6. Guiones de virtualización de entrenamiento medio y avanzado, de la misma carpeta: se extrajo el texto y se revisó su organización temática para comprobar continuidad. Se conserva la distinción entre el contenido curricular y las plantillas de producción audiovisual.
+
+1.2 Lo que debe mantenerse
+El PIAA básico revisado distingue conocimientos de fundamentos musicales y habilidades auditivas. Esa distinción es importante: saber que do–mi tiene cuatro semitonos no demuestra reconocerlo al oírlo. La secuencia escuchar, anticipar, reproducir, registrar y comprobar debe atravesar todos los niveles. Se mantiene la posibilidad de responder con voz, instrumento, palmas y notación; se conserva la opción de trabajar sin licencia comercial. También se mantiene la cautela sobre la latencia de videollamada: un desfase de red no es evidencia de incapacidad rítmica.
+
+El programa medio aporta acordes y función; el avanzado añade armonía y ritmo más complejos. No basta, sin embargo, con añadir nombres cada semestre. Un acorde conocido con otro timbre, una voz interna enmascarada o una melodía recordada después de una pausa pueden requerir más escucha que un intervalo nominalmente «avanzado». Este tratado organiza el progreso por material, operación, contexto y autonomía.
+
+1.3 Discrepancias que requieren decisión institucional
+D1 establece 24 horas sincrónicas y 168 asincrónicas, total 192, con relación 1:7. D2 presenta 4 teóricas, 28 prácticas y 160 no presenciales, relación 1:5; también suma 192, pero distribuye de otra manera. D3 y D4 conservan 24 y 168, pero escriben relación 1:5 y mencionan 20% de presencialidad: 24/192 es 12,5%, y 24:168 es 1:7. No se resuelven esas contradicciones inventando una aprobación. Las rutas propuestas más adelante son orientativas.
+
+D1 distribuye evaluación en parcial 35%, seguimiento 30% y final 35%. D2 propone 25% autoevaluaciones, 35% reconocimiento, 25% canto/dictado, 5% participación y 10% final. Son esquemas diferentes aunque ambos sumen 100%. Este tratado ofrece evidencias y rúbricas, pero no sustituye los porcentajes oficiales.
+
+D2 anuncia intervalos de segunda a octava en un resultado, mientras sus módulos concretos y D1 trabajan principalmente segundas, terceras, cuarta, quinta y octava. Se incluyen aquí sexta, séptima y tritono como ampliación explícita. D3 menciona cinco modos; la propuesta añade lidio y locrio y explica que no todos tienen la misma frecuencia de uso ni igual dificultad.
+
+1.4 Correcciones conceptuales del guion
+Las asociaciones «mayor = feliz» y «menor = triste» pueden ser metáforas iniciales de una tradición, pero no criterios universales ni respuestas únicas para un examen. Tempo, registro, interpretación, armonía, texto y experiencia cultural cambian la percepción. Para distinguir do–mi de do–mib se entrenan tamaño, afinación y contexto, no un estado de ánimo obligatorio.
+
+La segunda mayor no es el único «paso natural» de una escala: en la mayor también hay semitonos. La segunda menor no es siempre «el intervalo más disonante»: la rugosidad depende del registro, timbre, afinación y simultaneidad; el movimiento melódico y el acorde no producen la misma situación perceptiva. Tampoco todo intervalo armónico recibe el mismo grado de estabilidad en cada contexto contrapuntístico.
+
+La menor armónica no debe describirse como explicación general de «la música del Medio Oriente» o del flamenco. Es una colección concreta que, en la pedagogía tonal, hace explícita la sensible del modo menor. Las prácticas de otras tradiciones requieren fuentes y modelos propios. La menor melódica tradicional suele elevar sexto y séptimo al ascender y usar la forma natural al descender en ejercicios escalares; en repertorio real el movimiento se decide por la frase, y la menor melódica del jazz puede mantener las alteraciones en ambos sentidos.
+
+La negra no equivale siempre al pulso. En 6/8 con dos pulsos principales, el pulso habitual es la negra con puntillo; en 2/2 suele ser la blanca. «Diez minutos rinden más que dos horas» no debe presentarse como ley cuantitativa: se recomienda práctica frecuente y atenta, pero la dosis depende de la tarea y del estudiante.
+
+1.5 Auditoría bibliográfica
+La ficha editorial de Ear Training, Revised identifica a Bruce Benward y J. Timothy Kolosick, no a Benward y Saker para ese título [F03]. Manual for Ear Training and Sight Singing es de Gary S. Karpinski, no de J. Phillips [F02]. La obra de enfoque holístico verificada es Developing Musicianship through Aural Skills, de Kent D. Cleland y Mary Dobrea-Grindahl [F05]. Aural Training in Practice aparece con John Holmes y Nigel Scaife [F06]. Las referencias atribuidas a Hall/Tull, Melcher/Bostock y Smith en D3/D4 no se adoptan como bibliografía confirmada en esta investigación; deben cotejarse con ejemplar, catálogo e ISBN antes de usarlas. Una fecha distinta puede corresponder a reimpresión: para Hindemith se distingue edición original de ejemplares posteriores [F07].
+
+02. QUÉ SE ENTRENA: PERCEPCIÓN, MEMORIA, REPRESENTACIÓN Y ACCIÓN
+
+2.1 Competencias independientes que se relacionan
+Discriminar es decidir si dos estímulos son iguales o diferentes. Identificar es asignar una categoría: tercera menor, compás compuesto, acorde dominante. Comparar es establecer relaciones: más agudo, más largo, más denso. Recordar es conservar el estímulo cuando ya no suena. Reproducir es reconstruirlo con voz, instrumento o percusión. Anticipar es imaginar lo que debería sonar antes de ejecutarlo. Transcribir es representarlo de manera recuperable. Transformar es conservar algo mientras se modifica otra propiedad. Crear es producir una respuesta musical coherente dentro de restricciones.
+
+Un estudiante puede distinguir dos intervalos sin recordar sus nombres; puede cantar una frase sin escribirla; puede escribirla correctamente contando semitonos sin haberla oído internamente. La enseñanza debe localizar el eslabón débil. Por eso cada contenido se practica mediante más de una operación y se evalúa con evidencias separadas.
+
+2.2 Oído relativo, absoluto y funcional
+Oído relativo es percibir relaciones entre sonidos; oído absoluto, identificar o producir una altura sin referencia externa inmediata. El oído funcional sitúa un sonido dentro de un centro o sistema: reconoce, por ejemplo, el segundo grado en una tonalidad establecida. No se exige oído absoluto para transcribir: se entrega una nota de referencia o se consulta un instrumento para fijar la altura inicial. Reconocer la tónica no implica saber que se llama fa sostenido sin referencia. Wikipedia sirve para contrastar términos [W01–W05]; la secuencia didáctica aquí propuesta no depende de adquirir oído absoluto.
+
+El mismo intervalo puede vincular funciones distintas. En do mayor, do–mi y fa–la son terceras mayores; sus grados son 1–3 y 4–6. A la inversa, 3–5 forma una tercera menor en do mayor y una mayor en do menor si se usa mib–sol. Por eso se entrenan simultáneamente relaciones locales y mapa tonal, sin reducir uno al otro.
+
+2.3 Escucha de objetos y de relaciones
+Identificar un timbre pregunta qué fuente parece sonar. Escuchar una relación pregunta cómo esa fuente entra, se combina, se mueve y termina. Un ataque brillante puede orientar sobre el instrumento, pero también puede proceder de un procesamiento. Un acorde aislado puede ser ambiguo; su resolución aclara la función. La percepción se beneficia del contexto, pero el contexto también crea expectativas que pueden ocultar diferencias reales. Se alternan estímulos aislados y frases para aprender ambas condiciones.
+
+2.4 Fundamentación de la propuesta
+Chenette plantea que atención y memoria de trabajo merecen un lugar explícito en formación auditiva, no quedar ocultas tras los símbolos teóricos [F10]. El libro abierto Foundations of Aural Skills amplía el repertorio de tareas con reproducción de oído, improvisación, transcripción y conjunto [F01]. Se toma de estas fuentes una orientación, no un banco de ejercicios copiado. La organización concreta de este tratado, sus umbrales sugeridos y combinaciones son propuestas docentes originales.
+
+La revisión de Chenette, Davis y Kleppinger permite situar libros y software dentro de una discusión pedagógica, en lugar de asumir que un catálogo comercial equivale a un currículo [F11]. Las investigaciones sobre práctica intercalada y musicalidad aportan preguntas útiles, pero no justifican promesas de inteligencia general, oído perfecto garantizado o superioridad universal de una aplicación [F12, F13].
+
+03. DIAGNÓSTICO Y ORGANIZACIÓN DE LA PRÁCTICA
+
+3.1 Diagnóstico inicial sin penalizar la falta de vocabulario
+Preparar ocho tareas breves: comparar dos alturas; imitar una nota; reproducir cuatro ataques; mantener ocho pulsos; repetir un motivo de tres notas; señalar cuál frase cambia; encontrar un sonido de reposo después de una melodía; y describir dos capas de una grabación. Primero se aceptan gestos, sílabas y respuestas instrumentales. Después se repite parte de la prueba con nombres y notación. La diferencia entre ambas versiones permite separar comprensión sonora y alfabetización.
+
+Registrar tesitura cómoda, instrumento conocido, experiencia de canto, acceso tecnológico, repertorios familiares, comprensión del pentagrama y condiciones de escucha. No convertir una prueba breve en diagnóstico clínico ni en etiqueta de «sin oído». Si una persona identifica correctamente pero canta una octava diferente, comprobar la tesitura y el mecanismo vocal antes de concluir que no percibe la altura.
+
+3.2 Diseño de una sesión
+Una sesión orientativa de 25 minutos: tres minutos de pulso y afinación cómoda; cinco de habilidad nueva con dos categorías contrastantes; cinco de recuperación de material anterior sin pistas; siete de aplicación a una frase o grabación; y cinco de corrección y anotación. Puede dividirse en dos sesiones. El tiempo es propuesta organizativa, no dosis científicamente universal.
+
+No repetir treinta veces la respuesta correcta inmediatamente después de verla y contarlo como treinta aprendizajes. Tras el error, comparar el estímulo con la respuesta equivocada, explicar la diferencia, producir un ejemplo correcto y volver a evaluar después de varios ítems. La recuperación sin pista es más informativa que reconocer una solución recién mostrada.
+
+3.3 Progresión de dificultad
+Modificar al comienzo una variable: tamaño del inventario, registro, duración, tempo, timbre, número de voces, longitud, cromatismo o cantidad de apoyo. Si se cambian todas, no se sabe por qué falló la respuesta. Cuando la habilidad es estable, combinar dos o más variables para comprobar transferencia. Una mejora con piano en do mayor no demuestra todavía reconocer el mismo patrón en un bajo eléctrico o en otra tonalidad.
+
+Un criterio de avance propuesto es lograr al menos 85% en dos sesiones con ejemplos nuevos, junto con reproducción correcta y una prueba diferida. No es una norma institucional ni un umbral diagnóstico. Con dos opciones, el azar produce 50% esperado; con cuatro, 25%. Aciertos de series diminutas son inestables. Conviene registrar número de ensayos, categorías, ayudas y errores, no solo el porcentaje.
+
+3.4 Distribución y variabilidad
+Usar pequeños bloques para adquirir una categoría nueva; después intercalar categorías para aprender a elegir entre ellas. El estudio de Carter y Grahn sobre práctica musical avanzada [F12] motiva explorar el intercalado, pero no prueba que cualquier principiante aprenda cualquier tarea mejor con máxima aleatoriedad. Si la mezcla impide comprender la consigna, volver al contraste elemental.
+
+Separar práctica, autoevaluación y examen. En práctica se puede repetir, bajar velocidad y ver pistas. En autoevaluación se declara cuántas ayudas se usaron. En examen se fijan condiciones equivalentes y se reservan ejemplos inéditos. Una racha en una app no sustituye una melodía nueva cantada o transcrita fuera de ella.
+
+04. ATENCIÓN, ESCUCHA POR CAPAS Y MEMORIA MUSICAL
+
+4.1 Atención selectiva
+Escuchar una grabación una vez para describir el conjunto. En la segunda audición seguir únicamente el bajo y dibujar su contorno; en la tercera seguir percusión; en la cuarta, voz principal. No intentar transcribir todo a la vez. La pregunta previa organiza la atención: «¿cambia el bajo en cada pulso o cada compás?» es más precisa que «escuche mejor».
+
+Variar la tarea entre seguir una capa continua y detectar su entrada o salida. Después alternar voluntariamente la atención de bajo a melodía en una señal acordada. El objetivo es poder cambiar de foco sin perder el pulso ni el mapa formal. Si se dispone de pistas separadas, oír primero la mezcla, luego aislar la capa para verificar y finalmente volver a la mezcla; escuchar solo pistas aisladas no entrena la extracción en contexto.
+
+4.2 Memoria inmediata y agrupación
+Comenzar con dos o tres eventos; repetir después de uno, tres y cinco segundos. Aumentar longitud solo cuando se conserva la estructura. Registrar por separado orden, altura, ritmo y cantidad de eventos. Recordar do–re–mi–sol como ascenso hacia la quinta suele ser más eficaz que tratar cuatro nombres como datos sin relación; sin embargo, los esquemas pueden inducir a «corregir» una nota inesperada. Se incluyen variantes casi iguales para comprobar escucha real.
+
+Trabajar memoria de contorno antes de nombres: arriba, repetición, abajo. Después recordar puntos estructurales: inicio, cima, final. Más tarde reconstruir notas intermedias. No considerar el contorno un sustituto final de la precisión; es una representación parcial que disminuye la carga inicial.
+
+4.3 Interferencia y retención
+Comparar recuerdo inmediato con recuerdo después de una tarea breve diferente. La interferencia puede ser rítmica, verbal o melódica. No aumentar la interferencia hasta que la frase esté aprendida. Hacer explícito qué se conserva: la altura exacta, las relaciones, el ritmo o el carácter. Si la frase se recuerda transportada, la memoria relacional puede estar bien aunque se haya perdido la referencia absoluta.
+
+Una práctica de retención útil es recuperar al día siguiente una frase aprendida, comprobarla y luego transportarla. El registro debe indicar si se oyó de nuevo antes de intentar recordarla. La familiaridad subjetiva no garantiza que se pueda reconstruir la música.
+
+4.4 Audición global y detalle
+Pedir un mapa de energía, densidad y secciones antes de la transcripción de notas. Después seleccionar un detalle y explicar cómo contribuye al conjunto. Esto evita formar estudiantes capaces de etiquetar intervalos pero incapaces de reconocer dónde empieza un estribillo o cuándo desaparece el bajo. El detalle y la forma se verifican mutuamente: una repetición formal ayuda a completar una nota, pero debe contrastarse porque la repetición puede estar variada.
+
+05. AUDICIÓN INTERNA, VOZ Y AFINACIÓN
+
+5.1 Oír sin sonido externo
+La audición interna es representar mentalmente la música. En la teoría de Gordon, audiation implica además comprensión musical del sonido ausente o imaginado [F14]; no se usa como simple sinónimo de repetir mecánicamente. Ejercicio inicial: escuchar do–re–mi, cantar una vez, repetir interiormente y cantar solo el mi final. Comprobar si se conserva la altura y el momento de entrada. Después cantar las primeras dos notas, imaginar las dos siguientes y volver a sonar.
+
+La lectura silenciosa debe preceder a la comprobación instrumental: observar dos compases, imaginar su sonido y luego escucharlos. Si el instrumento toca cada nota antes de que el estudiante la anticipe, la tarea se convierte en imitación. Ambas habilidades son necesarias, pero no son la misma.
+
+5.2 Igualación de altura
+El docente da una nota dentro de la tesitura cómoda. El estudiante la escucha, espera brevemente y responde con una vocal cómoda. Se compara si la respuesta está por encima, por debajo o próxima. Al principio pueden usarse deslizamientos suaves para encontrar el centro; después se busca un ataque directo. Cambiar la nota de partida y el timbre para evitar memorizar una posición corporal única.
+
+Distinguir ataque inestable de afinación sostenida. Un sonido puede empezar bajo y estabilizarse correctamente, o empezar correcto y caer. Una aplicación que produce una sola cifra no explica esa diferencia. Evaluar un tramo estable y escuchar la trayectoria. No exigir vibrato cero como criterio de musicalidad; para medición inicial puede usarse tono sostenido simple.
+
+5.3 Afinación relativa y batimientos
+Dos tonos cercanos pueden producir fluctuaciones de amplitud; en condiciones simples la frecuencia de batimiento corresponde a la diferencia de frecuencias. Comparar unísonos próximos, acercar la voz a la referencia y notar el cambio. En sonidos complejos intervienen parciales, registro y amplitud. No generalizar «ausencia de batimientos = afinación correcta» a todos los acordes, timbres y temperamentos.
+
+La desviación en cents se calcula como 1200 log2(f/f_ref). Una nota a 445 Hz respecto de 440 Hz está aproximadamente 19,56 cents alta. La escala en cents mide razón de frecuencias, no diferencia fija en Hz; cinco Hz tienen distinta importancia musical en registros distintos. Los ejercicios de microafinación deben declarar si se compara temperamento igual, relación justa u otra referencia.
+
+5.4 Voz e instrumento como respuestas complementarias
+Cantar revela una representación activa, pero la ejecución vocal añade coordinación motora. Permitir inicialmente tarareo, sílaba neutra, cambio de octava cómodo o instrumento para separar problemas. Si se evalúa lectura cantada, la alternativa instrumental no mide exactamente la misma competencia; se registra qué se evaluó y se acompaña el desarrollo vocal de manera gradual.
+
+No convertir el entrenamiento auditivo en un curso de técnica vocal de alto rendimiento. Se busca sonido cómodo, respiración suficiente y precisión musical. Una dificultad persistente de producción requiere atención docente específica; subir el volumen o forzar un registro no mejora la escucha.
+
+06. ALTURA RELATIVA, GRADOS Y CENTRO TONAL
+
+6.1 Construcción del mapa tonal
+Establecer do mayor con una cadencia breve o arpegio de tónica. Cantar do–mi–sol–mi–do y conservar do interiormente. Oír una nota objetivo y decidir si coincide con tónica, tercera o quinta. Después añadir re y fa, finalmente la y si. Cada grado debe practicarse en melodías y resoluciones, no solo como tono aislado después de una cadencia automática.
+
+Comparar si–do y fa–mi: ambos se resuelven por semitono en do mayor, pero hacia grados diferentes. Cantar la nota objetivo, resolverla y después volver a producirla sin ayuda. Evitar que la resolución siempre aparezca antes de responder, pues se podría reconocer la respuesta de la app y no la nota objetivo.
+
+6.2 Solfeo fijo, móvil y números
+Con do fijo, do nombra la clase de nota; con do móvil, do representa la tónica mayor. Los números permiten decir grado 1, 2, 3 sin confundir nombre absoluto. En menor pueden usarse sistemas basados en la o en do: se debe elegir una convención explícita para cada actividad. No mezclar «mi» como tercera mayor funcional y como nota mi absoluta sin indicarlo.
+
+Este tratado usa principalmente nombres de notas con octava para describir ejemplos y grados numéricos para función. En comparaciones de modos paralelos, b3 significa tercer grado rebajado respecto de la escala mayor del mismo centro. En un análisis dentro de la escala menor natural, se puede llamar 3 al tercer grado propio; se declara la referencia para evitar contradicciones.
+
+6.3 Tónica percibida y ambigüedad
+No toda última nota es tónica, ni toda nota más frecuente establece centro. Usar duración, acento, repetición, bajo, fraseo y cadencias como evidencias convergentes. Si un fragmento corto permite más de un centro, aceptar hipótesis justificadas y pedir una continuación que las desambigüe. Identificar la tonalidad a partir de una sola nota sin referencia no es una prueba de oído funcional.
+
+Transportar el mismo patrón de grados a tres centros. Si conserva 1–2–3–5, la relación tonal se mantiene aunque cambien los nombres. Luego presentar el mismo conjunto de teclas blancas con centro do y con centro re: el oído debe atender al centro, no solo a la colección de notas.
+
+07. INTERVALOS: INVENTARIO, EJERCICIOS Y COMBINACIONES
+
+7.1 Inventario básico temperado
+Dentro de una octava, medir distancia cromática y escritura: unísono justo 0 semitonos; segunda menor 1; segunda mayor 2; tercera menor 3; tercera mayor 4; cuarta justa 5; cuarta aumentada o quinta disminuida 6; quinta justa 7; sexta menor 8; sexta mayor 9; séptima menor 10; séptima mayor 11; octava justa 12. La escritura determina la especie diatónica: do–fa# es cuarta aumentada; do–solb es quinta disminuida. En doce divisiones iguales, si se tocan aisladas con idéntico sonido, el oído no determina cuál grafía se escribió. Debe aceptarse «tritono» o aportar contexto.
+
+Un intervalo compuesto añade una o más octavas: novena mayor = 14 semitonos; décima menor = 15; undécima justa = 17; duodécima justa = 19; decimotercera mayor = 21. Se identifica primero relación simple y registro, pero también se practica su carácter real: una segunda armónica grave y una novena abierta no producen idéntica fusión.
+
+7.2 Orden pedagógico
+Iniciar por unísono y dirección, luego contrastes amplios, segundas y terceras, cuarta/quinta/octava, y completar sextas, séptimas y tritono según diagnóstico. No existe una única secuencia obligatoria. Si el estudiante conoce motivos con terceras, pueden ser mejores anclas que una quinta aislada. Lo importante es equilibrar ejemplos y explicar qué rasgo se compara.
+
+Trabajar tres presentaciones: melódica ascendente, melódica descendente y armónica. En descendente, evitar siempre la misma nota superior. En armónica, cantar cada miembro por separado antes de nombrar. Incluir repetición de una nota para que el alumno no presuponga que todo estímulo debe moverse.
+
+7.3 Operaciones sobre cada intervalo
+Escuchar dos pares y decidir cuál es mayor; reconocer entre dos categorías; reconocer entre un inventario amplio; cantar la segunda nota desde una primera; completar la primera desde una segunda; escribir ambas desde referencia; localizar el intervalo dentro de una frase; tocarlo en otro registro; invertirlo; y construir una respuesta melódica que lo incluya. El reconocimiento no debe ser el único producto.
+
+Una inversión simple conserva el complemento a la octava: tercera mayor y sexta menor suman doce semitonos; los números diatónicos suman nueve. Se escucha el par de manera concreta, no se responde solo por cálculo. Una inversión puede cambiar cuál nota está en el bajo y con ello cambiar la percepción de estabilidad.
+
+7.4 Combinaciones controladas
+Para un banco sin unísono con 12 tamaños de 1 a 12 semitonos, 12 clases de partida, 2 direcciones melódicas, 3 timbres y 2 duraciones: 12×12×2×3×2 = 1.728 configuraciones, antes de filtrar tesitura. Las presentaciones armónicas se cuentan aparte: no hay «dirección temporal» si las dos notas comienzan simultáneamente. Si se cuenta cada raíz posible en octavas concretas, ya no bastan 12 clases: hay que declarar registro.
+
+El banco adjunto enumera 769 pares melódicos ordenados dentro de do3–do6, distancia máxima de una octava, incluido unísono, y 403 díadas armónicas no ordenadas bajo el mismo límite. No representa todas las grafías enarmónicas ni todos los temperamentos. Así se evita inflar el número tratando do# y reb como dos audios diferentes cuando son acústicamente idénticos en el sistema adoptado.
+
+7.5 Errores y corrección
+Confundir cuarta y quinta: cantar la nota intermedia que permite relacionarlas con tónica, contrastar sus distancias y volver a escuchar en un contexto nuevo. Confundir tercera mayor y menor: mantener una nota y alternar la otra un semitono; después cambiar ambas para evitar aprender únicamente mi frente a mib. Confundir séptima con segunda: practicar contorno y registro, luego inversión. Confundir novena con segunda: reconocer clase y amplitud por separado.
+
+Las canciones de referencia pueden servir como ayuda personal si el fragmento recordado es exacto y comienza donde se cree. No sustituyen la escucha funcional; una misma distancia en otro ritmo o función puede no evocar la canción. Se recomienda crear ejemplos propios y verificar las referencias en una fuente musical, sin convertir una lista de canciones en currículo completo.
+
+08. ESCALAS, MODOS Y COLECCIONES DE ALTURAS
+
+8.1 Comparar sobre el mismo centro
+Para distinguir mayor y menor, usar al principio do mayor y do menor, conservando registro, ritmo, timbre y centro. Comparar do mayor y la menor introduce dos cambios simultáneos: centro y organización. Las relativas son una etapa posterior especialmente útil para demostrar que una colección no determina por sí sola la tónica.
+
+Escala mayor: 1–2–3–4–5–6–7; semitonos desde la tónica 0,2,4,5,7,9,11. Menor natural: 1–2–b3–4–5–b6–b7; 0,2,3,5,7,8,10. Menor armónica: 0,2,3,5,7,8,11. Menor melódica ascendente: 0,2,3,5,7,9,11. Escuchar la tercera para distinguir mayor/menor, luego sexto y séptimo para separar variantes menores. No llamar menor armónica a cualquier frase menor que omite sexto y séptimo: puede faltar información.
+
+8.2 Escala completa y fragmento
+Una escala ascendente regular facilita comparar pasos, pero puede entrenar la memoria de una forma fija. Después de identificarla completa, presentarla descendente, desde un grado distinto, con notas repetidas, con saltos y en una melodía. El objetivo es reconocer relaciones, no el último sonido o una duración exclusiva que delate la respuesta.
+
+Ejercicio: tocar do–re–mib–fa–sol y pedir solo lo que se puede afirmar. El fragmento es compatible con varias colecciones menores; aún no distingue menor natural, armónica y melódica. Añadir lab–si–do permite identificar la forma armónica dentro del inventario propuesto. Aprender a decir «información insuficiente» forma parte del oído crítico.
+
+8.3 Modos diatónicos paralelos
+Jónico: 1 2 3 4 5 6 7. Dórico: 1 2 b3 4 5 6 b7. Frigio: 1 b2 b3 4 5 b6 b7. Lidio: 1 2 3 #4 5 6 7. Mixolidio: 1 2 3 4 5 6 b7. Eólico: 1 2 b3 4 5 b6 b7. Locrio: 1 b2 b3 4 b5 b6 b7. Estas fórmulas describen modos modernos sobre un centro común, no toda la teoría modal medieval ni sistemas de otras culturas.
+
+Cantar primero el centro y una quinta o estructura apropiada; después introducir el grado distintivo en una frase. Dórico/eólico se contrastan por sexto; jónico/mixolidio, por séptimo; jónico/lidio, por cuarto; eólico/frigio, por segundo. Locrio exige atender a la quinta disminuida y a un centro menos compatible con la tríada mayor o menor habitual. Si el acompañamiento cambia el centro, la escala puede escucharse de otro modo: evitar drones o cadencias que contradigan la intención.
+
+8.4 Pentatonismo, blues y simetrías
+Pentatónica mayor: 0,2,4,7,9. Pentatónica menor: 0,3,5,7,10. La colección menor blues escolar añade 6 a esta última, pero la práctica del blues incluye inflexiones y alturas variables que una lista de seis teclas no agota. Entrenar imitación de frases, relación con acordes y articulación, no identificar un género por una escala aislada.
+
+La escala de tonos enteros alterna pasos de dos semitonos y tiene seis clases; la octatónica alterna tono/semitono o semitono/tono, con ocho clases. La cromática de doce alturas es útil para dirección y semitono, pero no debe interpretarse automáticamente como ausencia total de centro. Colecciones simétricas pueden admitir varias referencias; el contexto debe resolver lo que el inventario no resuelve.
+
+8.5 Extensiones
+Añadir modos de menor melódica y armónica, escalas bebop, colecciones sintéticas y microtonales cuando haya repertorio que lo justifique. Para cada colección: definir referencia, comparar con una ya conocida, cantar grados característicos, reconocer fragmentos, improvisar y transcribir. No equiparar saber nombrar siete modos de una escala con saber utilizarlos musicalmente. Las colecciones extensas se priorizan por necesidades de interpretación y producción.
+
+09. PULSO, SUBDIVISIÓN Y MÉTRICA
+
+9.1 Pulso y ritmo
+Pulso es una referencia periódica percibida; ritmo es la organización temporal de eventos, duraciones y silencios. Marcar cada nota de una melodía no equivale a mantener pulso. Primero escuchar una frase y caminar o percutir una periodicidad plausible. Después mantenerla cuando la melodía se detiene. Comprobar si el regreso coincide con la referencia.
+
+Algunas músicas admiten varios niveles de pulso: 60 y 120 pulsaciones por minuto pueden describir niveles relacionados de una misma organización. Evaluar la coherencia del nivel elegido y su relación con la frase antes de declarar una única cifra correcta. Si se pide negra = 80, esa unidad sí está fijada por la consigna.
+
+9.2 Subdivisión binaria y ternaria
+En subdivisión binaria cada pulso se divide en dos partes iguales; en ternaria, en tres. Cantar el pulso sobre una nota sostenida mientras la mano marca subdivisiones y luego intercambiar funciones. Introducir silencios sin perder la subdivisión interna. La exactitud no requiere pronunciar todas las sílabas para siempre: se retiran los apoyos gradualmente.
+
+3/4 y 6/8 pueden contener seis corcheas, pero organizarlas como 2+2+2 o 3+3. Reproducir una misma secuencia con acentos y fraseo de cada métrica para percibir la diferencia. Un audio breve con seis golpes idénticos sin acentos ni contexto puede ser ambiguo; la evaluación debe aportar suficiente organización o aceptar ambas hipótesis.
+
+9.3 Acentos y anacrusa
+Distinguir acento métrico, intensidad, duración, altura y cambio armónico. El comienzo de compás no tiene que ser el sonido más fuerte. Entrenar melodías que comienzan antes del primer pulso fuerte y completar el gesto hasta el reposo. Al transcribir una anacrusa, conservar su relación con la frase siguiente, no añadir silencios arbitrarios para forzarla dentro de un compás completo.
+
+9.4 Tempo y continuidad
+Practicar metrónomo continuo; después un clic por compás; luego compases alternos con clic y silencio. Registrar deriva gradual y errores localizados. Una entrada tardía única requiere otra corrección que una aceleración continua. Aumentar el tempo cuando se conserva calidad, y también practicar más lento: la lentitud puede exigir más estabilidad interna.
+
+10. RITMO, SILENCIOS, SÍNCOPA Y COMBINATORIA EXACTA
+
+10.1 Representaciones diferentes
+Un patrón de ataques dice cuándo empieza cada sonido. Un patrón de duraciones dice cuánto continúa. Una notación añade agrupación, ligaduras, silencios y acentos. Dos escrituras pueden producir ataques iguales y distinta articulación; también pueden sonar iguales con una escritura distinta. No se deben confundir estas unidades al contar «todos los ritmos».
+
+Rejilla binaria de cuatro posiciones por negra: 1 significa ataque y 0 ausencia de nuevo ataque. Los dieciséis patrones son:
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111,
+1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111.
+En los ejemplos pautados de este banco, cada 1 es una semicorchea y cada 0 un silencio de semicorchea. Por tanto 1000 suena como ataque corto y tres silencios, no como negra sostenida. Para sostener hay que añadir una regla distinta. Se practica primero con voz o palmas y se identifica después en la rejilla y en el pentagrama.
+
+10.2 Duraciones que completan una negra
+Si la unidad mínima es una semicorchea y se permiten duraciones de 1,2,3,4 unidades, hay ocho composiciones ordenadas de 4:
+4; 3+1; 1+3; 2+2; 2+1+1; 1+2+1; 1+1+2; 1+1+1+1.
+Se traducen en negra; corchea con puntillo–semicorchea; semicorchea–corchea con puntillo; dos corcheas; corchea–dos semicorcheas; semicorchea–corchea–semicorchea; dos semicorcheas–corchea; cuatro semicorcheas. Las duraciones están expresadas dentro de una negra, independientemente del tempo.
+
+Si cada evento de cada composición puede ser sonido o silencio, el número de escrituras segmentadas es 2×3^(4−1)=54. Algunas se perciben equivalentes: dos silencios consecutivos y un silencio unido pueden cubrir el mismo tiempo. El banco de 54 conserva esa segmentación para estudiar lectura, pero no afirma que existan 54 ritmos acústicamente distintos. Para medir diversidad sonora se normalizan segmentos y se añaden duración y articulación explícitas.
+
+10.3 Rejillas más extensas
+Una rejilla de n posiciones tiene 2^n máscaras de ataques, incluido silencio total. En ocho corcheas: 256. En dieciséis semicorcheas: 65.536. Con exactamente k ataques hay C(n,k)=n!/[k!(n−k)!]. En dieciséis posiciones con cuatro ataques hay 1.820. Si el primer ataque se obliga en la primera posición, quedan C(15,3)=455. Estos números no incluyen acentos, alturas, duraciones sostenidas, microdesplazamientos ni distintas agrupaciones métricas.
+
+Rotar una máscara no es necesariamente duplicarla: 1000 y 0100 representan distinta relación con el pulso si el origen del compás está fijado. Si se estudian ciclos sin origen, pueden considerarse equivalentes bajo rotación, pero ese es otro problema de conteo. El banco adjunto conserva el origen métrico y no elimina rotaciones.
+
+10.4 Silencios y ligaduras
+Practicar silencios en inicio, interior y final; cantar subdivisiones en silencio mentalmente y reaparecer sin anticipación. Para ligaduras, comparar dos sonidos repetidos con un sonido prolongado del mismo total. La suma de duraciones puede coincidir, pero el segundo ataque desaparece. Antes de transcribir, preguntar cuántos ataques se oyeron; después dónde se sostuvo el sonido.
+
+Una síncopa mantiene o acentúa una posición que entra en tensión con la jerarquía métrica. No cualquier nota débil es automáticamente síncopa. Contratiempo suele designar sonidos en partes débiles con silencios en las fuertes; las definiciones pedagógicas varían y deben explicitarse. En ambos casos se conserva el pulso mientras se ejecuta el patrón desplazado.
+
+10.5 Dictado rítmico
+Dar compás y pulso en la primera etapa. Escuchar el conjunto; marcar ataques en una línea temporal; agrupar por pulsos; determinar duraciones; escribir; y comprobar cantando la propia respuesta. En etapas posteriores inferir la métrica y justificarla. Una transcripción puede tener ataques correctos y agrupación ilegible; se retroalimentan ambas dimensiones por separado.
+
+Para semicorcheas, entrenar las ocho células de duración y las dieciséis de ataque, pero después combinarlas con silencios de compás, ligaduras y frases de dos a ocho compases. Aprender todas las células de un pulso no garantiza reconocerlas cuando atraviesan una barra de compás.
+
+11. RITMOS AVANZADOS, POLIRRITMIA Y MODULACIÓN MÉTRICA
+
+11.1 Grupos irregulares
+Un tresillo 3:2 distribuye tres eventos en el tiempo de dos de la figura indicada. Un quintillo 5:4 hace lo equivalente con cinco en tiempo de cuatro. La cifra por sí sola no determina la duración total: se necesita figura de referencia o corchete. Empezar por escuchar el espacio total, dividirlo uniformemente y contrastar con la división habitual. No acelerar la última nota para «alcanzar» el siguiente pulso.
+
+Practicar alternancias binario/ternario sobre un pulso constante: dos corcheas, tres corcheas de tresillo, cuatro semicorcheas. Luego silencios dentro del grupo, ligaduras y grupos que abarcan varios pulsos. Para quintillos y septillos, el agrupamiento silábico puede orientar el conteo pero no debe producir duraciones desiguales si se pide división regular.
+
+11.2 Polirritmia
+En 3:2, ambas capas comparten duración total pero distribuyen tres y dos ataques regulares. Una rejilla común de seis posiciones sitúa la capa de tres en 0,2,4 y la de dos en 0,3. Tocar cada capa sola, escuchar ambas, ejecutar una con mano y otra con voz, e intercambiar funciones. Las coincidencias aparecen al inicio del ciclo; no se debe convertir el patrón compuesto en seis golpes regulares.
+
+Para p:q usar mcm(p,q) posiciones; los ataques de p aparecen cada mcm/p posiciones, los de q cada mcm/q. Esta construcción describe divisiones regulares de un ciclo, no explica por sí sola el fraseo ni la función cultural de una práctica. Se incluyen 4:3, 5:2 y 5:3 después de dominar 3:2. No se exige calcular el mínimo común múltiplo durante una interpretación fluida; sirve para comprender y construir el ejercicio.
+
+11.3 Hemiola, polimetría y agrupación aditiva
+Hemiola puede implicar reorganización perceptiva entre grupos de dos y tres, según el contexto. Polimetría mantiene agrupaciones métricas diferentes simultáneas; no es sinónimo automático de polirritmia. Un 7/8 puede agruparse 2+2+3, 2+3+2 o 3+2+2. Escuchar cuál posición recibe cierre, acento o cambio armónico. Dos patrones con igual cantidad de corcheas pueden tener gestos distintos.
+
+Trabajar primero cada agrupación aislada, luego discriminación A/B y finalmente cambios de agrupación. En 5/8, 2+3 y 3+2 se contrastan por su organización; en 9/8 no asumir siempre 3+3+3, pues algunos repertorios organizan 2+2+2+3. Los términos «amalgama», «aditivo» e «irregular» deben acompañarse de la agrupación concreta.
+
+11.4 Modulación métrica
+Una modulación métrica relaciona una duración del tempo anterior con una del nuevo. Si la corchea de tresillo del pulso anterior se convierte en corchea ordinaria del nuevo, el nuevo pulso de negra dura 2/3 del anterior y el nuevo tempo es 3/2 del previo. De negra = 80 se pasa a negra = 120. Es indispensable escribir la igualdad de figuras; decir solo «tresillo igual a corchea» puede ser ambiguo.
+
+Ejercicio: mantener subdivisiones ternarias a 80; agruparlas de dos en dos sin cambiar su velocidad; sentir el nuevo pulso a 120; volver al original. Verificar con una referencia programada. Diferenciar esto de acelerar gradualmente y de cambiar la unidad notada conservando la misma duración percibida.
+
+11.5 Swing y microtiempo
+Swing no es una proporción fija universal de 2:1. Comparar interpretaciones a distintos tempos; imitar la colocación y articulación de un modelo, y describir la tendencia largo/corto sin reducirla a una fórmula invariable. En producción, un patrón de cuantización es una aproximación técnica que debe evaluarse musicalmente.
+
+Para microtiempo, desplazar una capa completa ligeramente respecto del pulso, después desplazar eventos individuales. Preguntar si se percibe anticipación, retraso, inestabilidad o un patrón consistente. El ejemplo «tarde» no debe sonar más fuerte por accidente: igualar niveles para no dar una pista ajena al tiempo.
+
+12. MELODÍA: IMITACIÓN, TRANSFORMACIÓN Y DICTADO
+
+12.1 Dimensiones de dificultad
+Una melodía se describe por centro, colección, tesitura, número de eventos, longitud, saltos, ritmo, articulación, repetición, cromatismo, acompañamiento y previsibilidad. Dos compases con saltos y síncopas pueden ser más difíciles que ocho de movimiento conjunto repetitivo. No graduar solamente por cantidad de compases.
+
+Comenzar con 1–2–3–2–1 o 1–3–5–3–1, luego pentatonismo y escala completa. Presentar variantes con una nota cambiada para distinguir recuerdo preciso y expectativa. Pasar de ritmo uniforme a ritmo conocido; después combinar una dificultad melódica nueva con ritmo sencillo y viceversa.
+
+12.2 Imitación y reconstrucción
+Escuchar sin tocar; cantar o ejecutar después de terminar el modelo. Si el estudiante toca simultáneamente por ensayo y error, puede encontrar notas sin conservar la frase. En una fase posterior se permite tocar junto al modelo para trabajar sincronización, pero se identifica como otra tarea.
+
+Reconstruir primero puntos de apoyo: inicio, final, extremos, repetición y dirección. Luego completar detalles. Si se pierde una nota, conservar el lugar temporal y continuar. Volver al principio cada vez que aparece un error impide desarrollar recuperación en tiempo real.
+
+12.3 Protocolo de dictado
+Primera audición: centro o referencia, pulso, métrica, longitud y carácter global. Segunda: retener un fragmento completo y reproducirlo mentalmente. Durante la pausa: representar grados, contorno o ritmo provisional. Audiciones siguientes: resolver incertidumbres concretas. Última: cantar interiormente la transcripción mientras se escucha y marcar diferencias. La descripción por etapas es compatible con la separación entre contexto, memoria, análisis y escritura del capítulo de dictado de Chenette [F15]; el protocolo y la dosificación concreta de aquí son una propuesta.
+
+Al principio dar primer sonido, compás y duración. Después retirar ayudas por separado. Un dictado libre sin referencias no debe calificarse con el mismo criterio que uno de cinco notas anunciadas. Registrar cuántas escuchas se permitieron y si hubo pausas o repetición de fragmentos.
+
+12.4 Transformaciones
+Transportar conserva intervalos; invertir un contorno no equivale necesariamente a invertir cromáticamente todos los intervalos. Declarar si se usa inversión diatónica dentro de escala o inversión cromática alrededor de un eje. Retrogradar invierte el orden; si también se retrogradan duraciones, especificarlo. Aumentar duraciones al doble conserva proporciones, pero cambia la relación con el compás si no se reescribe.
+
+Un ejercicio de transformación debe tener una respuesta verificable: do–re–mi transportado una segunda mayor ascendente es re–mi–fa#. Si se desea mantener teclas blancas, no se está haciendo esa transposición exacta. La precisión de la consigna evita penalizar una respuesta musicalmente válida para otra operación.
+
+12.5 Transcripción de repertorio
+Elegir entre cinco y quince segundos al inicio; escuchar contexto más amplio para no perder función. Anotar fuente, intérprete, tiempo de inicio, tempo aproximado y dudas. Bajar velocidad puede ayudar, pero puede modificar ataques o artefactos según el algoritmo. Verificar a velocidad original. Una separación automática de pistas también introduce artefactos; la mezcla original sigue siendo referencia.
+
+La transcripción puede servir a distintos fines: melodía, lead sheet, línea de bajo, reducción, partitura de ensayo o análisis de producción. No exigir detalle total cuando la pregunta es estructural. Tampoco llamar «transcripción completa» a una lista de acordes sin ritmo, inversiones ni forma cuando esos elementos eran parte del encargo.
+
+13. LECTURA CANTADA Y COORDINACIÓN AUDIOVISUAL
+
+13.1 Antes de cantar
+Examinar clave, armadura, compás, tempo, tesitura, primer grado, cadencia y patrones repetidos. Establecer tónica y pulso; imaginar el primer gesto. La preparación no consiste en oír todas las notas una a una en un teclado. Seleccionar puntos de referencia y anticipar grupos.
+
+Leer una frase con notas largas para estabilizar alturas; después incorporar ritmo. Cuando se evalúe la integración, cantar ambas dimensiones sin detenerse. La lectura rítmica hablada y la entonación sin ritmo son apoyos diagnósticos, no sustituyen indefinidamente la lectura musical completa.
+
+13.2 Mirada anticipada
+Mantener los ojos ligeramente por delante de la nota cantada permite preparar un salto o cambio rítmico. Practicar cubriendo fragmentos ya leídos; no cubrir lo que aún debe anticiparse. Aumentar la distancia visual solo si no se pierde la frase. La coordinación entre mirada, memoria y emisión se aprende gradualmente.
+
+13.3 Claves y transposición
+Trabajar clave de sol y fa desde el inicio funcional según tesitura; añadir do cuando el repertorio lo requiera. Diferenciar sonido real y escrito de instrumentos transpositores. En un clarinete en sib, do escrito suena sib de concierto en la convención habitual. Una tarea puede pedir canto de sonido escrito o real; debe aclararlo. Leer una clave nueva añade una carga visual que no debe confundirse con una dificultad auditiva.
+
+13.4 Lectura con acompañamiento
+Cantar una melodía sobre pedal; después sobre acordes; después una voz mientras otra realiza movimiento contrario. Practicar recuperación tras un error manteniendo el compás. Si el acompañamiento dobla todas las notas, facilita la imitación; retirarlo progresivamente para comprobar autonomía.
+
+14. ACORDES, INVERSIONES Y DISPOSICIÓN DE VOCES
+
+14.1 Tríadas
+Desde la fundamental, mayor = 0,4,7; menor = 0,3,7; disminuida = 0,3,6; aumentada = 0,4,8. Escuchar primero arpegiadas, luego simultáneas. Cantar fundamental, tercera y quinta; variar el orden de arpegio. La diferencia mayor/menor está en la tercera cuando fundamental y quinta se mantienen. La quinta alterada separa disminuida y aumentada de sus referencias próximas.
+
+No identificar acorde disminuido solo como «feo» o aumentado como «misterioso». Esas palabras pueden expresar una experiencia, pero no describen de modo suficiente el contenido. Pedir qué nota cambia respecto del modelo y qué relaciones se escuchan.
+
+14.2 Inversiones
+Posición fundamental: fundamental en el bajo; primera inversión: tercera en el bajo; segunda: quinta en el bajo. La inversión se determina por la nota más grave, no por la nota superior ni por la distribución completa. Do–mi–sol y do–sol–mi tienen la misma inversión si do sigue abajo. Mi–sol–do es primera inversión de do mayor.
+
+Separar tres preguntas: calidad, bajo y fundamental. Un estudiante puede acertar la calidad pero confundir inversión; otro puede seguir el bajo sin reconocer el acorde. Cantar el bajo, arpegiar los miembros y reconstruir la posición fundamental. No asumir que el bajo es siempre raíz.
+
+14.3 Disposición y duplicación
+Comparar posición cerrada y abierta, voces juntas y separadas, omisión de quinta, duplicación de fundamental y cambios de soprano. Un acorde no deja de ser mayor porque tenga cuatro voces si una nota está duplicada. En música real pueden faltar componentes y el contexto completar la interpretación; la prueba debe distinguir «sonoridad escuchada» de «función inferida».
+
+La tríada aumentada tiene simetría en doce divisiones iguales: sus clases admiten varias interpretaciones enarmónicas de fundamental. La identificación de una raíz única puede requerir escritura o contexto. No se debe exigir una respuesta acústicamente imposible a un acorde aislado simétrico.
+
+14.4 Séptimas
+Séptima mayor: 0,4,7,11; dominante: 0,4,7,10; menor: 0,3,7,10; semidisminuida: 0,3,6,10; disminuida: 0,3,6,9; menor con séptima mayor: 0,3,7,11. Incorporar otras alteraciones cuando se estudie su uso. Para distinguir mayor7 y dominante7, mantener la tríada y variar séptima; para menor7 y semidisminuido, variar quinta. La séptima disminuida requiere grafía: do–mib–solb–sibb, no simplemente la si se analiza desde do.
+
+Hay cuatro posiciones según el bajo para un acorde de séptima con cuatro clases distintas. Se practica cada una con distintos voicings. El acorde disminuido de séptima comparte simetría y ambigüedad enarmónica; la función se reconoce mejor por resolución.
+
+14.5 Tensiones y estructuras no tercianas
+Comparar novena con segunda añadida teniendo en cuenta registro; distinguir add9 de acorde de novena con séptima presente cuando el estímulo contiene esa diferencia. Trabajar sus2, sus4, acordes por cuartas, quintas, clusters y poliacordes. No toda sonoridad sus4 funciona como suspensión clásica preparada y resuelta; la etiqueta comercial y el proceso contrapuntístico no son equivalentes.
+
+En jazz, cantar terceras y séptimas como líneas guía; después añadir novenas y trecenas. En repertorios con voicings sin fundamental, escuchar el bajo contextual. Sin ese contexto, varias etiquetas pueden describir el mismo conjunto. La tarea debe permitir esa ambigüedad o diseñar estímulos que la resuelvan.
+
+15. FUNCIÓN ARMÓNICA, CADENCIAS Y PROGRESIONES
+
+15.1 Calidad y función
+Do mayor puede ser I en do, IV en sol o V en fa. La calidad no determina función. Establecer un centro y comparar el mismo acorde en diferentes progresiones. Cantar el bajo y una línea superior antes de cifrar. El cifrado romano resume relaciones interpretadas; no reemplaza escuchar movimiento y cierre.
+
+En tonalidad funcional, tónica, predominante y dominante son familias útiles, pero no todos los estilos organizan armonía por esas categorías. Un vamp modal puede sostener un centro sin dominante tonal clásica. Una progresión de cuatro acordes repetidos puede no tener un único cierre inequívoco cada vuelta.
+
+15.2 Cadencias
+Auténtica: movimiento dominante–tónica dentro de una articulación de frase. Para distinguir perfecta e imperfecta en la convención clásica se atiende a posición y soprano, además de función. Semicadencia: llegada a dominante como final de unidad. Plagal: IV–I en contexto pertinente. Rota o deceptiva: dominante que evita la tónica esperada, frecuentemente hacia vi en mayor. Frigia en menor: una forma común de semicadencia con iv6–V y bajo b6–5.
+
+No basta escuchar dos acordes V–I para asegurar una cadencia formal: pueden ocurrir en medio de frase. Comparar la misma sucesión con continuidad y con cierre rítmico-melódico. Evaluar función armónica y articulación formal como evidencias complementarias.
+
+15.3 Progresión de dictado armónico
+Primera etapa: elegir entre I y V, con bajo en posición fundamental. Segunda: I, IV y V. Tercera: vi, ii e inversiones. Cuarta: séptima de dominante y ii7. Después dominante secundaria, mezcla modal, cromatismo y modulación. En cada etapa: escuchar completo, cantar bajo, localizar ritmos de cambio, señalar reposos, escribir función y verificar con una reducción.
+
+La frecuencia de cambio armónico constituye ritmo armónico. Un acorde por compás no equivale a uno por pulso en dificultad de retención. Variar el ritmo armónico sin alterar siempre el número total de acordes para aislar esa dimensión.
+
+15.4 Patrones y variación
+Trabajar I–IV–V–I, I–vi–ii–V, ii–V–I, I–V–vi–IV, i–iv–V–i y ciclos por quintas como esquemas, no como recetas universales. Cambiar inversión, disposición, ritmo y melodía. Reconocer una progresión por la línea de bajo puede ser una estrategia válida, pero comprobar después si hay sustituciones o acordes con bajo común.
+
+Comparar I–vi–IV–V y I–vi–ii6–V: el bajo puede acercar las sonoridades, pero hay diferencia de estructura. Escuchar una voz interna o reconstruir el acorde ayuda a resolverla. No pedir todas las voces desde el inicio: aumentar la información requerida gradualmente.
+
+16. CROMATISMO, MODULACIÓN Y ARMONÍAS AMPLIADAS
+
+16.1 Notas ajenas al acorde
+Identificar paso, bordadura, anticipación, retardo, apoyatura, escapada y pedal mediante relación temporal y resolución. Una nota disonante no se clasifica solo por su nombre. Comparar re entre do y mi por movimiento conjunto con re que salta desde otra nota y resuelve. La misma altura puede desempeñar funciones distintas.
+
+Reducir una melodía ornamentada a apoyos; después volver a cantarla con ornamentos. La reducción es una interpretación útil, no una versión superior de la música. Debe conservar la identidad de frase y justificar qué se considera estructural.
+
+16.2 Dominantes secundarias y tonicización
+En do mayor, re7 puede dirigir a sol: contiene fa#, sensible de sol, y suele analizarse V7/V. Escuchar la nota cromática y su resolución; comparar re menor–sol con re7–sol. Una tonicización breve no implica necesariamente cambio estable de tonalidad. Para hablar de modulación buscar confirmación del nuevo centro en la continuidad, no solo un acorde alterado.
+
+16.3 Modulación
+Entrenar primero centros cercanos, después relaciones más lejanas. Cantar tónica inicial y final; identificar momento de reinterpretación; transcribir notas que distinguen la nueva región. En una modulación a sol desde do, fa# puede ser un indicio, pero su presencia aislada no demuestra modulación. Pedir evidencia de cadencia, prolongación o estabilidad.
+
+Practicar continuidad del oído interno cuando cambia el sistema de grados: un mismo sonido puede cambiar de función. En do a sol, sol pasa de 5 a 1. Explicar y cantar esa reinterpretación sin confundirla con cambio físico de frecuencia.
+
+16.4 Mezcla modal y acordes cromáticos
+Comparar IV mayor e iv menor dentro de do mayor; escuchar lab como cambio de color y conducción. Añadir bVI, bVII, napolitano y sextas aumentadas cuando el repertorio lo requiera. Para una sexta aumentada, atender al movimiento expansivo hacia la octava sobre dominante y a la ortografía funcional; en temperamento igual puede coincidir con otra sonoridad enarmónica. Contexto y conducción hacen audible la diferencia de función.
+
+16.5 Jazz y músicas populares
+Entrenar dominantes alteradas, sustitución tritonal, intercambio modal, backdoor, líneas cromáticas de aproximación y acordes extendidos mediante frases y conducción de voces. No obligar a identificar la escala completa a partir de tres notas de un solo. Distinguir lo que realmente está presente de lo que sería compatible. Comparar dos armonizaciones de una melodía y explicar qué cambia en tensión, bajo y resolución.
+
+17. POLIFONÍA Y DICTADO DE VARIAS VOCES
+
+17.1 Preparación
+Antes de escribir dos voces, aprender a mantener una mientras se escucha otra. Empezar con pedal y melodía; después dos líneas de ritmo semejante; más tarde ritmos independientes. Pedir una sola voz por ensayo, alternar superior e inferior y finalmente ambas. La atención a la voz superior puede resultar más espontánea en algunas texturas; el bajo y las voces internas requieren práctica deliberada, como discute la respuesta de Marvin [F16].
+
+17.2 Procedimiento
+Escuchar textura completa y número aproximado de capas. Localizar entradas y finales. Cantar una línea sin acompañamiento; volver a escuchar y verificar; escribirla. Repetir con la otra. Analizar simultaneidades en puntos de apoyo, evitando adivinar toda la voz inferior a partir de reglas de armonía. Las reglas pueden proponer hipótesis, pero el audio decide.
+
+17.3 Movimiento entre voces
+Reconocer movimiento paralelo, similar, contrario y oblicuo. Paralelo exige mismo intervalo sucesivo en sentido estricto; similar solo comparte dirección. Oblicuo implica una voz sostenida o repetida mientras otra se mueve. Escuchar estos gestos en un dúo y luego transcribir notas. No convertir el reconocimiento de movimiento en un examen exclusivo de terminología.
+
+17.4 Voces internas y cuatro partes
+Usar primero acordes prolongados para cantar cada miembro; después seguir una voz interna que cambia por grados conjuntos; añadir cruces o timbres similares más tarde. En un dictado a cuatro voces, transcribir bajo y soprano, después completar interiores y comprobar cada línea. La armonía no siempre permite inferir una única disposición: aceptar distintas realizaciones solo si la consigna pide reducción, no transcripción exacta.
+
+17.5 Canon, imitación y fuga
+Identificar sujeto, respuesta, entradas, distancia temporal y transformación. Para un canon sencillo, escuchar primero el modelo, cantar la segunda entrada mientras el modelo continúa y luego alternar papeles. La independencia auditiva incluye resistir la atracción de otra línea y escucharla al mismo tiempo. Reconocer una entrada de fuga no exige transcribir inmediatamente todas sus voces; se graduará la tarea.
+
+18. FORMA, TEXTURA, TIMBRE Y EXPRESIÓN
+
+18.1 Forma como memoria de relaciones
+Reconocer forma exige comparar música presente con música recordada. Marcar secciones A, B y A' según repetición, contraste o variación. Justificar con melodía, armonía, ritmo, textura y timbre; no basta un cambio de instrumento para afirmar que empieza una sección nueva. Construir un mapa con tiempos de entrada y duración aproximada antes de asignar nombres formales.
+
+Trabajar motivo, semifrase, frase, período y oración en repertorio tonal; estrofa, estribillo, puente, introducción, interludio y coda en canciones; chorus en jazz y ciclos en músicas de repetición. Los términos describen prácticas y no una jerarquía universal. Un estribillo puede cambiar de arreglo sin cambiar de identidad; un loop puede conservar armonía y modificar función por su posición.
+
+18.2 Texturas
+Monofonía: una línea sin acompañamiento armónico independiente; homofonía: voces coordinadas con jerarquía o ritmo compartido; polifonía: líneas con independencia significativa; heterofonía: variantes simultáneas relacionadas de una melodía. Son categorías de análisis que pueden coexistir o cambiar dentro de una obra. No contar instrumentos como si equivalieran siempre a voces: varios instrumentos al unísono pueden formar una sola línea funcional.
+
+Ejercicio: escuchar un fragmento, estimar capas, dibujar entradas y describir relaciones. Después comparar una reducción a piano y la mezcla original. Determinar qué información se conserva y cuál se pierde. La reducción no puede representar por completo timbre, espacio y articulación.
+
+18.3 Timbre
+Separar altura, intensidad, duración y color tímbrico. Comparar la misma nota con distintos instrumentos; después el mismo instrumento en varios registros y articulaciones. Identificar ataque, sostenimiento, ruido, brillo y envolvente. Un timbre no es una etiqueta fija: una flauta grave y una aguda pueden diferir mucho; un sintetizador puede imitar rasgos de varios instrumentos.
+
+Comenzar con familias contrastantes y avanzar a fuentes cercanas, mezclas y procesamiento. Pedir descripción antes de nombre para evitar adivinanzas. «Ataque breve, resonancia metálica y decaimiento largo» es una observación verificable aunque no se identifique el instrumento exacto.
+
+18.4 Dinámica, articulación y fraseo
+Comparar crescendo con acumulación de instrumentos: ambos pueden aumentar energía percibida, pero no son lo mismo. Escuchar staccato, legato, acentos, tenuto y cambios de duración efectiva. En una grabación, compresión y reverberación pueden alterar la percepción de dinámica y articulación; no inferir directamente la intención del intérprete a partir de un único rasgo procesado.
+
+Imitar una frase con su dirección dinámica y después conservar notas cambiando fraseo. Pedir al oyente que describa la diferencia. Este ejercicio conecta audición con decisión expresiva, en lugar de limitar la corrección a alturas y duraciones nominales.
+
+19. IMPROVISACIÓN, TRANSPOSICIÓN Y CONJUNTO
+
+19.1 Respuesta musical
+El docente presenta una pregunta de dos compases; el estudiante responde con igual pulso y una condición: terminar en tónica, usar el mismo motivo, cambiar dirección o mantener ritmo. La respuesta no tiene una única melodía correcta, pero sí restricciones comprobables. Evaluar continuidad, escucha de la propuesta y cumplimiento, además de intención musical.
+
+Alternar imitación exacta y respuesta transformada. Si siempre se pide creatividad, puede ocultarse incapacidad de recordar; si siempre se pide copia, no se observa autonomía. La relación entre ambas tareas es central para tocar de oído en ensayos reales.
+
+19.2 Transposición
+Aprender una frase sin instrumento, cantarla y transportarla a una referencia nueva. Conservar grados e intervalos, ajustar registro cómodo y verificar. En instrumento, evitar depender únicamente de una digitación trasladable. Pedir cantar la frase antes de ejecutarla, o tocarla en una disposición que obligue a escuchar relaciones.
+
+En música modal, transportar exige conservar estructura interválica; cambiar solo la primera nota y usar el mismo conjunto puede producir otro modo. En una canción con modulación, transportar todas sus regiones mantiene las relaciones entre centros.
+
+19.3 Improvisación armónica
+Cantar una melodía sobre I–IV–V–I usando primero notas de acorde en posiciones fuertes y conexiones sencillas. Después introducir notas de paso y anticipaciones. Escuchar una progresión y crear un bajo que evidencie sus cambios; posteriormente crear un acompañamiento. La consonancia no es el único criterio, pero una disonancia debe poder oírse, sostenerse o resolverse intencionalmente.
+
+19.4 Conjunto
+Practicar entrada después de una señal, ajuste al tempo compartido, balance de voces y recuperación tras interrupción. Rotar liderazgo del pulso y de la frase. En modalidad virtual, usar grabaciones superpuestas o turnos de respuesta; no evaluar simultaneidad remota sin considerar latencia. Comparar primera toma y toma corregida con observaciones concretas: «adelanté el tercer ataque» es más útil que «faltó musicalidad».
+
+20. ESCUCHA TÉCNICA PARA SONIDO Y PRODUCCIÓN MUSICAL
+
+20.1 Dos campos conectados
+El oído musical reconoce relaciones de altura, ritmo, armonía y forma; el oído técnico describe transformaciones de señal y balance. Ambos se apoyan, pero identificar una séptima no demuestra reconocer compresión, y distinguir un realce de frecuencias no demuestra cantar una melodía. Jason Corey trata específicamente escucha crítica y entrenamiento técnico [F17]. SoundGym y TrainYourEars declaran tareas de esta área [F27, F28]. Las siguientes prácticas son diseños originales para vincularlas al TSPM.
+
+20.2 Ecualización y frecuencia
+Empezar con tres zonas amplias sobre ruido y sobre una fuente musical. Comparar original/procesado con nivel percibido semejante, e identificar si hay realce o corte. Después estimar zona central, anchura y tipo de filtro. La respuesta inicial debe ser perceptiva: «más nasal» o «menos cuerpo», seguida de hipótesis de parámetro. No asociar cada adjetivo a una frecuencia universal; depende de fuente, registro y mezcla.
+
+Banco propuesto: 6 centros de filtro × 3 ganancias × 2 anchuras × 4 fuentes = 144 configuraciones si las ganancias son no nulas. Si se incluye ganancia cero, distintas frecuencias y Q pueden producir el mismo audio sin procesamiento; deben contarse como controles, no estímulos diferentes. Para entrenar decisión, añadir casos donde la mejor respuesta sea conservar el original.
+
+20.3 Compresión
+Comparar señal sin procesar y comprimida, compensando nivel para reducir el sesgo de «más fuerte = mejor». Escuchar ataque, cola, bombeo y estabilidad. Variar primero un parámetro; luego comparar configuraciones que producen reducciones parecidas con distinta envolvente. Una relación numérica alta no implica gran efecto si el umbral nunca se cruza.
+
+Ejercicio: misma batería con ataque rápido y lento, manteniendo otros parámetros; identificar cuál conserva más transitorio en ese material. Después repetir con otra fuente y verificar que la conclusión no se convierta en una regla absoluta sobre cualquier compresor. Si se pide identificar parámetros exactos por oído, reconocer que varias configuraciones pueden producir resultados muy próximos.
+
+20.4 Reverberación, delay y espacio
+Separar tiempo de decaimiento, predelay, cantidad de señal procesada y carácter espectral. Comparar un sonido seco, uno con reflexiones cortas y otro con cola larga. Identificar proximidad percibida y claridad rítmica. Un eco repetido puede confundirse con una nota ejecutada: escuchar si comparte timbre, decae y repite un intervalo temporal fijo.
+
+Trabajar paneo, anchura y posición central con fuentes controladas. Comparar estéreo y mono; señalar cambios de balance o cancelaciones sin asumir que toda reducción de anchura es un defecto. Enmascaramiento: presentar dos fuentes separadas, luego juntas; identificar qué detalle deja de distinguirse y probar cambios de arreglo, registro o nivel antes de ecualizar automáticamente.
+
+20.5 Edición y afinación en contexto
+Detectar una nota cambiada, un ataque desplazado, una entrada omitida, un corte de ambiente o una repetición de edición. Para entrenar cuantización, comparar toma original y variantes con distintos grados de ajuste. Evaluar si se conserva intención y relación entre capas. La cuadrícula no es la referencia estética única.
+
+En afinación vocal, distinguir error de nota, desviación sostenida e inflexión expresiva. Comparar la voz con acorde y melodía, no solo con un afinador. Una blue note o portamento no debe corregirse automáticamente a la tecla más cercana. La prueba debe declarar si exige temperamento igual o imitación de un modelo estilístico.
+
+20.6 Pruebas comparativas
+A/B compara dos versiones conocidas. ABX presenta A, B y un X que coincide con una de ellas para decidir identidad; no demuestra preferencia ni calidad artística. Una prueba triangular presenta tres muestras, dos iguales y una distinta. Aleatorizar el orden, ocultar etiquetas reveladoras y usar controles idénticos evita respuestas por expectativa.
+
+Registrar respuesta, confianza y razones antes de revelar. Si una persona asegura percibir diferencia entre dos archivos idénticos, usarlo como ocasión para revisar condiciones, no como humillación. Las evaluaciones auditivas dependen de atención, memoria y contexto de reproducción. Mantener volumen cómodo y estable; la exposición intensa no es una estrategia de entrenamiento.
+
+21. DIVERSIDAD DE REPERTORIOS Y EXTENSIONES ESPECIALIZADAS
+
+21.1 Contexto colombiano y latinoamericano
+Incluir repertorios próximos al estudiante: canciones, pasillos, bambucos, músicas de marimba, cumbias, joropos, salsa, jazz, músicas urbanas y producciones electrónicas, seleccionando grabaciones concretas con intérprete y procedencia. No asignar un único patrón a todo un género. Escuchar relación entre bajo, percusión, voz, baile y fraseo antes de imponer una métrica escrita.
+
+En músicas de marimba del Pacífico colombiano y de Esmeraldas, UNESCO subraya la dimensión comunitaria y de transmisión de cantos y danzas [F32]. Como propuesta docente, estudiar una grabación autorizada, imitar por capas y conversar con un portador de la práctica cuando sea posible. El pentagrama puede ayudar a comunicar ciertos aspectos, pero no sustituye pronunciación, gesto, timbre, afinación local ni contexto social.
+
+21.2 Tradiciones modales y afinaciones
+Para maqam, raga, gamelán y otras prácticas, comenzar por fuentes y docentes de la tradición, no por equivalencias apresuradas con modos occidentales. Un raga no es solo una escala; un maqam no se agota en un conjunto de cuartos de tono. Se proponen tareas de imitación de frase, reconocimiento de gestos, trayectorias y apoyos, con referencia auditiva específica. Este tratado no pretende enseñar de forma exhaustiva cada uno de esos sistemas.
+
+21.3 Pos-tonalidad
+Trabajar células sin centro tonal estable, intervalos no resueltos, conjuntos de clases, simetrías, transposición e inversión. Cantar grupos cortos, conservar una referencia de registro y encadenar células. Evitar que todo ejercicio termine por hábito en una tónica. Modus novus de Lars Edlund es una referencia editorial verificada para lectura de música no organizada por mayor/menor [F08]; aquí se ofrecen ejemplos originales, no sus lecciones.
+
+21.4 Microtonalidad y afinaciones alternativas
+Definir primero sistema: 24 divisiones iguales, relaciones justas seleccionadas, otra división o afinación de una tradición concreta. Distinguir identificar dirección de una desviación y categorizarla como grado estable de un sistema. Practicar intervalos amplios antes de separaciones pequeñas; usar fuente reproducible. El pentagrama convencional necesita signos o anotaciones adicionales y una leyenda. No llamar «desafinado» a todo sonido entre teclas.
+
+21.5 Sonidos no discretos
+Escuchar glissandi, masas, texturas de ruido, espectros, densidad y transformaciones continuas. Representar mediante curvas temporales, descripciones y espectrogramas cuando sea pertinente. Un pentagrama de alturas discretas puede ser insuficiente; se emplea notación gráfica complementaria. La totalidad de la formación auditiva debe incluir saber elegir la representación adecuada.
+
+22. DISEÑO COMBINATORIO Y GENERACIÓN DE BANCOS
+
+22.1 Ficha mínima de un ejercicio
+Cada ítem debe declarar: competencia; nivel; material; centro o referencia; tesitura; tempo y unidad; métrica; longitud; timbre; número de voces; articulación; intensidad; forma de presentación; ayudas; repeticiones; tarea de respuesta; solución o criterios; variantes; errores previstos; corrección; y prueba de transferencia. Un archivo llamado «intervalo 7» no describe suficientemente un estímulo.
+
+22.2 Producto cartesiano y filtros
+Si se eligen independientemente 5 patrones, 4 centros, 3 tempos y 2 timbres, hay 120 configuraciones. Pero la independencia puede fallar: un transporte sale de tesitura, un acorde contiene duplicaciones acústicas o una categoría no existe en el contexto escogido. El número final se calcula después de filtrar y deduplicar según el propósito. Se debe conservar una razón para cada exclusión.
+
+Un banco no es una secuencia pedagógica. Generar un millón de ejemplos no decide cuál conviene hoy. El currículo selecciona contrastes y controla carga. Los bancos permiten variedad, equilibrio y pruebas nuevas; no exigen repetición exhaustiva de todas sus filas.
+
+22.3 Melodías
+Con k alturas disponibles y longitud L, permitiendo repetición y orden, existen k^L secuencias. Con cinco grados y cuatro notas: 625. Si se prohíbe repetición inmediata: 5×4^3=320. Si se fija primera y última en tónica: 5^2=25, cuando se permiten repeticiones y solo las dos posiciones interiores son libres. La presencia de un grado final no asegura función tonal si falta contexto; el conteo es simbólico.
+
+Si además hay r células rítmicas independientes por posición, aparecen factores adicionales, pero debe comprobarse duración total y correspondencia entre notas y ataques. No multiplicar ocho ritmos por cuatro alturas si un ritmo tiene tres ataques y otro cinco sin declarar cómo se asignan las alturas.
+
+22.4 Acordes
+En doce clases de altura, hay C(12,3)=220 conjuntos no ordenados de tres clases y C(12,4)=495 de cuatro. Estos incluyen muchas sonoridades que no son tríadas o séptimas tercianas. Si se agrupan bajo transposición o inversión, cambian los números. Si se cuentan voicings en un registro, se añaden octavas, duplicaciones y orden. El banco de tríadas adjunto utiliza cuatro calidades, doce raíces y tres posiciones como 144 etiquetas; no afirma 144 sonoridades inequívocas, porque las aumentadas presentan simetrías.
+
+22.5 Progresiones
+Con tres funciones y cuatro posiciones hay 3^4=81 secuencias simbólicas. Si inicio y final son I, quedan 3^2=9. No todas producen una frase tonal convincente; el banco sirve para contraste y composición. Añadir filtros de estilo, conducción y cadencia genera otro conjunto. Evitar llamar «todas las progresiones posibles» a una lista de canciones conocidas.
+
+22.6 Cobertura equilibrada
+Para una matriz enorme, cubrir primero cada categoría, después pares de variables y finalmente escenarios integrados. Por ejemplo: cada intervalo en ambos sentidos; cada intervalo con varios timbres; cada timbre en dos registros; y una prueba nueva que combine timbre y registro no usados juntos. La cobertura por pares reduce trabajo, pero no garantiza detectar todas las interacciones de tres o más variables.
+
+22.7 Metadatos y validez
+Guardar identificador estable, semilla si se genera al azar, parámetros, solución, fecha y revisión. Separar versiones de práctica y examen. No usar nombres de archivos, duración o volumen que revelen la categoría. Un generador de audio libre a partir de texto puede producir notas equivocadas; para estímulos exactos conviene partitura o secuencia determinista y revisión. Los prompts de los guiones son ideas de producción, no certificados de exactitud musical.
+
+22.8 Bancos incluidos
+B01: 16 máscaras de cuatro subdivisiones binarias.
+B02: 64 máscaras de seis subdivisiones de un pulso ternario dividido nuevamente en dos.
+B03: 256 máscaras de ocho posiciones.
+B04: 65.536 máscaras de dieciséis posiciones, con número de ataques y agrupación visual de cuatro en cuatro.
+B05: 54 secuencias de sonido/silencio que completan cuatro unidades, conservando segmentación.
+B06: 625 motivos de cuatro notas sobre cinco grados pentatónicos.
+B07: pares melódicos ordenados y díadas armónicas no ordenadas dentro de do3–do6 y hasta doce semitonos.
+B08: 144 etiquetas de tríada por raíz, calidad y posición.
+B09: 81 progresiones simbólicas de cuatro funciones tomadas de I, IV y V.
+B10: 1.820 máscaras de dieciséis posiciones con exactamente cuatro ataques.
+Los archivos explican límites, convenciones y uso. El catálogo de pentagramas muestra modelos representativos y la totalidad de las dieciséis máscaras binarias elementales; no imprime las 65.536 máscaras como partituras, lo cual dificultaría el estudio sin añadir explicación.
+
+23. BANCO DE PROTOCOLOS DE EJERCICIO
+
+Estos protocolos son originales y se pueden realizar con docente, compañero, instrumento, secuenciador o herramienta que permita configurar el estímulo. B = básico; M = medio; A = avanzado; E = especialización. En todos se registra primera respuesta antes de mostrar solución. Las cantidades sugeridas son puntos de partida ajustables. La solución de un ítem generado corresponde a sus parámetros; en creación se evalúa la restricción, no una melodía única.
+
+P01 [B] Igual o diferente en altura.
+Preparar doce pares de notas de un segundo: seis unísonos y seis diferencias amplias, orden mezclado, mismo timbre y volumen. Responder igual/diferente y después dirección. Si falla, alternar inmediatamente ambos sonidos y cantar la transición. Reducir luego la distancia y variar registro. Transferencia: repetir con otro timbre sin cambiar dificultad. No usar una nota siempre más larga en los pares diferentes.
+
+P02 [B] Dirección de un contorno.
+Tocar motivos de tres notas con ascenso, descenso, repetición o cambio de dirección. Dibujar flechas y reproducir el gesto con voz antes de nombrar notas. Solución: secuencia de signos entre eventos. Ampliar a cinco notas y añadir ritmo uniforme. Si el estudiante confunde registro con dirección, transportar todo el motivo conservando flechas y comparar.
+
+P03 [B] Igualación vocal.
+Dar una nota cómoda, dejar dos segundos y pedir respuesta sostenida. Evaluar dirección del error y estabilidad, además de distancia. Repetir con seis referencias cercanas. Ante dificultad, permitir deslizamiento suave y luego ataque directo. Transferir a una nota oída dentro de una melodía. Distinguir error de octava por tesitura de desconocimiento de la relación.
+
+P04 [B–M] Memoria diferida de altura.
+Escuchar una nota, imaginarla durante cuatro pulsos silenciosos y cantarla al quinto. Aumentar la espera y cambiar nota en cada ensayo. Verificar con la referencia original después de responder. Si deriva, repetir con menor espera y un apoyo tonal. Variación: recordar grado aunque se pierda altura absoluta; registrar ambos resultados por separado.
+
+P05 [B] Tónica entre distractores.
+Establecer centro con una frase y tocar tres notas candidatas una a una. El estudiante elige la que siente como reposo y la canta. Solución según centro diseñado, no según última nota reproducida. Variar la posición de la respuesta correcta. Después retirar opciones y pedir producción libre. Si hay ambigüedad real en el estímulo, revisar la frase.
+
+P06 [B–M] Grados 1, 3 y 5.
+Después de establecer mayor, presentar quince notas equilibradas entre los tres grados, en varias octavas cómodas. Responder número y cantar un pequeño arpegio que incluya la nota. Añadir 2 y 4 solo cuando el grupo inicial sea estable. Corrección: cantar el grado equivocado y el real dentro de la misma tonalidad para comparar función.
+
+P07 [M] Grados con cromatismo.
+En do mayor alternar fa/fa# y si/sib dentro de frases breves. Identificar grado alterado y cantar resolución plausible según el modelo. No pedir únicamente «fuera de escala»: localizar qué cambió. Después transportar a otros centros. En evaluación, exigir la resolución efectivamente escuchada, no la que el estudiante preferiría componer.
+
+P08 [B] Comparación de tamaños interválicos.
+Presentar dos intervalos melódicos, inicialmente tercera y quinta, con distintas notas de partida. Elegir cuál es más amplio. Cantar ambos y comprobar. Añadir pares cercanos solo después. Si la nota final más aguda se confunde con intervalo mayor, usar un intervalo pequeño en registro alto y otro grande en registro bajo.
+
+P09 [B] Segundas mayor y menor.
+Mantener al principio do de partida, alternar reb/re, luego trasladar el par completo. Identificar, cantar y escribir desde referencia. Usar doce ensayos equilibrados, sin alternancia predecible. Corrección: tocar ambos finales sobre la misma base. Transferencia: localizar el semitono o tono dentro de una frase de cuatro notas.
+
+P10 [B] Terceras mayor y menor.
+Comparar do–mi y do–mib con igual ritmo. Después usar raíces diferentes y dirección descendente. Pedir reproducción antes de etiqueta en algunos ensayos. Si responde por emoción, solicitar evidencia musical: cuál final está más alto y cómo cambia respecto del modelo. Transferir a tríadas y comprobar que la tercera no se pierde dentro del acorde.
+
+P11 [B–M] Cuarta, quinta y octava.
+Comenzar con dos categorías y ampliar a tres. Alternar ascendente, descendente y simultánea en bloques separados. Cantar los dos miembros y anotar distancia. Ante confusión cuarta/quinta, usar inversión y relación con arpegio. La presentación armónica se practica específicamente: no se da por adquirida al aprobar la melódica.
+
+P12 [M] Sextas y séptimas.
+Establecer contrastes sexta menor/mayor y séptima menor/mayor; después mezclar. Evitar registro extremo al inicio. Relacionar inversión simple y amplitud real, cantar y resolver si el contexto lo permite. Transferencia: encontrar el salto en una melodía. Evaluar clase y dirección separadamente para localizar el error.
+
+P13 [M] Tritono y enarmonía.
+Tocar do–fa# y do–solb con idéntica afinación temperada y explicar que no pueden distinguirse por sonido aislado. Después presentar resoluciones diferentes y preguntar función o escritura compatible. El ejercicio enseña límites de inferencia: la respuesta correcta inicial es equivalencia acústica en las condiciones declaradas, no adivinación de grafía.
+
+P14 [A] Intervalos compuestos.
+Comparar segunda/novena, tercera/décima y quinta/duodécima. Pedir clase simple y extensión de registro. Producir el intervalo desde una referencia instrumental cuando exceda tesitura vocal. Corrección: reducir una octava y volver a abrirla. Transferencia: reconocer la distancia entre bajo y soprano en una disposición abierta.
+
+P15 [B–M] Intervalos dentro de tonalidad.
+Tras cadencia, presentar dos grados y pedir ambos números y su intervalo. Cambiar tonalidad manteniendo grados, luego cambiar grados conservando intervalo. Solución tiene dos capas. Este ejercicio detecta dependencia de la tónica como primera nota. Corregir cantando la escala de referencia y reconstruyendo los dos grados.
+
+P16 [B] Escalas paralelas mayor/menor.
+Presentar escalas completas sobre el mismo centro; identificar tercera y carácter de colección. Después usar fragmentos que sí incluyan el grado distintivo. Omitir deliberadamente la tercera en algunos casos y aceptar insuficiencia de información cuando corresponda. Transferencia: improvisar una frase que deje claro el contraste sin tocar toda la escala.
+
+P17 [B–M] Tres formas de menor.
+Comparar natural, armónica y melódica ascendente sobre la misma raíz. Pedir cantar sexto y séptimo antes de nombrar. En descenso, declarar si se usa convención clásica o forma mantenida del jazz. Corrección: escribir únicamente grados que cambian. Transferir a melodías donde las alteraciones aparecen por función, sin exigir una etiqueta única para toda la pieza.
+
+P18 [M] Modos por contraste mínimo.
+Preparar pares dórico/eólico, jónico/lidio, jónico/mixolidio y frigio/eólico. Mantener centro, ritmo y tesitura. Identificar grado distintivo, cantar y crear una respuesta. Si la frase omite ese grado, clasificarla como compatible con ambos. Después variar acompañamiento para observar cómo puede cambiar el centro percibido.
+
+P19 [B–M] Pentatonismo.
+Cantar una frase de cuatro notas sobre grados 1,2,3,5,6; repetirla, escribirla y transportarla. Usar el banco de 625 motivos para variar contenido, seleccionando primero tesitura y saltos pequeños. No confundir una frase de cuatro notas con prueba definitiva de escala pentatónica: puede ser compatible con una escala más amplia.
+
+P20 [A] Colecciones simétricas.
+Comparar tonos enteros y octatónica con notas suficientes para evidenciar alternancia. Pedir patrón de distancias y una reproducción breve. Variar punto de inicio para evitar memorizar la primera altura. Corrección: cantar por pasos con referencia y después volver a tempo. No exigir raíz funcional única si el estímulo no la establece.
+
+P21 [B] Mantener pulso.
+Escuchar ocho compases, marcar pulso y continuar cuatro compases cuando el audio se silencia. Reingresar con la referencia y registrar adelanto o retraso. Reducir el silencio si la deriva es grande. Variar tempo y música. No dar por incorrecto un nivel doble o mitad si la consigna no fijó unidad y la elección es coherente.
+
+P22 [B] Pulso frente a ritmo.
+Una mano marca negras constantes y la voz imita una célula con corcheas y silencios. Intercambiar papeles. Evaluar si la mano sigue el patrón por imitación involuntaria. Corrección: practicar cada capa sola y combinar dos pulsos antes de una frase completa. Transferencia: mantener el pulso mientras otra persona improvisa.
+
+P23 [B] Binario frente a ternario.
+Sobre un pulso constante alternar dos y tres subdivisiones. Escuchar, identificar y reproducir. Después incluir silencios sin cambiar duración total. No acelerar el grupo ternario por ansiedad: los tres eventos deben ocupar exactamente el mismo pulso que los dos. Transferir al contraste entre métrica simple y compuesta.
+
+P24 [B–M] 3/4 frente a 6/8.
+Usar seis corcheas con acentos y apoyos diferentes. Dirigir tres pulsos de negra o dos de negra con puntillo. Escribir agrupaciones y reproducir. Presentar también una versión neutra y discutir ambigüedad. Solución depende de acentos, contexto y consigna, no únicamente de contar seis notas.
+
+P25 [B] Silencios activos.
+Reproducir cuatro pulsos donde algunos son silencios, conservando gesto interno. Registrar entradas tras silencio y duración total. Ampliar de silencio de negra a silencios de corchea y semicorchea. Corrección: vocalizar subdivisión en voz baja, después retirarla. Transferir a una entrada de conjunto tras varios compases de espera.
+
+P26 [B–M] Dieciséis máscaras binarias.
+Practicar las dieciséis secuencias de cuatro posiciones, empezando por una o dos palmadas. Escuchar sin ver, responder en rejilla y luego en pentagrama. Cada evento dura una semicorchea en el modelo. Cambiar tempo y unir dos máscaras. Si se sostiene un sonido en lugar de hacer silencio, registrar diferencia de articulación y no solo ataques.
+
+P27 [B–M] Ocho células de duración.
+Leer, escuchar y reconocer las ocho composiciones de una negra descritas en 10.2. Usar una misma altura y sonido con sostenimiento audible. Comparar 3+1 frente a 1+3 y 2+1+1 frente a 1+1+2. Corrección: señalar límites de eventos en una rejilla. Transferir a melodía con la misma célula.
+
+P28 [M] Sonido frente a silencio segmentado.
+Seleccionar del banco de 54 un patrón que incluya ambos. Dictarlo y pedir dos escrituras equivalentes cuando existan silencios contiguos. Explicar qué diferencias son gráficas y cuáles sonoras. No calificar como error una simplificación válida si la consigna es transcribir el resultado acústico y no copiar segmentación exacta.
+
+P29 [M] Ligadura y rearticulación.
+Comparar dos corcheas de igual altura con una negra sostenida, luego ligaduras que cruzan pulso y barra. Contar ataques antes de escribir. Corrección: cantar «ta» en cada nuevo ataque y sostener vocal en continuación. Transferencia: detectar una rearticulación añadida por error en una interpretación.
+
+P30 [M] Síncopa.
+Mantener pulso con pie y ejecutar ataques desplazados con palmas. Empezar por corchea–negra–corchea en dos pulsos. Después sostener desde parte débil sobre fuerte. Pedir explicación de dónde está la tensión métrica. Si se pierde el pulso, simplificar a dos capas antes de escribir una frase de cuatro compases.
+
+P31 [M] Dictado rítmico de cuatro compases.
+Dar compás y entrada; escuchar completo, marcar ataques, agrupar y notarlo. Permitir un número acordado de repeticiones y registrar ayudas. Corregir primero estructura temporal y después escritura. El estudiante debe ejecutar su propia respuesta para detectar contradicciones. Transferencia: misma complejidad con distinto timbre y tempo.
+
+P32 [M–A] Tresillos alternados.
+Combinar un pulso binario, uno ternario y uno con cuatro subdivisiones. Escuchar e imitar sin cambiar velocidad del pulso. Después escribir y comprobar suma de duraciones. Corrección: usar referencia continua y cantar solo la primera nota de cada grupo para recuperar estabilidad. Añadir silencios cuando la alternancia sea fluida.
+
+P33 [A] Quintillos y septillos.
+Dividir una duración conocida en cinco o siete eventos regulares, con ejemplo sonoro controlado. Comparar dos ejecuciones, una regular y otra con último evento comprimido. Identificar y corregir. No depender de una palabra cuyas sílabas induzcan desigualdad. Transferencia: alternar grupo irregular y división ordinaria conservando el espacio total.
+
+P34 [M–A] Tres contra dos.
+Escuchar capas separadas y juntas; ejecutar tres con mano y dos con voz durante el mismo ciclo. Dibujar rejilla de seis posiciones y marcar coincidencias. Cambiar funciones y timbres. Si solo memoriza el ritmo compuesto, pedir mantener una capa cuando la otra desaparece y reintroducirla después.
+
+P35 [A] Cuatro contra tres.
+Construir doce posiciones comunes: ataques de cuatro cada tres posiciones y de tres cada cuatro. Practicar lento, escuchar ambas capas y alternar atención. Evaluar continuidad de cada periodicidad, no únicamente coincidencia final. Transferencia: cantar una melodía de tres pulsos sobre acompañamiento de cuatro eventos en el mismo ciclo.
+
+P36 [M–A] Métricas aditivas.
+Comparar 7/8 como 2+2+3, 2+3+2 y 3+2+2. Marcar inicio de cada grupo y cantar una frase adaptada. Introducir silencios sin perder agrupación. Corrección: volver a corcheas regulares y acentuar grupos. No reducir la evaluación a leer el numerador: debe oírse la organización.
+
+P37 [A] Modulación métrica.
+A negra = 80, subdividir en tres; reagrupar dos subdivisiones como nueva negra a 120. Escuchar referencia y ejecutar transición sin acelerando. Escribir igualdad de figuras. Corrección: mantener constante la subdivisión puente. Transferencia: volver al tempo inicial y explicar por qué la razón inversa es 2/3.
+
+P38 [M–A] Swing e imitación temporal.
+Escoger una frase corta de un modelo autorizado, escuchar relación de ataques y articulación, imitar y comparar a velocidad original. Después usar otra velocidad o intérprete. Evitar imponer una razón fija antes de escuchar. Evaluar cercanía al modelo y capacidad de describir diferencias, no coincidencia con una plantilla universal.
+
+P39 [B] Eco melódico.
+Tocar una frase de tres a cinco notas; el estudiante espera al final y reproduce completa. Si falla, pedir contorno y final antes de detalle. Aumentar longitud gradualmente. Transferencia: responder con otro timbre o transportada desde una nueva referencia, manteniendo relaciones.
+
+P40 [B–M] Nota cambiada.
+Presentar dos versiones de una frase: idénticas o con un cambio. Decidir si cambió, localizar posición y cantar nota original y nueva. Equilibrar ensayos sin cambio para evitar respuestas por expectativa. Corrección: aislar el entorno de la nota y luego volver a la frase completa.
+
+P41 [B–M] Dictado por grados.
+Establecer centro, reproducir cuatro notas con ritmo uniforme y pedir grados. Después escribir desde una nota inicial dada. Separar acierto funcional de notación. Transferencia: misma secuencia transportada. Si se memoriza el teclado, cambiar centro y registro sin modificar los grados.
+
+P42 [M] Dictado integrado.
+Dar una melodía de cuatro compases con ritmo conocido y saltos moderados. Primera escucha global; siguientes por objetivos; final de verificación. Evaluar altura, ritmo, métrica y continuidad por separado. Corregir mediante canto de la respuesta. Usar nuevo ejemplo para comprobar mejora, no solo recopia de la solución.
+
+P43 [M–A] Melodía cromática.
+Incluir una nota de paso cromática y una dominante secundaria en frases distintas. Localizar la alteración y cantar su resolución. Comparar función ornamental y cambio armónico. Si el estudiante agrega alteraciones por cálculo sin oírlas, hacer contraste A/B entre versión diatónica y cromática antes de volver al dictado.
+
+P44 [A] Dictado sin centro estable.
+Usar cuatro o cinco notas con relaciones interválicas claras y ritmo sencillo, sin cadencia tonal. Retener grupos pequeños y reconstruir desde referencia. No penalizar por no encontrar una tónica inexistente. Ampliar después longitud y variedad. Transferencia: reconocer una transposición de la misma célula entre distractores.
+
+P45 [B–M] Lectura silenciosa comprobada.
+Mostrar dos compases, dar tónica y dejar preparación sin instrumento. El estudiante imagina y canta; después se oye el modelo. Registrar anticipación, lectura y ajuste. Si solo acierta tras escuchar, se trabajó imitación; repetir con material nuevo para evaluar lectura interna.
+
+P46 [M] Continuación tras silencio.
+Cantar una melodía conocida, omitir sonoramente un compás pero continuar interiormente y volver a entrar. Verificar altura y tiempo. Variar el compás omitido. Corrección: reducir a un pulso silencioso y ampliar. Transferencia: aplicar a lectura nueva con preparación y a espera de conjunto.
+
+P47 [M–A] Transposición de memoria.
+Aprender una frase, retirar partitura y dar nueva tónica. Cantar o tocar conservando intervalos y ritmo. Comprobar con una transposición escrita después de responder. Si cambia solo nombres iniciales y pierde alteraciones, reconstruir grados. Registrar por separado error de relación y error de registro.
+
+P48 [M] Calidad de tríadas.
+Alternar mayor, menor, disminuida y aumentada inicialmente en posición fundamental. Pedir cantar sus miembros antes de etiquetar en parte de los ensayos. Después variar inversión y disposición. Corrección: comparar con la tríada cercana cambiando una sola nota. No mantener un timbre exclusivo para cada calidad.
+
+P49 [M] Inversiones de tríadas.
+Presentar acordes completos; cantar bajo y fundamental, luego nombrar posición. Mezclar soprano y separación de voces para evitar pistas fijas. Solución depende del bajo. En aumentadas aisladas, declarar raíz escrita o aceptar ambigüedad. Transferencia: reconocer inversión dentro de progresión.
+
+P50 [M–A] Voz interna de acorde.
+Escuchar tríada o séptima sostenida y cantar un miembro solicitado: tercera, quinta o séptima. Cambiar registro y disposición. Si falla, arpegiar lentamente y volver a simultaneidad. Transferencia: seguir ese miembro cuando cambia por semitono entre dos acordes.
+
+P51 [A] Séptimas por contraste mínimo.
+Comparar mayor7/dominante7, menor7/semidisminuido y semidisminuido/disminuido. Mantener base y variar un miembro. Identificar cambio y cantar. Después mezclar raíces e inversiones. Corrección: aislar el intervalo que distingue cada par y reintegrarlo al acorde completo.
+
+P52 [A] Tensiones y omisiones.
+Presentar acorde con y sin novena, o con quinta omitida. Pedir qué nota se añadió o desapareció y qué interpretación es compatible. Evitar una sola etiqueta obligatoria cuando el conjunto admite varias. Transferencia: comparar voicing solo y con bajo contextual.
+
+P53 [B–M] Funciones I y V.
+Establecer tónica y tocar secuencias breves de ambos acordes con varias disposiciones. Responder función y cantar bajo. Después pedir una continuación que cierre en I. Corrección: escuchar tensión y resolución dentro del centro establecido, sin identificar únicamente la forma física del acorde.
+
+P54 [M] Cadencias.
+Presentar finales de frase con auténtica, semicadencia, plagal y rota. Pedir bajo final, sensación de cierre y función. Incluir sucesión V–I interior para distinguir cadencia formal de cambio armónico. Corrección: comparar frase completa, no solo dos acordes aislados.
+
+P55 [M–A] Dictado de progresión.
+Usar cuatro a ocho cambios, primero I/IV/V y luego ii/vi e inversiones. Anotar ritmo armónico, bajo y funciones en escuchas separadas. Verificar tocando una reducción. Si el bajo se escribe correcto y cifra mal, trabajar calidad y centro; si falla el bajo, volver a atención selectiva.
+
+P56 [A] Tonicización frente a modulación.
+Comparar dos frases con el mismo acorde cromático: una regresa pronto al centro inicial y otra confirma un centro nuevo. Cantar tónicas inicial/final y localizar evidencia. Aceptar interpretaciones razonadas si el ejemplo es deliberadamente ambiguo. No decidir solo por presencia de sostenido o bemol.
+
+P57 [M–A] Dos voces.
+Escuchar dúo breve; cantar primero la superior, luego inferior, después transcribir ambas. Iniciar con ritmos iguales y añadir independencia. Corrección: aislar línea problemática y volver a mezcla. Transferencia: cambiar timbres y pedir seguir una voz aunque cambie de registro relativo.
+
+P58 [A] Cuatro voces.
+Transcribir bajo y soprano, identificar armonía y completar interiores. Reproducir cada línea separada para verificar continuidad. No completar automáticamente con una armonización «correcta» si no coincide con lo oído. Distinguir ejercicio de reducción armónica y dictado literal.
+
+P59 [M–A] Movimiento contrapuntístico.
+Oír dos voces y clasificar movimiento paralelo, similar, contrario u oblicuo. Después cantar ambas por turnos y comprobar intervalos. Corrección: representar flechas antes de usar términos. Transferencia: localizar un cambio de tipo de movimiento dentro de una frase.
+
+P60 [A] Entrada imitativa.
+Escuchar motivo y segunda entrada; señalar retraso, altura de inicio y transformación. Cantar la entrada mientras continúa otra voz. Simplificar ritmo si se pierde independencia. Transferencia: localizar varias entradas en un fragmento polifónico sin exigir todavía transcripción completa.
+
+P61 [B–M] Mapa formal.
+Escuchar una pieza breve y marcar secciones con letras y tiempos. Justificar repetición o contraste por rasgos audibles. Comparar con otra audición y corregir. No exigir nombres académicos antes de oír relaciones. Transferencia: reconocer A' cuando cambian instrumentación o ornamentación.
+
+P62 [B–M] Timbre controlado.
+Comparar una misma nota en cuatro fuentes, describir ataque, ruido y resonancia, después identificar familia. Repetir en otro registro. Corrección: aislar características sin convertirlas en reglas universales. Transferencia: reconocer fuente procesada y explicar por qué la identificación es incierta.
+
+P63 [M] Dinámica y densidad.
+Escuchar dos aumentos de energía: uno por crescendo, otro por entrada de capas. Identificar mecanismo y dibujar evolución. Después combinar ambos. Solución no es simplemente «más fuerte». Transferencia: describir cómo un arreglo prepara un clímax sin cambiar necesariamente el tempo.
+
+P64 [M] Fraseo comparado.
+Interpretar las mismas notas con articulación y dirección dinámica distintas. El oyente describe y luego imita cada versión. Evaluar conservación de altura/ritmo y cambio expresivo intencional. Corrección: localizar punto de llegada y comparar duración efectiva de notas. No reducir expresividad a adjetivos sin evidencia.
+
+P65 [B–M] Llamada y respuesta.
+Responder a una frase manteniendo pulso y una condición: terminar en tónica, conservar motivo o cambiar dirección. Grabar ambas y explicar relación. No existe una única solución melódica; la rúbrica evalúa restricción y continuidad. Transferencia: aumentar longitud o responder con otro instrumento.
+
+P66 [M–A] Contramelodía.
+Sobre una línea sencilla, improvisar otra que conserve independencia y puntos de encuentro acordados. Escuchar grabación y señalar cruces, conflictos y momentos logrados. Corregir una frase concreta. Transferencia: cambiar roles. No evaluar exclusivamente consonancias: atender a intención y resolución contextual.
+
+P67 [M–E] Ecualización A/B.
+Usar fuente propia y aplicar un filtro conocido; ocultar parámetros. Identificar realce/corte y zona, después intentar aproximarlo. Comparar respuesta y modelo a nivel semejante. Corrección: escuchar diferencia aislada y volver a mezcla. Transferencia: cambiar fuente para evitar memorizar una resonancia particular.
+
+P68 [M–E] Compresión.
+Comparar dos versiones niveladas con ataques distintos. Describir transitorio y sostenimiento antes de adivinar ajuste. Después reproducir el efecto con controles. Incluir original sin compresión como opción válida. Transferencia: repetir en voz y batería y discutir dependencia del material.
+
+P69 [M–E] Espacio y reverberación.
+Comparar versiones con diferente predelay, cola o mezcla, variando solo un parámetro al inicio. Identificar proximidad y claridad. Corrección: escuchar final de frase y espacios entre ataques. Transferencia: decidir una opción para una intención de producción y justificarla sin afirmar superioridad universal.
+
+P70 [M–E] Detección de edición.
+Preparar fragmento original y versión con una nota, corte o ataque alterado. Detectar, localizar temporalmente y proponer reparación. No mostrar la forma de onda antes de responder. Corrección: ampliar contexto alrededor del evento. Transferencia: repetir con mezcla completa, donde la atención selectiva es más exigente.
+
+P71 [A–E] Imitación microtonal.
+Dar dos alturas con separación definida fuera de doce divisiones iguales y pedir imitación o comparación. Declarar referencia y sistema. Empezar por diferencias claramente perceptibles y reducirlas según desempeño. Solución se mide contra modelo, no contra teclado estándar. Transferencia: integrar intervalo en frase y mantener su identidad.
+
+P72 [M–A] Proyecto integrado.
+Elegir fragmento autorizado, elaborar mapa formal, transcribir melodía y bajo, describir armonía, reproducir una parte y proponer una decisión de arreglo o mezcla. Entregar primera versión, dudas y corrección. Evaluar calidad de evidencia y límites de inferencia. Este proyecto comprueba integración; una puntuación alta en reconocimiento aislado no lo reemplaza.
+
+24. APLICACIONES: FUNCIONES VERIFICADAS Y USOS PROPUESTOS
+
+Consulta de documentación pública al 6 de noviembre de 2026. No se instalaron ni probaron las aplicaciones ni se compraron licencias. «Verificado» significa que la función está descrita por el proveedor en la página citada; no constituye validación independiente de eficacia. Las plataformas, prestaciones gratuitas y condiciones pueden cambiar. Se omiten precios para no convertir la investigación en una cotización.
+
+24.1 EarMaster [F18]
+La página oficial declara reconocimiento de intervalos, acordes y escalas, dictados melódicos y rítmicos, lectura cantada, solfeo, respuestas cantadas o con palmas, seguimiento y entrenamiento funcional. Presenta una edición educativa Cloud. Uso propuesto: alternar identificación, producción vocal y dictado sobre un mismo objetivo; exportar o registrar resultados y comprobar transferencia en una grabación nueva. No se da por existente una licencia institucional del TSPM. Un resultado automático debe revisarse si el micrófono, la latencia o la tesitura afectan la captura.
+
+24.2 Perfect Ear [F19]
+El proveedor enumera comparación, identificación y lectura de intervalos; escalas; acordes, inversiones y progresiones; canto; lectura, percusión e imitación rítmica; lectura de notas y teoría. Uso propuesto: práctica individual breve de contrastes y registro de errores. La lectura de notas mostradas es alfabetización visual, mientras reconocer sonidos es escucha: no deben sumarse como si midieran lo mismo. La página no permite verificar cada opción de personalización o condición de acceso de todas las versiones; se revisarán en el dispositivo antes de diseñar una evaluación dependiente de ellas.
+
+24.3 Auralia [F20]
+El catálogo oficial organiza tareas de ritmo, intervalos/escalas, acordes, armonía/forma, altura/melodía, repertorio y elementos musicales. Incluye dictados a varias voces, afinación, canto contrapuntístico, modulación, forma, textura y articulación. Su amplitud resulta útil para detectar huecos curriculares; no obliga a enseñar todas las categorías al mismo nivel. Uso propuesto: tareas de escucha de capas y armonía con una rúbrica humana complementaria. La disponibilidad depende de versión y licencia.
+
+24.4 musictheory.net / Tenuto [F21]
+El sitio distingue identificación y construcción visual, teclado y diapasón, y ejercicios auditivos de notas, intervalos, escalas y acordes. Ofrece personalización y enlaces para docentes; presenta Tenuto como opción móvil con ejercicios sin conexión. Uso propuesto: alfabetización y reconocimiento básico, cuidando de seleccionar tareas auditivas cuando ese es el objetivo. El listado revisado no equivale a un currículo completo de dictado polifónico, canto expresivo o producción sonora.
+
+24.5 teoria.com [F22]
+El portal de José Rodríguez Alvira ofrece ejercicios y materiales musicales; su página consultada muestra también dictado a cuatro voces, dos voces con progresiones, análisis armónico y dictados por patrones. Uso propuesto: contrastar teoría, escritura y escucha en español y ampliar del dictado monódico a varias voces. La interfaz es dinámica y no se verificaron todas las configuraciones internas; no se atribuyen opciones específicas no observadas en la documentación.
+
+24.6 TonedEar / ToneSavvy [F23]
+TonedEar lista intervalos, acordes, escalas, progresiones, notas absolutas, grados funcionales, intervalos en contexto y dictado melódico. Enlaza una versión docente ToneSavvy. Uso propuesto: comparar reconocimiento de intervalo aislado y de grados después de contexto tonal. El módulo de notas absolutas no debe convertirse en prerrequisito para los otros. El dictado descrito por grados no sustituye necesariamente escritura rítmica completa.
+
+24.7 MyEarTraining [F24]
+El proveedor declara intervalos, acordes, escalas, progresiones, solfeo tonal, ritmo, canto, ejercicios personalizados y estadísticas. Uso propuesto: mantener una rutina y observar confusiones por categoría; complementar con tareas fuera de la aplicación. Su afirmación de amplitud no demuestra que cubra cada tradición o todos los contenidos de este tratado.
+
+24.8 Functional Ear Trainer / Miles.be [F25]
+El sitio de Alain Benbassat presenta recursos y software de entrenamiento funcional. Uso propuesto: escuchar notas respecto de un centro y verificar la estabilidad de grados en distintos tonos. Se debe diferenciar el recurso original y las aplicaciones de terceros que usan nombres o métodos relacionados; no se atribuyen aquí funciones de una app móvil concreta sin comprobar su versión.
+
+24.9 Meludia [F26]
+La web oficial presenta aprendizaje basado en escucha, ejercicios y fragmentos musicales. Uso propuesto: entrada perceptiva y comparación sonora, con posterior traducción a voz, instrumento y notación cuando corresponda. La presentación comercial no permite concluir que una mejora en la plataforma se transfiera automáticamente a todas las tareas profesionales.
+
+24.10 SoundGym [F27]
+Declara juegos de frecuencia, compresión, paneo y espacio para productores e ingenieros. Uso propuesto: sesiones de contraste técnico seguidas de aplicación en una mezcla propia. Las puntuaciones y clasificaciones internas son indicadores de desempeño dentro de sus tareas, no certificaciones universales de calidad de mezcla. Se distingue de ToneGym, enlazado por el propio proveedor para entrenamiento musical; este último no fue auditado en profundidad aquí.
+
+24.11 TrainYourEars EQ Edition [F28]
+El proveedor describe reconocimiento y corrección de ecualizaciones aleatorias sobre material elegido por el usuario. Uso propuesto: aprender a relacionar una diferencia escuchada con parámetros de filtro. Sus afirmaciones promocionales sobre equivalencia entre pocas semanas y años de experiencia no se adoptan como evidencia científica. La transferencia debe comprobarse con fuentes y mezclas nuevas.
+
+24.12 Herramientas complementarias
+Un metrónomo, editor de partituras, instrumento virtual, grabador y estación de audio permiten realizar casi todos los protocolos sin una app especializada, aunque exigen preparar y verificar estímulos. MusicXML facilita intercambiar partituras; los reproductores pueden interpretar de forma distinta algunos detalles expresivos. Un afinador ayuda a comprobar alturas sostenidas, pero no interpreta por sí solo función tonal ni intención estilística.
+
+24.13 Matriz de elección práctica
+Necesidad: reconocer intervalos y acordes. Candidatos documentados: EarMaster, Perfect Ear, Auralia, musictheory.net, TonedEar, MyEarTraining.
+Necesidad: grados y centro. Candidatos: EarMaster, TonedEar, Functional Ear Trainer, MyEarTraining.
+Necesidad: canto con respuesta automatizada. Revisar EarMaster y Auralia; Perfect Ear y MyEarTraining anuncian tareas de canto, pero verificar la forma de evaluación disponible en la versión concreta.
+Necesidad: dictado polifónico. Revisar Auralia y teoria.com; comprobar nivel y flujo de respuesta.
+Necesidad: ecualización. TrainYourEars, SoundGym o proyecto controlado en una estación de audio.
+Necesidad: portafolio expresivo y repertorio local. Grabaciones, docente y trabajo de conjunto; ninguna de las páginas examinadas sustituye este acompañamiento.
+
+La elección final se hace con una prueba pequeña: diez ítems de una habilidad, revisión de captura, accesibilidad, posibilidad de variar ejemplos y acceso real del grupo. No se exige comprar varias aplicaciones para cubrir el currículo.
+
+25. EVALUACIÓN, RETROALIMENTACIÓN Y ADAPTACIONES
+
+25.1 Evidencias por competencia
+Discriminación: respuesta correcta en estímulos inéditos. Producción: grabación con referencia y ejecución autónoma. Memoria: reproducción tras demora declarada. Notación: transcripción recuperable que corresponde al sonido. Análisis: descripción con evidencia temporal. Transferencia: resolver un ejemplo con timbre, centro o contexto nuevo. Creación: cumplir restricciones y explicar decisiones.
+
+No sumar indiscriminadamente resultados de tareas distintas. Un promedio puede ocultar que el estudiante identifica 95% de intervalos y reproduce 40%. Presentar un perfil por dimensiones permite intervenir. Si una dificultad gráfica reduce el dictado, comprobar primero reproducción oral para localizar el problema.
+
+25.2 Rúbrica propuesta de cuatro niveles
+Nivel 4: respuesta precisa, autónoma, estable en ejemplo nuevo y capaz de autocorregir detalles sin perder continuidad.
+Nivel 3: respuesta esencialmente correcta con errores localizados y corrección mediante una pista específica.
+Nivel 2: reconoce o reproduce parte del material, depende de varias ayudas y pierde continuidad ante cambios de contexto.
+Nivel 1: aún no conserva la estructura requerida; necesita simplificación y modelado por componentes.
+Aplicar cada nivel a altura, ritmo, memoria, representación y escucha contextual por separado. No traducir automáticamente estos niveles a una nota institucional sin acordar ponderación.
+
+25.3 Medidas numéricas
+Reconocimiento: aciertos/ensayos, con matriz de confusión. Para cada categoría, cuántas veces se presentó y con cuáles se confundió. Ritmo: localización de ataques, duraciones, estabilidad del pulso y métrica. Afinación: desviación durante tramos estables, error de nota y trayectoria. Dictado: proporción de eventos correctos y errores estructurales; un desplazamiento de compás puede afectar muchas posiciones por una sola causa.
+
+El tiempo de respuesta se interpreta junto con exactitud. Responder rápido al azar no es progreso. Una mejor estrategia puede requerir más tiempo al inicio. Establecer límites cuando la tarea real exige fluidez, después de adquirir precisión básica.
+
+25.4 Ejemplo de retroalimentación
+Respuesta: en un dictado do–re–mi–sol, el estudiante escribe do–re–fa–sol. Devolución: «Conservaste inicio, final y ritmo. El tercer sonido sube un grado desde re, no dos. Canta re–mi y re–fa; vuelve a oír el fragmento y decide». Después presentar una frase nueva con el mismo contraste. Evitar «te falta oído», que no identifica una acción corregible.
+
+25.5 Retención y transferencia
+Prueba inmediata al final de práctica; otra días después sin repaso previo; otra con timbre o tonalidad nueva; y una tarea de repertorio. Si el resultado cae al cambiar timbre, ampliar variabilidad sin aumentar simultáneamente inventario. Si cae tras demora, trabajar recuperación y agrupación. Si cae al escribir, reforzar notación sin reducir toda la práctica a teoría visual.
+
+25.6 Accesibilidad y condiciones
+Ofrecer instrucciones escritas claras, archivos descargables, respuesta oral o instrumental cuando sea compatible con la competencia, notación ampliable y tiempos razonables. Ajustar tesitura vocal y dificultad motora. Una adaptación debe conservar la habilidad que se pretende evaluar o declarar qué cambia. No inferir un trastorno a partir de errores de aula. En dificultades auditivas conocidas, acordar apoyos con la persona y los profesionales pertinentes, sin convertir este material en consejo clínico.
+
+25.7 Virtualidad
+Comprobar grabación y reproducción antes del examen. Usar audios con entrada y silencios de respuesta consistentes. No evaluar palmas simultáneas por videollamada como si no existiera latencia. Permitir envío de toma local y documentar condiciones. Los porcentajes de la app pueden apoyar seguimiento, pero las decisiones docentes deben considerar una evidencia musical directa.
+
+26. RUTAS DE FORMACIÓN BÁSICA, MEDIA Y AVANZADA
+
+Estas rutas de dieciséis semanas por nivel son propuestas adaptables, no sustituyen aprobación curricular. La progresión se ajusta al diagnóstico. Las horas de práctica auditiva se alternan con lectura, preparación, transcripción, creación, corrección y proyecto; 168 horas autónomas no significan 168 horas de escucha continua con audífonos.
+
+26.1 Básico: relación con D1
+Semana 1: diagnóstico, atención, dirección y pulso; P01–P03, P21. Evidencia: perfil inicial y grabación breve.
+Semana 2: igualación, memoria de tres notas y tónica; P04–P06, P39. Evidencia: eco con referencia.
+Semana 3: negras, silencios y subdivisión binaria; P22, P25. Evidencia: dos compases reproducidos.
+Semana 4: segundas y terceras; P08–P10. Evidencia: comparación y canto, además de etiquetas.
+Semana 5: cuarta, quinta y octava; P11. Evidencia: reconocimiento melódico y armónico separado.
+Semana 6: grados, pentatónica y dictado inicial; P19, P41. Evidencia: cuatro notas escritas y cantadas.
+Semana 7: mayor y menor natural; P16. Evidencia: contraste paralelo con grado distintivo.
+Semana 8: revisión y parcial práctico; ejemplos inéditos de las habilidades anteriores.
+Semana 9: corcheas, semicorcheas y células; P26–P27. Evidencia: lectura y dictado de dos compases.
+Semana 10: silencios internos y memoria rítmica; P25, P28. Evidencia: ejecución sin perder pulso.
+Semana 11: 3/4 y 6/8; P23–P24. Evidencia: gesto métrico y explicación.
+Semana 12: menor armónica y aproximación a melódica; P17. Evidencia: sexto/séptimo cantados.
+Semana 13: dictado melódico de dos a cuatro compases; P40–P42 con dificultad básica.
+Semana 14: lectura cantada y reproducción de repertorio breve; P45–P46.
+Semana 15: proyecto inicial, primera versión y corrección; P61, P72 adaptado.
+Semana 16: prueba integradora y plan personal de continuidad.
+RA1 de D1 se observa en semanas 1–3 y 11; RA2 atraviesa reproducción; RA3 en 4–5; RA4 en 7 y 12; RA5 en 9–11; RA6 en 6 y 13–14; RA7 en corrección y proyecto. La relación es orientativa y conserva los siete resultados del texto revisado.
+
+26.2 Medio: relación con D3
+Semana 1: diagnóstico de retención del básico; consolidación de voz y lectura.
+Semana 2: sextas, séptimas y tritono; P12–P15.
+Semana 3: cuatro calidades de tríada; P48.
+Semana 4: inversiones, bajo y fundamental; P49–P50.
+Semana 5: I, IV, V y ritmo armónico; P53, P55.
+Semana 6: cadencias en frases completas; P54.
+Semana 7: modos por contraste y centro; P18.
+Semana 8: parcial con reconocimiento, producción y dictado.
+Semana 9: síncopa, ligaduras y silencios; P29–P31.
+Semana 10: subdivisiones mixtas y tresillos; P32.
+Semana 11: transposición y lectura con acompañamiento; P45–P47.
+Semana 12: dos voces y atención al bajo; P57, P59.
+Semana 13: forma, textura y fraseo; P61–P64.
+Semana 14: improvisación de respuesta y acompañamiento; P65–P66.
+Semana 15: escucha técnica inicial y proyecto de repertorio; P67, P70, P72.
+Semana 16: evaluación integrada y diagnóstico para avanzado.
+La voz, tríadas, cadencias, modos, síncopa, combinatorias y software de D3 quedan incluidos. La polifonía inicial y el perfil de transferencia son ampliaciones explícitas, no contenidos originalmente detallados en ese PIAA.
+
+26.3 Avanzado: relación con D4
+Semana 1: diagnóstico, intervalos compuestos y memoria larga; P14, P47.
+Semana 2: séptimas y sus inversiones; P51.
+Semana 3: extensiones, omisiones y líneas guía; P50–P52.
+Semana 4: dictado armónico con inversiones y séptimas; P55.
+Semana 5: dominantes secundarias y mezcla modal; P43, P56.
+Semana 6: modulación y reinterpretación de grados; P56.
+Semana 7: modos, colecciones simétricas y frases cromáticas; P18, P20, P43.
+Semana 8: parcial de escucha, canto y transcripción.
+Semana 9: quintillos, septillos y adición métrica; P33, P36.
+Semana 10: 3:2, 4:3 y capas rítmicas; P34–P35.
+Semana 11: modulación métrica y microtiempo; P37–P38.
+Semana 12: dictado a varias voces y entradas imitativas; P57–P60.
+Semana 13: células pos-tonales y extensión microtonal opcional; P44, P71.
+Semana 14: escucha crítica de producción; P67–P70.
+Semana 15: proyecto integrado con revisión entre pares; P72.
+Semana 16: presentación, prueba nueva de transferencia y ruta de especialización.
+Los contenidos de séptimas, mixolidio, irregulares, amalgamas y modulación rítmica de D4 se desarrollan aquí con procedimientos y criterios. La especialización microtonal no se propone como requisito universal del nivel avanzado.
+
+26.4 Rutas según perfil
+Cantante: mayor proporción de audición interna, lectura, afinación relativa y voces de conjunto. Instrumentista: reproducción, transposición, lectura y función sin depender de digitación. Productor: mantener núcleo musical y añadir transcripción, forma, timbre y procesamiento. Compositor: ampliar transformación, polifonía, armonía y colecciones. Ninguna ruta elimina ritmo, memoria, referencia de altura y escucha contextual.
+
+27. PROBLEMAS FRECUENTES Y SOLUCIONES RAZONADAS
+
+«Acierto en la app y fallo con música»: revisar timbre, registro, mezcla, ritmo y contexto; introducir uno a uno. «Reconozco pero no canto»: separar percepción y producción, usar tesitura cómoda y comparación guiada. «Canto pero no escribo»: practicar traducción a grados y notación con material ya retenido. «Escribo pero no recuerdo»: evitar escribir cada nota antes de comprender el fragmento; trabajar grupos breves y recuperación.
+
+«Confundo bajo y fundamental»: cantar ambos por separado y usar inversiones. «Toda música me suena mayor o menor según emoción»: contrastar grados reales y diferentes interpretaciones de una misma colección. «Pierdo el pulso con silencios»: mantener subdivisión interna, reducir longitud y practicar reentrada. «Los tresillos aceleran»: fijar duración total y comparar primera nota de cada pulso. «No oigo voces internas»: aislarlas para aprender su forma y volver a mezcla; cambiar atención deliberadamente.
+
+«No sé qué tonalidad es»: comprobar si falta referencia absoluta, si se busca centro o nombre, y si el fragmento es ambiguo. «La app dice que canto mal pero me oigo bien»: revisar captación, octava, ruido, latencia y tramo de medición; escuchar grabación con docente. «Cada semana reinicio»: recuperar material anterior sin pistas y registrar retención, no solo completar niveles nuevos.
+
+«Un ejercicio tiene varias respuestas»: revisar enarmonía, simetría, función, ausencia de notas distintivas, métrica ambigua o nivel de transcripción pedido. La ambigüedad puede ser un contenido valioso si es intencional; si no lo es, corregir el estímulo. «No mejoro al hacer más»: reducir carga, analizar tipo de error, cambiar método de corrección y comprobar condiciones. Más repeticiones de una estrategia incorrecta no garantizan aprendizaje.
+
+28. GUÍA DE INVESTIGACIÓN, LIBROS, REVISTAS Y BIBLIOGRAFÍA
+
+28.1 Método y alcance documental
+Se realizó una revisión narrativa dirigida, no una revisión sistemática con protocolo registrado ni metaanálisis. Se buscaron términos en español e inglés sobre entrenamiento auditivo, aural skills, dictation, sight singing, auditory imagery, ear training, rhythm, technical ear training y nombres de aplicaciones. Se priorizaron autores, editoriales, universidades, revistas y documentación oficial. Se consultaron catálogos y librerías para verificar títulos y ediciones, sin atribuir lectura completa a un libro comercial por haber visto su ficha.
+
+Grados de acceso: texto web abierto; página editorial o catálogo; resumen o contenido indexado; documento institucional local. La bibliografía indica ese alcance. Los ejercicios, conteos, rutas y rúbricas del tratado son síntesis y diseño original; no se presentan como resultados empíricos validados. La existencia de una función en una app tampoco demuestra eficacia comparativa.
+
+28.2 Libros y recursos de formación
+[F01] Chenette, Timothy. Foundations of Aural Skills (2022, recurso en actualización). Utah Education Network / Pressbooks; autor de Utah State University. Índice y capítulos abiertos consultados. Aporta una organización perceptiva amplia; aquí no se reproduce su libro.
+https://uen.pressbooks.pub/auralskills/
+
+[F02] Karpinski, Gary S. Manual for Ear Training and Sight Singing, 2.ª ed. W. W. Norton, 2022. ISBN 9780393892789. Ficha editorial consultada, no lectura integral. Permite corregir autoría y situar un currículo integrado de formación auditiva y lectura.
+https://wwnorton.co.uk/books/9780393892789-manual-for-ear-training-and-sight-singing
+
+[F03] Benward, Bruce y J. Timothy Kolosick. Ear Training, Revised: A Technique for Listening, 7.ª ed. McGraw-Hill, ©2010; ficha australiana indica publicación en 2009. ISBN 9780073401362. Ficha y contenido editorial consultados; no banco completo.
+https://www.mheducation.com/highered/product/ear-training-revised-benward.html
+https://www.mheducation.com.au/ear-training-revised-9780073401362-aus
+
+[F04] Rogers, Nancy y Robert W. Ottman. Music for Sight Singing, 10.ª ed. Pearson. Ficha de actualización publicada en 2021, ©2022; ISBN digital 9780137501724. Consulta de catálogo, no lectura del volumen. Referencia de antología para lectura; no se confunde con un tratado completo de escucha técnica.
+https://www.pearson.com/en-us/subject-catalog/p/Rogers-Music-for-Sight-Singing-Student-Edition-10th-Edition/P200000003041/9780137501724
+
+[F05] Cleland, Kent D. y Mary Dobrea-Grindahl. Developing Musicianship through Aural Skills: A Holistic Approach to Sight Singing and Ear Training, 4.ª ed., Routledge, ©2026. ISBN 9781032996127. Ficha editorial consultada. Referencia para integración de habilidades; disponibilidad y formato deben verificarse antes de adquisición.
+https://www.routledge.com/Developing-Musicianship-through-Aural-Skills-A-Holistic-Approach-to-Si/Cleland-Dobrea-Grindahl/p/book/9781032996127
+
+[F06] Holmes, John y Nigel Scaife. Aural Training in Practice: ABRSM Grades 4 & 5. ABRSM, 2011. ISBN 9781848492462. Librería oficial consultada; presenta la serie en tres volúmenes. No se consultaron íntegramente los ejercicios de pago.
+https://shop.abrsm.org/products/aural-training-in-practice-abrsm-grades-4-5
+
+[F07] Hindemith, Paul. Elementary Training for Musicians. Schott, edición original 1946; catálogo del Royal Conservatory of Music registra 2.ª edición revisada de 1949. Se consultaron registros bibliográficos, no se atribuye análisis completo del método.
+https://natlib.govt.nz/records/21550431
+https://library.rcmusic.com/cgi-bin/koha/opac-detail.pl?biblionumber=42561
+
+[F08] Edlund, Lars. Modus novus. Gehrmans Musikförlag. Ficha editorial consultada: estudio de lectura de música no mayor/menor tonal. Se usa para orientar ampliación pos-tonal, sin copiar ejercicios.
+https://gehrmans.se/products/n05936-modus-novus
+
+[F09] Starer, Robert. Rhythmic Training. Hal Leonard. ISBN 9780881889765; catálogo bibliotecario registra copyright 1969 y existen ediciones/reimpresiones posteriores. También se verificó Basic Rhythmic Training en el editor. Consulta de fichas.
+https://library.rcmusic.com/cgi-bin/koha/opac-detail.pl?biblionumber=46993
+https://www.halleonard.com/product/123900/basic-rhythmic-training
+
+28.3 Artículos y revistas académicas
+[F10] Chenette, Timothy. «What Are the Truly Aural Skills?». Music Theory Online, 27(2), 2021. Resumen editorial y contenido indexado consultados; la apertura posterior de una versión HTML agotó tiempo. Se apoya únicamente la orientación explícita hacia atención y memoria, no afirmaciones experimentales no verificadas.
+https://mtosmt.org/ojs/index.php/mto/article/view/613
+
+[F11] Chenette, Timothy; Stacey Davis; Stanley V. Kleppinger. «A Critical Review of Current Aural Skill Materials and Pedagogical Practices». Journal of Music Theory Pedagogy, 36(1), 2022. DOI 10.71156/2994-7073.1410. Página y resumen editorial consultados; no se atribuye lectura completa del PDF. Útil para ubicar la revisión crítica de materiales y software.
+https://journals.ou.edu/jmtp/article/view/876
+
+[F12] Carter, Christine E. y Jessica A. Grahn. «Optimizing Music Learning: Exploring How Blocked and Interleaved Practice Schedules Affect Advanced Performance». Frontiers in Psychology, 7, 1251, 2016. DOI 10.3389/fpsyg.2016.01251. Artículo abierto consultado. Estudió diez clarinetistas y encontró resultados que variaron entre evaluadores. Su tamaño de muestra y tarea de interpretación avanzada limitan extrapolaciones a ejercicios elementales de oído; no demuestra superioridad universal del intercalado.
+https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01251/full
+
+[F13] Müllensiefen, Daniel; Bruno Gingras; Jason Musil; Lauren Stewart. «The Musicality of Non-Musicians: An Index for Assessing Musical Sophistication in the General Population». PLOS ONE, 9(2), e89642, 2014. DOI 10.1371/journal.pone.0089642. Resumen y página institucional consultados. Distingue dimensiones de musicalidad; no es una prueba de eficacia de este currículo. El sitio enlaza una corrección del artículo.
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642
+https://www.gold.ac.uk/music-mind-brain/gold-msi/
+
+[F14] Gordon Institute for Music Learning. «Audiation». Exposición institucional del concepto en la teoría de Gordon; texto web consultado. Una teoría pedagógica se distingue de una garantía de resultado individual.
+https://giml.org/mlt/audiation/
+
+[F15] Chenette, Timothy. «Understanding the Process of Dictation Step-By-Step», en Foundations of Aural Skills. Capítulo abierto consultado; distingue contexto, retención, análisis y notación.
+https://uen.pressbooks.pub/auralskills/chapter/understanding-the-process-of-dictation-step-by-step/
+
+[F16] Marvin, Elizabeth West. «Rethinking Aural Skills Instruction through Cognitive Research: A Response». Music Theory Online, 27(2), 2021. DOI 10.30535/mto.27.2.4. Página y contenido indexado consultados; referencia para discutir atención a voces y relación entre teoría y percepción.
+https://mtosmt.org/issues/mto.21.27.2/mto.21.27.2.marvin.php
+
+[F17] Corey, Jason. Audio Production and Critical Listening: Technical Ear Training, 3.ª ed. Routledge, ISBN 9781032609331. Ficha editorial consultada; no lectura integral. Referencia específica del ámbito técnico, distinta del solfeo y dictado tonal.
+https://www.routledge.com/Audio-Production-and-Critical-Listening-Technical-Ear-Training/Corey/p/book/9781032609331
+
+28.4 Documentación oficial de aplicaciones y webs
+[F18] EarMaster. Página oficial de funciones y acceso educativo. Consulta web directa.
+https://www.earmaster.com/
+[F19] Perfect Ear / Crazy Ootka Software AB. Catálogo público de funciones. Consulta web directa.
+https://www.perfectear.app/
+[F20] Rising Software. Auralia Topics. Catálogo público consultado; sus categorías se describen brevemente en el capítulo 24, no se reproduce el banco comercial.
+https://www.risingsoftware.com/auralia/topics
+[F21] musictheory.net. Exercises. Índice oficial consultado y enlace a Tenuto.
+https://www.musictheory.net/exercises
+[F22] Rodríguez Alvira, José. teoria.com, Exercises. Página dinámica e índice de novedades consultados; no todas las opciones internas fueron visibles.
+https://www.teoria.com/en/exercises/
+[F23] TonedEar. Ear Training Practice. Índice oficial consultado; enlace a ToneSavvy para docentes.
+https://tonedear.com/
+[F24] myrApps. MyEarTraining. Catálogo oficial consultado.
+https://www.myeartraining.net/
+[F25] Benbassat, Alain. Miles.be / Functional Ear Trainer. Página oficial consultada.
+https://www.miles.be/
+[F26] Meludia. Página oficial de aprendizaje musical basado en escucha. Consulta directa.
+https://meludia.com/en/
+[F27] SoundGym. Página oficial de entrenamiento para producción e ingeniería. Consulta directa.
+https://www.soundgym.co/
+[F28] TrainYourEars. EQ Edition. Página oficial consultada; se distinguen funciones y afirmaciones promocionales.
+https://www.trainyourears.com/
+
+28.5 Universidades, bibliotecas y fuentes culturales
+[F29] Berklee Online. Ear Training 1. Página curricular consultada; conecta oído interno, notación e interpretación. No se accedió al curso de pago.
+https://online.berklee.edu/courses/ear-training-1
+[F30] University of Oregon, School of Music and Dance. Aural Skills Placement Exam Study Guide. Documento público localizado e indexado; incluye progresión de reconocimiento contextual, dictado y lectura. Se usa para contraste curricular, no como norma de equivalencia con la Universidad de Caldas.
+https://musicanddance.uoregon.edu/sites/default/files/aural_skills_placement_exam_study_guide_revised.pdf
+[F31] University of Texas at El Paso. Aural Skills IV, programa de 2019. Documento público indexado: funciones, forma, modulación, lectura y dictados. Referencia curricular histórica; no se afirma que sea el programa vigente en 2026.
+https://digitalmeasures.utep.edu/ai/bejarvis/schteach/AuralSkills_IV_Syllabus_2019-02-1.pdf
+[F32] UNESCO. Marimba music, traditional chants and dances from the Colombia South Pacific region and Esmeraldas Province of Ecuador. Ficha patrimonial consultada/indexada. Apoya contextualización cultural, no un patrón rítmico universal.
+https://ich.unesco.org/en/RL/marimba-music-traditional-chants-and-dances-from-colombias-south-pacific-region-and-esmeraldas-province-of-ecuador-01099
+[F33] Karpinski, Gary S. Aural Skills Acquisition: The Development of Listening, Reading, and Performing Skills in College-Level Musicians. Oxford University Press, 2000. DOI 10.1093/oso/9780195117851.001.0001. Fichas y resúmenes de capítulos consultados; libro completo no accesible en esta revisión.
+https://academic.oup.com/book/48998
+[F34] Berea College Library. Open Educational Resources: Music. Guía bibliotecaria consultada para localizar recursos abiertos, incluido Foundations of Aural Skills.
+https://libraryguides.berea.edu/oerresources/music
+[F35] Bellevue College Library. Arts & Humanities OER: Music. Guía consultada; localiza también Foundational Sight Singing de Tobin Stewart, Montana State University. Esta última obra se identificó como ampliación, sin afirmar lectura completa.
+https://bellevuecollege.libguides.com/c.php?g=1371730&p=10138163
+[F36] Presto Music. Catálogo de Gehrmans Musikförlag. Librería consultada para localizar Modus vetus de Lars Edlund; no se reproduce contenido ni se verifica stock para compra.
+https://www.prestomusic.com/books/publishers/150/browse
+[F37] Chenette, Timothy. «Matching Pitch and Tuning». Capítulo abierto consultado como apoyo de afinación y respuesta vocal.
+https://uen.pressbooks.pub/auralskills/chapter/matching-pitch-and-tuning/
+[F38] Chenette, Timothy. «Catalogue of Basic Rhythmic Cells». Capítulo abierto consultado. Los bancos combinatorios de esta entrega fueron calculados y escritos de forma original, no copiados de sus figuras.
+https://uen.pressbooks.pub/auralskills/chapter/catalogue-of-basic-rhythmic-cells/
+
+28.6 Wikipedia: consulta y lectura crítica
+Wikipedia se utilizó como fuente terciaria para contrastar vocabulario y localizar conexiones, no como autoridad única sobre enseñanza ni como prueba de eficacia comercial. Las páginas son modificables y la fecha de consulta importa. Las redirecciones se señalan cuando afectan el nombre del tema. No se copiaron sus tablas o ejemplos gráficos.
+
+[W01] Entrenamiento auditivo (español). Vista general de funciones, intervalos, acordes, ritmo y timbre; contraste con F01 y documentación oficial.
+https://es.wikipedia.org/wiki/Entrenamiento_auditivo
+[W02] Ear training (inglés). Panorama de destrezas y herramientas; las funciones actuales de las apps se verificaron en proveedores, no solo aquí.
+https://en.wikipedia.org/wiki/Ear_training
+[W03] Relative pitch. Distinción conceptual entre relaciones y alturas absolutas.
+https://en.wikipedia.org/wiki/Relative_pitch
+[W04] Absolute pitch. Referencia terminológica; no se adopta como promesa de entrenamiento universal ni requisito curricular.
+https://en.wikipedia.org/wiki/Absolute_pitch
+[W05] Solfège. Contraste entre sistemas de denominación; las convenciones del tratado se declaran expresamente.
+https://en.wikipedia.org/wiki/Solf%C3%A8ge
+[W06] Audiation, redirigida a Gordon music learning theory. Consulta de término y marco; se prioriza la exposición de GIML [F14].
+https://en.wikipedia.org/wiki/Audiation
+https://en.wikipedia.org/wiki/Gordon_music_learning_theory
+[W07] Polyrhythm. Orientación sobre capas y distinción con polimetría; la construcción de rejillas del tratado es cálculo original.
+https://en.wikipedia.org/wiki/Polyrhythm
+[W08] Syncopation. Contraste terminológico; cada ejercicio define la relación métrica concreta.
+https://en.wikipedia.org/wiki/Syncopation
+[W09] Transcription (music). Distinción de usos del término; el tratado declara el nivel de detalle pedido.
+https://en.wikipedia.org/wiki/Transcription_(music)
+[W10] Musical dictation. Consulta intentada, sin recuperación de contenido (cache miss). No se utiliza como evidencia ni se cuenta entre páginas efectivamente leídas. Para procedimiento se usa el capítulo abierto F15.
+https://en.wikipedia.org/wiki/Musical_dictation
+[W11] Musical memory, presentado por Wikipedia como Music-related memory. Panorama y referencias; no se extrapolan afirmaciones clínicas al alumnado.
+https://en.wikipedia.org/wiki/Musical_memory
+[W12] EarMaster. Entrada localizada sobre categorías de ejercicios; para prestaciones actuales se prioriza F18.
+https://en.wikipedia.org/wiki/EarMaster
+[W13] GNU Solfege. Entrada localizada como recurso histórico de software; no se verificó compatibilidad actual ni se recomienda instalación sin revisión.
+https://en.wikipedia.org/wiki/GNU_Solfege
+[W14] Lars Edlund. Entrada localizada para situar Modus novus; autoría y finalidad se contrastan con Gehrmans [F08].
+https://en.wikipedia.org/wiki/Lars_Edlund
+
+28.7 Cómo ampliar la investigación sin perder rigor
+Para cada nuevo método registrar autor, título, edición, editorial, ISBN/DOI, acceso real y capítulo pertinente. Distinguir catálogo, reseña, investigación experimental y manual. Buscar evidencia de transferencia y retención, no solo satisfacción del usuario. Para repertorios locales, identificar intérprete y contexto, y contrastar transcripción con prácticas reales. Para apps, comprobar qué hace la versión disponible y si la tarea mide percepción o reconocimiento visual.
+
+Una comparación experimental entre herramientas requeriría grupos o diseños adecuados, medida inicial, dosis comparable, pruebas nuevas, retención y control de experiencia previa. Este tratado no realiza ese experimento. Su contribución es organizar contenidos, definir procedimientos reproducibles y ofrecer material original verificable para enseñanza y estudio.
+
+29. GLOSARIO OPERATIVO
+
+Ataque: comienzo perceptible de un evento; no equivale a toda su duración.
+Audiación: concepto de comprensión musical de sonido ausente o imaginado en la teoría de Gordon.
+Audición interna: representación mental de música sin sonido externo inmediato.
+Banco: conjunto de estímulos definidos; no es por sí mismo una secuencia didáctica.
+Centro: referencia de estabilidad que organiza relaciones de altura.
+Clase de altura: equivalencia por octava dentro del sistema declarado.
+Contorno: secuencia de direcciones entre alturas, sin especificar necesariamente distancias.
+Contraste mínimo: comparación en que cambia una propiedad relevante.
+Dictado: reconstrucción escrita desde escucha bajo condiciones establecidas.
+Discriminación: decisión sobre igualdad, diferencia o relación entre estímulos.
+Disposición: distribución registral de miembros de un acorde.
+Enarmonía: relación entre grafías distintas que pueden coincidir acústicamente en un sistema dado.
+Función: papel de un sonido o acorde en un contexto, distinto de su estructura aislada.
+Grado: posición relativa a una escala o centro, según convención declarada.
+Interferencia: material interpuesto que puede afectar retención.
+Inversión de acorde: posición determinada por su miembro más grave.
+Máscara de ataques: secuencia que indica presencia o ausencia de nuevos ataques en posiciones discretas.
+Métrica: jerarquía y agrupación de pulsos; no se deduce solo del número de sonidos.
+Microtiempo: desviaciones y relaciones temporales finas respecto de referencias regulares.
+Oído absoluto: identificación o producción de altura sin referencia externa inmediata.
+Oído relativo: percepción de relaciones entre sonidos.
+Polifonía: coexistencia de líneas con independencia musical significativa.
+Polirritmia: superposición de organizaciones rítmicas; cada ejercicio debe precisar relación.
+Protonotación: representación provisional, como flechas o marcas, anterior a escritura convencional completa.
+Recuperación: reconstrucción desde memoria sin tener el modelo presente.
+Retención: conservación de aprendizaje tras un intervalo de tiempo.
+Ritmo armónico: distribución temporal de cambios de acorde.
+Tesitura: región de alturas usada o cómoda para una tarea.
+Tonicización: énfasis temporal en un centro local, sin exigir modulación estable.
+Transferencia: aplicación de habilidad a materiales o condiciones nuevas.
+Transcripción: representación de música escuchada según un propósito y nivel de detalle.
+Voicing: realización registral y selección de miembros de una sonoridad.
+
+30. CATÁLOGO DE EJEMPLOS ESCRITOS Y EN PENTAGRAMA
+
+Convención: do central = do4; # sostenido, b bemol, bb doble bemol. Las duraciones entre paréntesis están medidas en negras, no necesariamente en pulsos. + reúne alturas simultáneas. ~ indica inicio de prolongación sin reataque. Las partituras gráficas completas están en el cuaderno HTML.
+
+E01 — Dirección y repetición
+P02. Escuchar sin mirar, dibujar ascenso/repetición/descenso y luego cantar. Solución: sube, repite, baja.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); re4 (1 negras); do4 (1 negras).
+
+E02 — Mapa de tónica
+P05–P06. Cantar grados 1–3–5–1 y conservar do durante el silencio final.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); mi4 (1 negras); sol4 (1 negras); do5 (1 negras).
+Compás 2: do4 (2 negras); silencio (2 negras).
+
+E03 — Memoria de motivo
+P39. Escuchar, esperar cuatro pulsos y repetir. Luego transportar a re mayor: re–mi–fa#–la.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+
+E04 — Segunda menor y mayor
+P09. Primer compás: do–reb; segundo: do–re. Igualar ritmo y comparar tamaño.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); reb4 (2 negras).
+Compás 2: do4 (2 negras); re4 (2 negras).
+
+E05 — Tercera menor y mayor
+P10. Comparar mib y mi sobre do; después cambiar ambas notas por transposición.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); mib4 (2 negras).
+Compás 2: do4 (2 negras); mi4 (2 negras).
+
+E06 — Cuarta y quinta
+P11. Soluciones: cuarta justa y quinta justa. Reproducir en ambos sentidos.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); fa4 (2 negras).
+Compás 2: do4 (2 negras); sol4 (2 negras).
+
+E07 — Sextas y séptimas
+P12. Intervalos desde do: sexta menor, sexta mayor, séptima menor y séptima mayor.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); lab4 (2 negras).
+Compás 2: do4 (2 negras); la4 (2 negras).
+Compás 3: do4 (2 negras); sib4 (2 negras).
+Compás 4: do4 (2 negras); si4 (2 negras).
+
+E08 — Tritono: dos grafías
+P13. Do–fa# y do–solb coinciden acústicamente en temperamento igual. La grafía requiere contexto.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+fa#4 (4 negras).
+Compás 2: do4+solb4 (4 negras).
+
+E09 — Intervalos descendentes
+P09–P12. Mi–do: tercera mayor descendente; sol–do: quinta justa descendente.
+Compás 4/4.
+Ejemplo:
+Compás 1: mi4 (2 negras); do4 (2 negras).
+Compás 2: sol4 (2 negras); do4 (2 negras).
+
+E10 — Intervalos armónicos
+P11. Díadas: tercera menor, tercera mayor, quinta y octava. Cantar ambos miembros.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4 (4 negras).
+Compás 2: do4+mi4 (4 negras).
+Compás 3: do4+sol4 (4 negras).
+Compás 4: do4+do5 (4 negras).
+
+E11 — Simple y compuesto
+P14. Segunda mayor frente a novena mayor: misma clase reducida y distinta amplitud.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); re4 (2 negras).
+Compás 2: do4 (2 negras); re5 (2 negras).
+
+E12 — Grados e intervalos
+P15. En do mayor: 1–3 y 4–6; ambos pares son terceras mayores.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (2 negras); mi4 (2 negras).
+Compás 2: fa4 (2 negras); la4 (2 negras).
+
+E13 — Mayor
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E14 — Menor natural
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E15 — Menor armónica
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); lab4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E16 — Menor melódica ascendente
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E17 — Dórico
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); la4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E18 — Frigio
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); reb4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E19 — Lidio
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa#4 (1 negras).
+Compás 2: sol4 (1 negras); la4 (1 negras); si4 (1 negras); do5 (1 negras).
+
+E20 — Mixolidio
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); la4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E21 — Locrio
+P16–P18. Modelo sobre do para comparar grados. Escuchar sin mirar, cantar grados distintivos y crear una frase; no identificar solo por emoción.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); reb4 (1 negras); mib4 (1 negras); fa4 (1 negras).
+Compás 2: solb4 (1 negras); lab4 (1 negras); sib4 (1 negras); do5 (1 negras).
+
+E22 — Pentatónica mayor
+P19. Grados 1–2–3–5–6–5–3–1. Repetir de memoria y transportar.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: la4 (1 negras); sol4 (1 negras); mi4 (1 negras); do4 (1 negras).
+
+E23 — Pentatónica menor
+P19. Comparar tercera y séptima respecto de mayor; el ejemplo no define por sí solo un género.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); mib4 (1 negras); fa4 (1 negras); sol4 (1 negras).
+Compás 2: sib4 (1 negras); sol4 (1 negras); fa4 (1 negras); do4 (1 negras).
+
+E24 — Menor blues escolar
+P19. Colección escolar con b5. Las inflexiones reales del blues requieren modelos de interpretación adicionales.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); mib4 (1 negras); fa4 (1 negras); solb4 (1 negras).
+Compás 2: sol4 (1 negras); sib4 (1 negras); do5 (1 negras); silencio (1 negras).
+
+E25 — Tonos enteros
+P20. Todos los pasos escalares son de dos semitonos. El silencio final completa el compás.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa#4 (1 negras).
+Compás 2: sol#4 (1 negras); la#4 (1 negras); do5 (1 negras); silencio (1 negras).
+
+E26 — Octatónica semitono–tono
+P20. Alternancia 1–2 semitonos, incluyendo el enlace de sib al do siguiente. No imponer tónica única sin contexto.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); reb4 (1 negras); mib4 (1 negras); mi4 (1 negras).
+Compás 2: fa#4 (1 negras); sol4 (1 negras); la4 (1 negras); sib4 (1 negras).
+
+E27 — Pulso y silencio
+P21–P25. Mantener negras durante los silencios y volver a entrar sin anticipar.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); silencio (1 negras); do4 (1 negras); silencio (1 negras).
+Compás 2: silencio (1 negras); do4 (1 negras); silencio (1 negras); do4 (1 negras).
+
+E28 — Máscara binaria 0000
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras).
+
+E29 — Máscara binaria 0001
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras).
+
+E30 — Máscara binaria 0010
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras).
+
+E31 — Máscara binaria 0011
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E32 — Máscara binaria 0100
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras).
+
+E33 — Máscara binaria 0101
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras).
+
+E34 — Máscara binaria 0110
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras).
+
+E35 — Máscara binaria 0111
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E36 — Máscara binaria 1000
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); silencio (1/4 negras).
+
+E37 — Máscara binaria 1001
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras).
+
+E38 — Máscara binaria 1010
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); silencio (1/4 negras).
+
+E39 — Máscara binaria 1011
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E40 — Máscara binaria 1100
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); silencio (1/4 negras).
+
+E41 — Máscara binaria 1101
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras).
+
+E42 — Máscara binaria 1110
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); silencio (1/4 negras).
+
+E43 — Máscara binaria 1111
+P26. Cuatro posiciones de semicorchea por negra; 1 = nota corta, 0 = silencio. Repetir la célula cuatro veces sin perder pulso.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E44 — Célula de duración 4
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); do4 (1 negras); do4 (1 negras); do4 (1 negras).
+
+E45 — Célula de duración 3+1
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras).
+
+E46 — Célula de duración 1+3
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras); do4 (1/4 negras); do4 (3/4 negras).
+
+E47 — Célula de duración 2+2
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras).
+
+E48 — Célula de duración 2+1+1
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E49 — Célula de duración 1+2+1
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras).
+
+E50 — Célula de duración 1+1+2
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/2 negras).
+
+E51 — Célula de duración 1+1+1+1
+P27. Unidades de semicorchea. La célula completa una negra y se repite cuatro veces. Sostener cada nota hasta el ataque siguiente.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras); do4 (1/4 negras).
+
+E52 — Subdivisión de 3/4
+P24. Seis corcheas en tres grupos de dos; comparar con el siguiente ejemplo.
+Compás 3/4.
+Ejemplo:
+Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+
+E53 — Subdivisión de 6/8
+P24. Las mismas seis alturas en dos grupos de tres. La marca de tempo corresponde a negra con puntillo.
+Compás 6/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras); sol4 (1/2 negras); la4 (1/2 negras).
+
+E54 — Máscara ternaria 000
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: silencio (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); silencio (1/2 negras).
+
+E55 — Máscara ternaria 001
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: silencio (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); do4 (1/2 negras).
+
+E56 — Máscara ternaria 010
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras).
+
+E57 — Máscara ternaria 011
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: silencio (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); do4 (1/2 negras).
+
+E58 — Máscara ternaria 100
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras); silencio (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); silencio (1/2 negras).
+
+E59 — Máscara ternaria 101
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras).
+
+E60 — Máscara ternaria 110
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras); do4 (1/2 negras); silencio (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); silencio (1/2 negras).
+
+E61 — Máscara ternaria 111
+P23. Tres corcheas por pulso compuesto; repetir dos veces en 6/8. 0 significa silencio, no prolongación.
+Compás 6/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1/2 negras).
+
+E62 — Síncopa dentro de dos pulsos
+P30. Corchea–negra–corchea, repetido. Marcar negras mientras se ejecutan ataques.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/2 negras); do4 (1 negras); do4 (1/2 negras); do4 (1/2 negras); do4 (1 negras); do4 (1/2 negras).
+
+E63 — Ligadura a través de barra
+P29. La nota iniciada en el cuarto pulso continúa en el primer pulso siguiente sin nuevo ataque.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras) ~.
+Compás 2: sol4 (1 negras); mi4 (1 negras); re4 (1 negras); do4 (1 negras).
+
+E64 — Binario, tresillo y semicorcheas
+P32. Conservar negra constante: dos, tres y cuatro eventos por pulso; cuarta negra de cierre.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/2 negras); re4 (1/2 negras); mi4 (1/3 negras) [inicio de grupo 3:2]; fa4 (1/3 negras); sol4 (1/3 negras); la4 (1/4 negras); sol4 (1/4 negras); fa4 (1/4 negras); mi4 (1/4 negras); do4 (1 negras).
+
+E65 — Quintillo y septillo
+P33. Cada grupo irregular ocupa una negra: 5:2 y 7:2 de corcheas. Después dos negras. No confundir número de eventos con duración total.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1/5 negras) [inicio de grupo 5:2]; do4 (1/5 negras); do4 (1/5 negras); do4 (1/5 negras); do4 (1/5 negras); re4 (1/7 negras) [inicio de grupo 7:2]; re4 (1/7 negras); re4 (1/7 negras); re4 (1/7 negras); re4 (1/7 negras); re4 (1/7 negras); re4 (1/7 negras); mi4 (1 negras); do4 (1 negras).
+
+E66 — Tres contra dos
+P34. Tres negras en la voz superior frente a dos negras con puntillo en la inferior, compartiendo un compás de 3/4.
+Compás 3/4.
+Tres:
+Compás 1: do4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Dos:
+Compás 1: do3 (3/2 negras); sol3 (3/2 negras).
+
+E67 — 7/8 agrupado 2+2+3
+P36. Escuchar y ejecutar agrupación; comparar con 3+2+2. Los acentos señalan comienzos de grupo.
+Compás 7/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras) [accent]; re4 (1/2 negras); mi4 (1/2 negras) [accent]; fa4 (1/2 negras); sol4 (1/2 negras) [accent]; la4 (1/2 negras); si4 (1/2 negras).
+
+E68 — 7/8 agrupado 3+2+2
+P36. Mismas alturas y duración total, distinta organización de grupos.
+Compás 7/8.
+Ejemplo:
+Compás 1: do4 (1/2 negras) [accent]; re4 (1/2 negras); mi4 (1/2 negras); fa4 (1/2 negras) [accent]; sol4 (1/2 negras); la4 (1/2 negras) [accent]; si4 (1/2 negras).
+
+E69 — Tríada Mayor
+P48. Cantar miembros de grave a agudo y reconocer calidad. La raíz escrita se da para evitar ambigüedad de la aumentada.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+
+E70 — Tríada Menor
+P48. Cantar miembros de grave a agudo y reconocer calidad. La raíz escrita se da para evitar ambigüedad de la aumentada.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+sol4 (4 negras).
+
+E71 — Tríada Disminuida
+P48. Cantar miembros de grave a agudo y reconocer calidad. La raíz escrita se da para evitar ambigüedad de la aumentada.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+solb4 (4 negras).
+
+E72 — Tríada Aumentada
+P48. Cantar miembros de grave a agudo y reconocer calidad. La raíz escrita se da para evitar ambigüedad de la aumentada.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol#4 (4 negras).
+
+E73 — Inversiones de do mayor
+P49. Posición fundamental, primera y segunda inversión. Cantar bajo y luego fundamental.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+Compás 2: mi4+sol4+do5 (4 negras).
+Compás 3: sol3+do4+mi4 (4 negras).
+
+E74 — Mayor7
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4+si4 (4 negras).
+
+E75 — Dominante7
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4+sib4 (4 negras).
+
+E76 — Menor7
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+sol4+sib4 (4 negras).
+
+E77 — Semidisminuido
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+solb4+sib4 (4 negras).
+
+E78 — Disminuido7
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+solb4+sibb4 (4 negras).
+
+E79 — Menor mayor7
+P51. Identificar tríada y séptima por separado; cantar cada miembro. La escritura fija la raíz del ejemplo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mib4+sol4+si4 (4 negras).
+
+E80 — Progresión I–IV–V–I
+P55. Cantar bajo y luego reconocer funciones. Modelo armónico para escucha, no ejercicio normativo de conducción SATB.
+Compás 4/4.
+Ejemplo:
+Compás 1: do3+mi3+sol3+do4 (4 negras).
+Compás 2: fa3+la3+do4+fa4 (4 negras).
+Compás 3: sol3+si3+re4+sol4 (4 negras).
+Compás 4: do3+mi3+sol3+do4 (4 negras).
+
+E81 — Cadencia auténtica en frase
+P54. Final V–I con bajo sol–do y soprano si–do. Escuchar cierre dentro de la unidad completa.
+Compás 4/4.
+Melodía:
+Compás 1: mi4 (1 negras); fa4 (1 negras); sol4 (1 negras); mi4 (1 negras).
+Compás 2: re4 (2 negras); si3 (2 negras).
+Compás 3: do4 (4 negras).
+Bajo:
+Compás 1: do3 (4 negras).
+Compás 2: sol2 (4 negras).
+Compás 3: do3 (4 negras).
+
+E82 — Cadencia rota: V–vi
+P54. En do mayor, después del contexto I–IV, V llega a vi. Cantar bajo y comparar con cierre en I.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+Compás 2: do4+fa4+la4 (4 negras).
+Compás 3: si3+re4+sol4 (4 negras).
+Compás 4: do4+mi4+la4 (4 negras).
+
+E83 — Dominante secundaria
+P56. En do: I–V7/V–V–I. Fa# en re7 conduce a sol; regreso a do indica tonicización local en este modelo.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+Compás 2: re4+fa#4+la4+do5 (4 negras).
+Compás 3: sol3+si3+re4+fa4 (4 negras).
+Compás 4: do4+mi4+sol4 (4 negras).
+
+E84 — Mezcla modal: IV e iv
+P56. En centro do, comparar la y lab. Escuchar el descenso cromático dentro de I–IV–iv–I.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+Compás 2: do4+fa4+la4 (4 negras).
+Compás 3: do4+fa4+lab4 (4 negras).
+Compás 4: do4+mi4+sol4 (4 negras).
+
+E85 — Dos voces: movimiento contrario
+P57–P59. Superior asciende y desciende; inferior se mueve en dirección opuesta. Transcribir cada línea por separado.
+Compás 4/4.
+Superior:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); fa4 (1 negras).
+Compás 2: sol4 (1 negras); fa4 (1 negras); mi4 (1 negras); do4 (1 negras).
+Inferior:
+Compás 1: do3 (1 negras); si2 (1 negras); la2 (1 negras); sol2 (1 negras).
+Compás 2: mi2 (1 negras); fa2 (1 negras); sol2 (1 negras); do3 (1 negras).
+
+E86 — Dos voces con independencia rítmica
+P57. Seguir melodía y bajo sin confundir cantidad de notas con cantidad de pulsos.
+Compás 4/4.
+Melodía:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: fa4 (2 negras); mi4 (1 negras); do4 (1 negras).
+Bajo:
+Compás 1: do3 (2 negras); sol2 (2 negras).
+Compás 2: fa2 (1 negras); sol2 (1 negras); do3 (1 negras); silencio (1 negras).
+
+E87 — Melodía para dictado integrado
+P42. Do mayor, cuatro compases. Retener grupos, escribir alturas y ritmo, verificar sin mirar la solución.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: la4 (2 negras); sol4 (1 negras); mi4 (1 negras).
+Compás 3: fa4 (1/2 negras); mi4 (1/2 negras); re4 (1/2 negras); do4 (1/2 negras); re4 (1 negras); si3 (1 negras).
+Compás 4: do4 (4 negras).
+
+E88 — Motivo y variante
+P40. Segundo compás cambia tercera nota: mi pasa a fa. Los demás eventos coinciden.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: do4 (1 negras); re4 (1 negras); fa4 (1 negras); sol4 (1 negras).
+
+E89 — Célula sin cadencia tonal
+P44. Retener intervalos y registro sin imponer tónica: do–fa#–fa–si. Crear transposición exacta.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); fa#4 (1 negras); fa4 (1 negras); si4 (1 negras).
+
+E90 — Lectura interior con silencio
+P46. Imaginar re–mi durante los dos silencios del segundo compás y regresar en sol; la pauta muestra solo lo que se canta en voz alta.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: do4 (1 negras); silencio (1 negras); silencio (1 negras); sol4 (1 negras).
+
+E91 — Llamada y respuesta original
+P65. Primeros dos compases: llamada. Últimos dos: respuesta que termina en do. Crear otra respuesta válida.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: la4 (2 negras); sol4 (2 negras).
+Compás 3: fa4 (1 negras); mi4 (1 negras); re4 (1 negras); si3 (1 negras).
+Compás 4: do4 (4 negras).
+
+E92 — Cuatro contra tres
+P35. Un ciclo de tres negras: cuatro corcheas con puntillo arriba frente a tres negras abajo. Mantener ambas periodicidades.
+Compás 3/4.
+Cuatro:
+Compás 1: do4 (3/4 negras); do4 (3/4 negras); do4 (3/4 negras); do4 (3/4 negras).
+Tres:
+Compás 1: do3 (1 negras); sol2 (1 negras); do3 (1 negras).
+
+E93 — Cuatro voces: cierre tonal
+P58. Modelo I–IV–V–I. Cantar y transcribir cada línea; el bajo fija las fundamentales en este ejemplo.
+Compás 4/4.
+Soprano:
+Compás 1: mi5 (4 negras).
+Compás 2: fa5 (4 negras).
+Compás 3: re5 (4 negras).
+Compás 4: mi5 (4 negras).
+Alto:
+Compás 1: sol4 (4 negras).
+Compás 2: la4 (4 negras).
+Compás 3: sol4 (4 negras).
+Compás 4: sol4 (4 negras).
+Tenor:
+Compás 1: do4 (4 negras).
+Compás 2: do4 (4 negras).
+Compás 3: si3 (4 negras).
+Compás 4: do4 (4 negras).
+Bajo:
+Compás 1: do3 (4 negras).
+Compás 2: fa2 (4 negras).
+Compás 3: sol2 (4 negras).
+Compás 4: do3 (4 negras).
+
+E94 — Retardo 4–3 sobre dominante
+P43. Do se mantiene desde el acorde inicial y resuelve a si sobre bajo sol antes de llegar a do. Comparar nota sostenida y resolución.
+Compás 4/4.
+Superior:
+Compás 1: do4 (4 negras) ~.
+Compás 2: do4 (2 negras); si3 (2 negras).
+Compás 3: do4 (4 negras).
+Bajo:
+Compás 1: do3 (4 negras).
+Compás 2: sol2 (4 negras).
+Compás 3: do3 (4 negras).
+
+E95 — Séptima de dominante: cuatro posiciones
+P51. Sol7: bajo sol, si, re y fa. Identificar inversión y cantar cada bajo.
+Compás 4/4.
+Ejemplo:
+Compás 1: sol3+si3+re4+fa4 (4 negras).
+Compás 2: si3+re4+fa4+sol4 (4 negras).
+Compás 3: re4+fa4+sol4+si4 (4 negras).
+Compás 4: fa4+sol4+si4+re5 (4 negras).
+
+E96 — Llegada y confirmación de sol
+P56. Primeros acordes sugieren do; re7–sol y la repetición de re7–sol confirman la nueva región. Analizar el centro final y reconocer fa#.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4+mi4+sol4 (4 negras).
+Compás 2: do4+fa4+la4 (4 negras).
+Compás 3: re4+fa#4+la4+do5 (4 negras).
+Compás 4: sol3+si3+re4 (4 negras).
+Compás 5: re4+fa#4+la4+do5 (4 negras).
+Compás 6: sol3+si3+re4 (4 negras).
+
+E97 — Articulación y dinámica contrastantes
+P64. Mismas alturas: primer compás suave y separado; segundo fuerte y ligado. Imitar ambos y describir la diferencia.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras) [staccato]; re4 (1 negras) [staccato]; mi4 (1 negras) [staccato]; sol4 (1 negras) [staccato].
+Compás 2: do4 (1 negras) [ligadura de expresión start]; re4 (1 negras); mi4 (1 negras); sol4 (1 negras) [ligadura de expresión stop].
+
+E98 — Grado alterado y resolución
+P07. Fa natural frente a fa# que conduce a sol. Cantar el cambio dentro de centro do, sin asumir modulación por una sola alteración.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); mi4 (1 negras); fa4 (1 negras); sol4 (1 negras).
+Compás 2: do4 (1 negras); mi4 (1 negras); fa#4 (1 negras); sol4 (1 negras).
+
+E99 — Motivo y respuesta por aumento
+P65. El motivo de cuatro negras se transforma en cuatro blancas. Se conserva orden de alturas y se duplica duración, extendiendo a dos compases.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); do4 (1 negras).
+Compás 2: do4 (2 negras); re4 (2 negras).
+Compás 3: mi4 (2 negras); do4 (2 negras).
+
+E100 — Puntos de apoyo de una frase
+P61. A: ascenso y reposo en sol; A prima: inicio semejante con cierre en do. Reconocer repetición modificada sin depender de timbre.
+Compás 4/4.
+Ejemplo:
+Compás 1: do4 (1 negras); re4 (1 negras); mi4 (1 negras); sol4 (1 negras).
+Compás 2: sol4 (4 negras).
+Compás 3: do4 (1 negras); re4 (1 negras); mi4 (1 negras); re4 (1 negras).
+Compás 4: do4 (4 negras).
