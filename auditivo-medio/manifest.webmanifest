@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Entrenamiento Auditivo Medio · TSPM, Universidad de Caldas",
+  "name": "Entrenamiento auditivo y musical medio · TSPM, Universidad de Caldas",
   "short_name": "TSPM Oído medio",
-  "description": "Entrenamiento Auditivo Medio: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
+  "description": "Entrenamiento auditivo y musical medio: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
   "lang": "es-CO",
   "dir": "ltr",
   "start_url": "./#/inicio",

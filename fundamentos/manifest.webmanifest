@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Fundamentos Musicales · TSPM, Universidad de Caldas",
+  "name": "Fundamentos musicales · TSPM, Universidad de Caldas",
   "short_name": "TSPM Fundamentos",
-  "description": "Fundamentos Musicales: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
+  "description": "Fundamentos musicales: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
   "lang": "es-CO",
   "dir": "ltr",
   "start_url": "./#/inicio",

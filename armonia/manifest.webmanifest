@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Armonía Básica Aplicada · TSPM, Universidad de Caldas",
+  "name": "Armonía básica aplicada · TSPM, Universidad de Caldas",
   "short_name": "TSPM Armonía",
-  "description": "Armonía Básica Aplicada: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
+  "description": "Armonía básica aplicada: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
   "lang": "es-CO",
   "dir": "ltr",
   "start_url": "./#/inicio",

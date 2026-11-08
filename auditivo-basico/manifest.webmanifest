@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Entrenamiento Auditivo Básico · TSPM, Universidad de Caldas",
+  "name": "Entrenamiento auditivo y musical básico · TSPM, Universidad de Caldas",
   "short_name": "TSPM Oído básico",
-  "description": "Entrenamiento Auditivo Básico: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
+  "description": "Entrenamiento auditivo y musical básico: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
   "lang": "es-CO",
   "dir": "ltr",
   "start_url": "./#/inicio",

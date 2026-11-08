@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Entrenamiento Auditivo Avanzado · TSPM, Universidad de Caldas",
+  "name": "Entrenamiento auditivo y musical avanzado · TSPM, Universidad de Caldas",
   "short_name": "TSPM Oído avanzado",
-  "description": "Entrenamiento Auditivo Avanzado: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
+  "description": "Entrenamiento auditivo y musical avanzado: lecciones, práctica y recursos de la plataforma de teoría musical TSPM.",
   "lang": "es-CO",
   "dir": "ltr",
   "start_url": "./#/inicio",
