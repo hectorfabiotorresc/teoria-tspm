@@ -1,0 +1,8 @@
+Muestras de piano · Piano samples
+
+Salamander Grand Piano V3 (Yamaha C5), de Alexander Holm.
+Licencia Creative Commons Atribución 3.0 (CC BY 3.0): https://creativecommons.org/licenses/by/3.0/
+Fuente original: https://archive.org/details/SalamanderGrandPianoV3
+Versión MP3 (una nota cada tres semitonos, A0–C8) tomada de Tone.js: https://tonejs.github.io/audio/salamander/
+
+La plataforma toca cada nota con la muestra más cercana, transportada; si las muestras aún no cargaron, usa el piano sintetizado.
