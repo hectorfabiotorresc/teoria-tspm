@@ -1,6 +1,6 @@
 // Service worker: la plataforma funciona sin conexión después de la primera visita (decisión D6).
 // HTML: red primero con respaldo en caché. Recursos con hash (JS, CSS, fuentes): caché primero.
-const CACHE = "tspm-teoria-v26";
+const CACHE = "tspm-teoria-v27";
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icono.svg", "./icono-192.png", "./icono-512.png", "./apple-touch-icon.png", "./manual.html", "./mapa_plataforma.html"])).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", (e) => {
