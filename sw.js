@@ -1,10 +1,21 @@
 // Service worker: la plataforma funciona sin conexión después de la primera visita (decisión D6).
 // HTML: red primero con respaldo en caché. Recursos con hash (JS, CSS, fuentes): caché primero.
-const CACHE = "tspm-teoria-v36";
+const CACHE = "tspm-teoria-v37";
 // las muestras del piano no cambian entre versiones: caché propia que sobrevive a las actualizaciones (se bajan una sola vez)
 const PIANO = "tspm-piano-v1";
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icono.svg", "./icono-192.png", "./icono-512.png", "./apple-touch-icon.png", "./manual.html", "./mapa_plataforma.html"])).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE && k !== PIANO).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
+// primera visita: la página carga antes de que el service worker la controle; después le pasa la lista de lo que ya
+// usó (programa, estilos, fuentes, su propia página) para que también quede guardado y la app abra sin conexión
+self.addEventListener("message", (e) => {
+  const d = e.data;
+  if (!d || d.tipo !== "guardar" || !Array.isArray(d.urls)) return;
+  e.waitUntil(caches.open(CACHE).then((c) => Promise.all(d.urls.map((u) => c.match(u, { ignoreSearch: true }).then((hit) => {
+    if (hit) return;
+    const otro = new URL(u, location.href).origin !== location.origin;
+    return fetch(u, otro ? { mode: "no-cors" } : undefined).then((r) => { if (r.ok || r.type === "opaque") return c.put(u, r); }).catch(() => {});
+  })))));
+});
 self.addEventListener("fetch", (e) => {
   const req = e.request;
   if (req.method !== "GET") return;
